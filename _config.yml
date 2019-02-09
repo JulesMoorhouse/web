@@ -6,7 +6,9 @@ about: Software developer
 
 destination: docs/
 
-baseurl: ""
+baseurl: "/web"
+#baseurl: ""
+
 url: ""
 
 allowsearch: true
