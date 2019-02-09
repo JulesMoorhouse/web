@@ -1,0 +1,351 @@
+/* ----- stt app theme specific css ----- */
+
+body.stt
+{
+    background-color: #fff9ef !important;
+}
+
+.stt .header-panel.shadow-z-2
+{
+	background-color: #ffcc33 !important;
+}
+
+.stt .container .jumbotron-primary, 
+body.stt .container .well-primary, 
+body.stt .container-fluid .jumbotron-primary, 
+body.stt .container-fluid .well-primary 
+{
+	background-color: #ffcc33 !important; /* side panel */
+}
+
+.stt a, 
+.stt .home-subtitle
+{
+    color: black !important;
+}
+
+.stt .menu a:focus, 
+.stt .menu a:hover, 
+.stt .social-icons a:focus, 
+.stt .social-icons a:hover 
+{
+    background: #febe00 !important; /* social hover */
+}
+
+.stt .menu ul li a:hover, 
+.stt .menu ul li a:focus, 
+.stt li.current-menu-item > a 
+{
+    background: #febe00 !important;  /* side panel  hover */
+}
+
+.stt .row-details, 
+.stt h2.blog-title-pro, 
+.stt .searchcontrol input[type=text], 
+.stt .icon, 
+.stt input#js-search__input, 
+.stt input#js-search__input::placeholder, 
+.stt p.info
+{
+	color: black !important; /* header text colour */
+}
+
+.stt .menu ul li a
+{
+	color: black !important; /* side panel text color */
+}
+
+.stt h2.blog-title-pro:after
+{
+	background: black !important; /* header page title underline */
+}
+
+.stt .form-control, 
+.stt .form-group .form-control 
+{
+	/* search input underline */
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#000000),to(#000000)),-webkit-gradient(linear,left top,left bottom,from(#000000),to(#000000)) !important;
+    background-image: -webkit-linear-gradient(#000000,#000000),-webkit-linear-gradient(#000000,#000000) !important;
+    background-image: -o-linear-gradient(#000000,#000000),-o-linear-gradient(#000000,#000000) !important;
+    background-image: linear-gradient(#000000,#000000),linear-gradient(#000000,#000000) !important;
+}
+
+/* ----- stt index specific css ----- */
+
+.intro-panel
+{
+    display: block;
+    background: #ffcc33;
+    padding-top: 15px;
+ /*   min-width: 916px;*/
+    margin-left: -19px;
+    margin-right: -19px;
+}
+
+.intro-left
+{
+    display: inline-block;
+/*    width: 57%;*/
+    vertical-align: top;
+    margin: 50px 14px 35px 50px;
+    color: #000;
+}
+
+.intro 
+{
+    font-size: 22px;
+/*    text-shadow: 1px 1px #aaa;
+*/    display: block;
+ /*   width: 80%;*/
+}
+
+.intro-app-btn
+{
+    margin-top: 32px;
+}
+
+.intro-device
+{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 40px 0px 20px 20px;
+    min-width: 300px;
+}
+
+.second-row
+{
+    display: table;
+}
+.youtube-panel 
+{
+    display: table-row;
+}
+.youtube-dekstop-panel 
+{
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+/*    background:green;*/
+}
+.youtube-panel li 
+{
+    padding-top: 10px;
+}
+
+/*.youtube-dekstop-panel .video 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+      vertical-align: middle;
+
+}*/
+.bullets-right
+{
+    display: table-cell;
+    float: none;
+}
+/* ----- stt screenshots specific css ----- */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+{
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+{
+}
+
+/* iPhone 6,7,8 + X */
+@media only screen and (min-device-width : 375px) 
+{
+    .stt .project-outer .project-img 
+    {
+        height: 260px !important;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+{
+    .stt .project-inner
+    {
+        height: 470px;
+    }
+    .stt .project-outer .project-img 
+    {
+        height: 222px !important;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+{
+    .stt .project-inner
+    {
+        height: 470px;
+    }
+    .stt .project-outer .project-img 
+    {
+        height: 222px !important;
+    }    
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+    .stt .project-inner
+    {
+        height: 470px;
+    }
+    .stt .project-outer .project-img 
+    {
+        height: 264px !important;
+    }
+}
+ 
+
+
+/* ----- bg app theme specific css ----- */
+
+body.bg 
+{
+    background-color: #ffffff !important;
+}
+
+.bg .header-panel.shadow-z-2
+{
+    background-color: #67a4ee !important;
+}
+
+.bg .container .jumbotron-primary, 
+body.bg .container .well-primary, 
+body.bg .container-fluid .jumbotron-primary, 
+body.bg .container-fluid .well-primary 
+{
+    background-color: #67a4ee !important; /* side panel */
+}
+
+.bg a, 
+.bg .home-subtitle
+{
+    color: black !important;
+}
+
+.bg .menu a:focus, 
+.bg .menu a:hover, 
+.bg .social-icons a:focus, 
+.bg .social-icons a:hover 
+{
+    background: #5a92d6 !important; /* social hover */
+}
+
+.bg .menu ul li a:hover, 
+.bg .menu ul li a:focus, 
+.bg li.current-menu-item > a 
+{
+    background: #5a92d6 !important;  /* side panel  hover */
+}
+
+.bg .row-details, 
+.bg h2.blog-title-pro, 
+.bg .searchcontrol input[type=text], 
+.bg .icon, 
+.bg input#js-search__input, 
+.bg input#js-search__input::placeholder
+{
+    color: #ffffff !important; /* header text colour */
+}
+
+.bg .menu ul li a
+{
+    color: #ffffff !important; /* side panel text color */
+}
+
+.bg h2.blog-title-pro:after 
+{
+    background: #ffffff !important; /* header page title underline */
+}
+
+.bg .form-control, 
+.bg .form-group .form-control 
+{
+    /* search input underline */
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#ffffff),to(#ffffff)),-webkit-gradient(linear,left top,left bottom,from(#ffffff),to(#ffffff)) !important;
+    background-image: -webkit-linear-gradient(#ffffff,#ffffff),-webkit-linear-gradient(#ffffff,#ffffff) !important;
+    background-image: -o-linear-gradient(#ffffff,#ffffff),-o-linear-gradient(#ffffff,#ffffff) !important;
+    background-image: linear-gradient(#ffffff,#ffffff),linear-gradient(#ffffff,#ffffff) !important;
+}
+
+
+/* ----- main override ----- */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+{
+    .full 
+    {
+        padding: 0;
+    }
+    body, html 
+    {
+        overflow-x: hidden;
+    }
+    
+    .intro-device
+    {
+        width: auto;
+        min-width: auto;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+{
+    body, html 
+    {
+        overflow-x: hidden;
+    }
+    
+    .intro-device
+    {
+        width: auto;
+        min-width: auto;
+    }
+}
+
+/* iPhone 6,7,8 + X */
+@media only screen and (min-device-width : 375px) 
+{
+    body, html 
+    {
+        overflow-x: hidden;
+    }
+    
+    .intro-device
+    {
+        width: auto;
+        min-width: auto;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+{
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+{   
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+
+}
+ 
+
+
