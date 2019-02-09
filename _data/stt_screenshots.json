@@ -1,0 +1,22 @@
+[
+	{
+		"text": "When the app first starts you will see the menu screen, from here you can choose whether you want to learn a times table or test a times table. Also, as your child progresses through the app, you will see a different message on the menu. If for example you've got all the sums in the 9 times table correct, the message should say try the 10 times table.",
+		"image": "iPadAir2-main_start_multi.png",
+	},
+	{
+		"text": "So let's say the test button had been tapped, here the test table choice screen will be shown. Notice that only tables the child has completed are unlocked. Let's pretend that the 3 button is then tapped.",
+		"image": "iPadAir2-test_table_multi.png",
+	},
+	{
+		"text": "The test screen would then be shown. Here the child has a multiple choice answer to pick. If the child selects the wrong answer another screen will be shown, showing that they got the answer wrong. Next the test screen will be shown again and again until all 12 answers are provided.",
+		"image": "iPadAir2-test_multi.png",
+	},
+	{
+		"text": "Once the test has been completed, the results for the test are shown. At the end the child can move directly onto the next table.",
+		"image": "iPadAir2-results_multi.png",
+	},
+	{
+		"text": "If when the app started, the learn button had been tapped (instead of the test button) the learn table choice screen would be shown (this screen is very similar to the test choice screen, apart from no tables are locked). Then once a table is picked, this next screen is shown. Here repetitive learning is employed with speech to encourage the child to learn.",
+		"image": "iPadAir2-learn_multi.png",
+	}
+]

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="well">
+    <div style="text-align: right;">
+        {{ 
+        '[App Home](\stt) &nbsp; | &nbsp; 
+        [Screen shots](screenshots) &nbsp; | &nbsp; 
+        [Knowledge Base](knowledgebase)' | markdownify 
+        }}
+    </div>
+    {% if page.subtitle %}
+    <h4 class="home-subtitle">{{ page.subtitle }}</h4>
+    {% endif %}
+	{{ content }}
+</div>

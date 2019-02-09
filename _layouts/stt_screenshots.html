@@ -1,0 +1,38 @@
+---
+layout: stt
+---
+
+<article class="post">
+
+  <div class="post-content">
+    {{ content }}
+    <br/>
+    <div class="projects row">
+
+    {% for i in site.data.stt_screenshots %}
+
+    <div class="project-item col-md-6 col-sm-6 col-xs-12">
+
+    	<div class="well project-outer">
+    		<div class="project-inner">
+
+    			<a href="/static/stt_screenshots/{{ i.image }}" class="thickbox">
+
+    			     <div class="project-img bordered" style="background-image: url('/static/stt_screenshots/{{ i.image }}');"></div>
+
+                </a>
+
+                <div style="margin-top: 20px;">
+
+    			{{ i.text }}
+
+                </div>
+
+    		</div>
+    	</div>
+        </div>
+    {% endfor %}
+    </div>
+  </div>
+
+</article>
