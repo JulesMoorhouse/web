@@ -9,22 +9,34 @@ layout: stt
     <br/>
     <div class="projects row">
 
-    {% for i in site.data.stt_screenshots %}
+    {% for x in site.data.stt_screenshots %}
 
     <div class="project-item col-md-6 col-sm-6 col-xs-12">
 
     	<div class="well project-outer">
     		<div class="project-inner">
 
-    			<a href="/static/stt_screenshots/{{ i.image }}" class="thickbox">
+    			<a href="{{ site.baseurl }}/static/stt_screenshots/{{ x.image }}" class="thickbox">
 
-    			     <div class="project-img bordered" style="background-image: url('/static/stt_screenshots/{{ i.image }}');"></div>
+<!--     			     <div class="project-img bordered" style="background-image: url('/static/stt_screenshots/{{ x.image }}');"></div>
+ -->
+{% capture path %}static/stt_screenshots/{{x.image}}{% endcapture %}
+
+{% assign alt = 'Lorem ipsum...' %}
+
+{% responsive_image_block %}
+  path: {{ path }}
+  alt: {{ alt }}
+  {% if title %}
+  title: {{ title }}
+  {% endif %}
+{% endresponsive_image_block %}
 
                 </a>
 
                 <div style="margin-top: 20px;">
 
-    			{{ i.text }}
+    			{{ x.text }}
 
                 </div>
 

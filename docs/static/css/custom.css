@@ -347,5 +347,8 @@ body.bg .container-fluid .well-primary
 
 }
  
-
+.center-block
+{
+    display: table;
+}
 

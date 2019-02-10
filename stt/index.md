@@ -15,7 +15,7 @@ bodyclass: stt
 			</div>
 			<div class="intro-app-btn">
 				<a href="http://itunes.apple.com/app/id917585923?mt=8&amp;at=1l3voF5&amp;ct=web_home">
-					<img src="/static/img/Download.png" title="Download Speaking Times Tables for iPad" width="206" height="61" />
+					{% responsive_image path: static/img/Download.png title: "Download Speaking Times Tables for iPad" width: 206 %}
 				</a>
 			</div>
 		</div>
@@ -23,7 +23,7 @@ bodyclass: stt
 	<div class="col-sm-6 col-xs-12">
 		<div class="intro-device">
 			<a href="http://itunes.apple.com/app/id917585923?mt=8&amp;at=1l3voF5&amp;ct=web_home">
-				<img src="/static/stt/home/device_shot_300.png" title="Download Speaking Times Tables for iPad" width="300" height="212" />
+				{% responsive_image path: static/stt/home/device_shot_300.png title: "Download Speaking Times Tables for iPad" width: 300 %}
 			</a>
 		</div>
 	</div>
@@ -32,13 +32,17 @@ bodyclass: stt
 <div class="col-sm-5 hidden-sm visible-xs">
 	<h3>Watch the app in action</h3>
 
-	<a href="https://www.youtube.com/watch?v=D6GpOqsAeZI"><br><img src="/static/stt/home/YouTube.png" alt="app video" width="300" height="169"><br></a>
+	<a href="https://www.youtube.com/watch?v=D6GpOqsAeZI"><br>
+		{% responsive_image path: static/stt/home/YouTube.png title: "Speaking Times tables video" width: 300 %}
+		<br></a>
 </div>
 <div class="second-row">
 <div class="youtube-panel row">
 	<div class="col-sm-5 hidden-xs youtube-dekstop-panel">
 			<div class="video">
-				<a href="https://www.youtube.com/watch?v=D6GpOqsAeZI"><br><img src="/static/stt/home/YouTube.png" alt="app video" width="300" height="169"><br></a>
+				<a href="https://www.youtube.com/watch?v=D6GpOqsAeZI"><br>
+					{% responsive_image path: static/stt/home/YouTube.png title: "Speaking Times tables video" width: 300 %}
+					<br></a>
 			</div>
 	</div>
 

@@ -10,17 +10,17 @@ The app provides features that make it easy to secure these settings. Once enabl
 
 Several features have been added to the app, however depending on your devices these settings will be slightly different. For example, older devices will only have access to the pin screen rather than Touch ID / Face ID.
 
+
 <div class="row">
-	<div class="col-xs-12 col-sm-6">
-
-{% responsive_image path: static/stt_features/ipad-login.png title: "Lorem ipsum..." width: 300 %}
-
+	<div class="col-xs-12 col-sm-6" style="">
+        <div class="center-block">
+			{% responsive_image path: static/stt_features/ipad-login.png title: "Lorem ipsum..." width: 300 %}
+		</div>
 	</div>
-	<div class="col-xs-12 col-sm-6">
-
-{% responsive_image path: assets/test-page-image-1.jpg alt: "Lorem ipsum..." %}
-
-
+	<div class="col-xs-12 col-sm-6" style="">
+		 <div class="center-block">
+			{% responsive_image path: static/stt_features/ipad-settings-pin.png title: "Lorem ipsum..." width: 300 %}
+		</div>
 	</div>
 </div>
 

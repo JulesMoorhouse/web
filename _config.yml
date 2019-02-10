@@ -40,6 +40,7 @@ plugins:
   - jekyll-gist
   - jekyll-responsive-image
 
+#https://medium.com/ivo-valchev/jekyll-responsive-images-with-srcset-5da131415d0f
 responsive_image:
   # [Required]
   # Path to the image template.
