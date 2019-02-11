@@ -3,12 +3,11 @@ layout: default
 ---
 
 <div class="well">
-    <div style="text-align: right;">
-        {{ 
-        '[App Home](../bg/) &nbsp; | &nbsp;
-        [Screen shots](screenshots)' | markdownify 
-        }}
-    </div>        
+    <div style="text-align: right; margin-bottom: 10px;">
+        <a href="{{ 'bg'  | relative_url }}">App Home</a>
+            &nbsp; | &nbsp; 
+        <a href="{{ 'bg/screenshots' | relative_url }}">Screen shots</a>
+    </div>
     {% if page.subtitle %}
     <h4 class="home-subtitle">{{ page.subtitle }}</h4>
     {% endif %}

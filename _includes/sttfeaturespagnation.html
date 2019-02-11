@@ -1,0 +1,60 @@
+
+{% for c in site.stt_features %}
+{% if c.subtitle == page.subtitle %}
+  {% assign thisPost = c %}
+  {% if forloop.index == 1 %}
+    {% assign prevflag = 0 %}
+    {% assign nextflag = 1 %}
+  {% elsif forloop.index == forloop.length %}
+    {% assign prevflag = 1 %}
+    {% assign nextflag = 0 %}
+  {% else %}
+    {% assign prevflag = 1 %}
+    {% assign nextflag = 1 %}
+  {% endif %}
+{% endif %}
+{% endfor %}
+
+{% for c in site.stt_features %}
+  {% if c.subtitle == page.subtitle %}
+    {% assign prevflag = 0 %}
+  {% endif %}
+  {% if prevflag == 1 %}
+    {% assign prevPost = c %}
+    {% assign page.previous = c %}
+  {% endif %}
+{% endfor %}
+
+{% if nextflag == 1 %}
+  {% for c in site.stt_features %}
+    {% if foundPost == 1 %}
+      {% assign getNext = 1 %}
+    {% endif %}
+    {% if c.subtitle == page.subtitle %}
+      {% assign foundPost = 1 %}
+    {% endif %}
+    {% if getNext == 1%}
+      {% assign nextPost = c %}
+      {% assign page.next = c %}
+      {% assign foundPost = 0 %}
+      {% assign getNext = 0 %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<div class="container-table">
+  <div class="row">
+        {% if prevPost.url %}
+          <a class="col-xs-6" href="{{ site.baseurl }}{{prevPost.url}}">
+              <span class="slide-wrap">&lt; {{prevPost.subtitle}}</span>
+          </a> 
+        {% endif %} 
+
+        {% if nextPost.url %} 
+
+          <a {% if prevPost.url %} class="col-xs-6" {% else %} class="col-xs-12" {% endif %} style="text-align: right;" href="{{ site.baseurl }}{{nextPost.url}}">
+              <span class="slide-wrap">{{nextPost.subtitle}} &gt;</span>
+          </a> 
+        {% endif %} 
+  </div>
+</div>

@@ -75,44 +75,19 @@ bodyclass: stt
 {:/}
 
 
-This is a test blog page where we can explore how to embedd images in the blog. 
-
-## Image example 1
-
-Here, I will embedd image from local assets which goes into `assets` directory in project's `root` directory. Choose a specific image, related to particular post. I chose to name the image `test-page-image-1.jpg`, which I will embedd as:
-
-```markdown
-![my alternate text](/assets/test-page-image-1.jpg);
-``` 
-
-![my alternate text](/assets/test-page-image-1.jpg);
-
-Ofcourse, you can load images from web as well. Just point to image direct URL. For ex, here is one placeholder image:
-
-```markdown
-![my alternate text](http://lorempixel.com/400/200);
-``` 
-
-![my alternate text](http://lorempixel.com/400/200);
-
-One cool thing about this is the fact that images adapt themselves to the screen size of device. Try to resize your browser window and check for yourself, Have fun.
-
-
-
-<h1>Latest Post</h1>
-{% for post in site.posts limit:1 %}
-
-{{ post.title }}
-
-{% endfor %}
-
-<h1>Recent Posts</h1>
-{% for post in site.posts offset:1 limit:2 %}
-
-{{ post.title }}
-
-{% endfor %}
-
-
+<div class="recent_post">
+	<h3>Features</h3>
+	<ul>
+	{% for user in site.stt_features %}
+	{%  if user.type != "design" %}
+	    <li>
+	    	<a href="{{ site.baseurl }}{{ user.url }}">
+	  			<u>{{ user.subtitle }}</u>
+	  		</a> - {{ user.content | markdownify | strip_html | truncatewords: 30 }}
+	  	</li>
+	 {% endif %}
+	{% endfor %}
+	</ul>
+</div>
 
 

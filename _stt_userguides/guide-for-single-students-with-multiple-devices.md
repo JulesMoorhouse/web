@@ -1,10 +1,14 @@
 ---
-layout: page
-title: About
+layout: stt
+title: Speaking Times Tables
+subtitle: Guide for single students with multiple devices
+bodyclass: stt
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+{% assign multiuserpageurl = "" %}{% for t in site.stt_features %}{% if t.ident == 'msds' %}{% assign multiuserpageurl = t.url %}{% endif %}{% endfor %}
 
-You can find the source code for this Jekyll theme at: [github.com/ashutosh2k12/hcz-jekyll-blog](https://github.com/ashutosh2k12/hcz-jekyll-blog)
+As well as using iCloud sync for <a href="{{ site.baseurl }}{{ multiuserpageurl }}">multiple students</a>, you can also use multiple devices with a single student.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+By default the app is setup to work in single student mode, without internet access. However if you wish to use multiple devices, use the multiple student features with iCloud enabled.
+
+{% include sttuserguidepagnation.html %}
