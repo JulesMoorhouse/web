@@ -1,0 +1,13 @@
+<a target="_blank" href="http://itunes.apple.com/app/id917585923?mt=8">
+	{% if include.imagepath %}
+{% responsive_image_block %}
+  path: {{ include.imagepath }}
+  {% if include.width %}
+  width: {{ include.width }}
+  {% endif %}
+  title: 'Download Speaking Times Tables for iPad'
+{% endresponsive_image_block %}
+	{% else %}
+		{% responsive_image path: static/img/Download.png title: "Download Speaking Times Tables for iPad" width: 206 %}
+	{% endif %}
+</a>

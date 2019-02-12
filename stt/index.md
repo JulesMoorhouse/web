@@ -14,17 +14,13 @@ bodyclass: stt
 				Using the spoken word, interactive learning and fun multiple choice testing, Speaking Times Tables helps kids pass those all important tests.
 			</div>
 			<div class="intro-app-btn">
-				<a href="http://itunes.apple.com/app/id917585923?mt=8&amp;at=1l3voF5&amp;ct=web_home">
-					{% responsive_image path: static/img/Download.png title: "Download Speaking Times Tables for iPad" width: 206 %}
-				</a>
+				{% include sttdownloadbtn.html %}
 			</div>
 		</div>
 	</div>
 	<div class="col-sm-6 col-xs-12">
 		<div class="intro-device">
-			<a href="http://itunes.apple.com/app/id917585923?mt=8&amp;at=1l3voF5&amp;ct=web_home">
-				{% responsive_image path: static/stt/home/device_shot_300.png title: "Download Speaking Times Tables for iPad" width: 300 %}
-			</a>
+			{% include sttdownloadbtn.html imagepath='static/stt/home/device_shot.png' width=300 %}
 		</div>
 	</div>
 </div>

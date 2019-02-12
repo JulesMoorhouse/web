@@ -35,9 +35,7 @@ You can see a demonstration of the app via the video on your local app store.
 
 <div class="container-table">
 	<div class="center-block">
-		<a href="http://itunes.apple.com/app/id917585923?mt=8&amp;at=1l3voF5&amp;ct=web_home">
-			{% responsive_image path: static/img/Download.png title: "Download Speaking Times Tables for iPad" width: 206 %}
-		</a>
+		{% include sttdownloadbtn.html %}
 	</div>
 </div>
 
