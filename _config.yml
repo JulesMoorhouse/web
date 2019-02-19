@@ -1,6 +1,11 @@
 title: Jules Moorhouse
 description: My Personal Blog
 author: Jules Moorhouse
+
+#logo: /hcz-jekyll-blog/static/img/avatar.png
+logo: /web/static/img/me.png
+
+
 github: https://github.com/jules2010
 about: Software developer
 

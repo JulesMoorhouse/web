@@ -1,0 +1,50 @@
+---
+layout: bg
+---
+
+<article class="post">
+
+  <div class="post-content">
+    {{ content }}
+    <br/>
+    <div class="projects row">
+
+    {% for x in site.data.bg_screenshots %}
+
+    <div class="project-item col-md-4 col-sm-6 col-xs-12">
+
+    	<div class="well project-outer">
+    		<div class="project-inner">
+
+    			<a href="{{ site.baseurl }}/static/bg_screenshots/{{ x.image }}" class="thickbox">
+
+<!--     			     <div class="project-img bordered" style="background-image: url('/static/stt_screenshots/{{ x.image }}');"></div>
+ -->
+{% capture path %}static/bg_screenshots/{{x.image}}{% endcapture %}
+
+{% assign alt = 'Lorem ipsum...' %}
+
+{% responsive_image_block %}
+  path: {{ path }}
+  alt: {{ alt }}
+  {% if title %}
+  title: {{ title }}
+  {% endif %}
+{% endresponsive_image_block %}
+
+                </a>
+
+                <div style="margin-top: 20px;">
+
+    			{{ x.text }}
+
+                </div>
+
+    		</div>
+    	</div>
+        </div>
+    {% endfor %}
+    </div>
+  </div>
+
+</article>

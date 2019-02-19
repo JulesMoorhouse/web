@@ -1,18 +1,18 @@
 [
   {
-    "icon": "fa-facebook",
-    "link": ""
-  },
-  {
     "icon": "fa-twitter",
-    "link": ""
+    "link": "https://twitter.com/MindwarpJules"
   },
   {
     "icon": "fa-linkedin",
-    "link": ""
+    "link": "https://www.linkedin.com/in/julian-moorhouse-a6a06b23/"
   },
   {
     "icon": "fa-stack-exchange",
-    "link": ""
+    "link": "https://stackoverflow.com/users/450456/jules?tab=profile"
+  },
+  {
+    "link": "https://github.com/jules2010",
+    "icon": "fa-github"
   }
 ]

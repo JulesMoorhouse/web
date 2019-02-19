@@ -76,80 +76,11 @@ body.stt .container-fluid .well-primary
 
 /* ----- stt index specific css ----- */
 
-.intro-panel
+.stt .intro-panel
 {
-    display: block;
     background: #ffcc33;
-    padding-top: 15px;
- /*   min-width: 916px;*/
-    margin-left: -19px;
-    margin-right: -19px;
 }
 
-.intro-left
-{
-    display: inline-block;
-/*    width: 57%;*/
-    vertical-align: top;
-    margin: 50px 14px 35px 50px;
-    color: #000;
-}
-
-.intro 
-{
-    font-size: 22px;
-/*    text-shadow: 1px 1px #aaa;
-*/    display: block;
- /*   width: 80%;*/
-}
-
-.intro-app-btn
-{
-    margin-top: 32px;
-}
-
-.intro-device
-{
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
-    margin: 40px 0px 20px 20px;
-    min-width: 300px;
-}
-
-.second-row
-{
-    display: table;
-}
-.youtube-panel 
-{
-    display: table-row;
-}
-.youtube-dekstop-panel 
-{
-    display: table-cell;
-    float: none;
-    vertical-align: middle;
-/*    background:green;*/
-}
-.youtube-panel li 
-{
-    padding-top: 10px;
-}
-
-/*.youtube-dekstop-panel .video 
-{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-      vertical-align: middle;
-
-}*/
-.bullets-right
-{
-    display: table-cell;
-    float: none;
-}
 /* ----- stt screenshots specific css ----- */
 
 /* Custom, iPhone Retina */
@@ -210,7 +141,72 @@ body.stt .container-fluid .well-primary
     }
 }
  
+/* ----- bg index specific css ----- */
 
+.bg .intro-panel
+{
+    background: #67a4ee;
+}
+
+.ratings
+{
+    background-color: #dee8f5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+    padding: 15px 20px 15px 20px;
+}
+
+.stars
+{
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-bottom: 12px;
+    color:#ffef00;
+    text-align: center;
+}
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+{
+    .bg .intro-left
+    {
+        margin: 15px !important;
+    }
+
+    .bg .center-row-vert
+    {
+        display: inline-block !important;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+{
+    .bg .intro-left
+    {
+        margin: 15px !important;
+    }
+
+    .bg .center-row-vert
+    {
+        display: inline-block !important;
+    }
+}
+
+/* iPhone 6,7,8 + X */
+@media only screen and (min-device-width : 375px) 
+{
+    .bg .intro-left
+    {
+        margin: 15px !important;
+    }
+
+    .bg .center-row-vert
+    {
+        display: inline-block !important;
+    }
+}
 
 /* ----- bg app theme specific css ----- */
 
@@ -287,9 +283,17 @@ body.bg .container-fluid .well-primary
     background-image: linear-gradient(#ffffff,#ffffff),linear-gradient(#ffffff,#ffffff) !important;
 }
 
+.bg .intro {
+    color: white;
+    text-shadow: 1px 1px #555;
+}
+
+.bg .video-note {
+    color: #fff;
+    font-size: 16px;
+}
 
 /* ----- main override ----- */
-
 
 .center-block
 {
@@ -318,6 +322,12 @@ body.bg .container-fluid .well-primary
     text-align: center;;
 }
 
+.center-row-vert
+{
+    display: flex;
+    align-items: center;
+}
+
 .recent_post {
     vertical-align: top;
     display: inline-block;
@@ -337,6 +347,85 @@ body.bg .container-fluid .well-primary
 
 }
 
+.intro-panel
+{
+    display: block;
+    padding-top: 15px;
+ /*   min-width: 916px;*/
+    margin-left: -19px;
+    margin-right: -19px;
+}
+
+.intro-left
+{
+    display: inline-block;
+/*    width: 57%;*/
+    vertical-align: top;
+    margin: 50px 14px 35px 50px;
+    color: #000;
+}
+
+.intro 
+{
+    font-size: 22px;
+/*    text-shadow: 1px 1px #aaa;
+*/    display: block;
+ /*   width: 80%;*/
+}
+
+.intro-app-btn
+{
+    margin-top: 32px;
+}
+
+.intro-device
+{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 40px 0px 20px 20px;
+    min-width: 300px;
+}
+
+.second-row
+{
+    display: table;
+}
+
+.youtube-panel 
+{
+    display: table-row;
+}
+
+.youtube-dekstop-panel 
+{
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+/*    background:green;*/
+}
+
+.youtube-panel li 
+{
+    padding-top: 10px;
+}
+
+/*.youtube-dekstop-panel .video 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+      vertical-align: middle;
+
+}*/
+
+.bullets-right
+{
+    display: table-cell;
+    float: none;
+}
+
+
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px)
 {
@@ -344,6 +433,7 @@ body.bg .container-fluid .well-primary
     {
         padding: 0;
     }
+
     body, html 
     {
         overflow-x: hidden;
@@ -354,13 +444,19 @@ body.bg .container-fluid .well-primary
         width: auto;
         min-width: auto;
     }
+
     .container-table .row.table-row .full-height 
     {
         float: left;
     }
+
     .mobile-pt
     {
         padding-top: 20px;
+    }
+
+    footer {
+        padding: 5px;
     }
 }
 
@@ -377,13 +473,19 @@ body.bg .container-fluid .well-primary
         width: auto;
         min-width: auto;
     }
+
     .container-table .row.table-row .full-height 
     {
         float: left;
     }
+
     .mobile-pt
     {
         padding-top: 20px;
+    }
+
+    footer {
+        padding: 5px;
     }
 }
 
@@ -400,13 +502,19 @@ body.bg .container-fluid .well-primary
         width: auto;
         min-width: auto;
     }
+
     .container-table .row.table-row .full-height 
     {
         float: left;
     }
+
     .mobile-pt
     {
         padding-top: 20px;
+    }
+
+    footer {
+        padding: 5px;
     }
 }
 
@@ -434,6 +542,12 @@ body.bg .container-fluid .well-primary
     {
         padding-top: unset;
     } 
+
+    .bg .project-inner 
+    {
+        min-height: 706px;
+    }
+
 }
 
 /* Large Devices, Wide Screens */
@@ -446,6 +560,11 @@ body.bg .container-fluid .well-primary
     .mobile-pt
     {
         padding-top: unset;
+    }
+
+    .bg .project-inner 
+    {
+        min-height: 706px;
     }
 }
  
