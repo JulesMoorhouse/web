@@ -3,6 +3,10 @@ layout: bg
 title: Balance Guide
 bodyclass: bg
 ---
+
+<div id="fb-root"></div>
+<script async defer src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2&appId=262704357963522&autoLogAppEvents=1"></script>
+
 <div class="row intro-panel">
 	<div class="col-sm-8 col-xs-12">
 		<div class="intro-left">
@@ -14,26 +18,12 @@ bodyclass: bg
 					{% include bgdownloadbtn.html %}
 				</div>
 			</div>
-
 			
- 			<div class="row center-row-vert">
- 				<div class="col-sm-7 col-xs-12">
-					<div class="video">
-
-
-						<a href="https://youtu.be/3NrxZE_yFag?width=640&height=480"><br>
-							{% include youtube-play.html %}
-
-							{% responsive_image path: static/bg/home/bgyoutube.png title: "Speaking Times tables video" width: 300 %}
-							<br></a>
-					</div>
-				</div>
-				<div class="col-sm-5 col-xs-12">
-					<div class="video-note">
-						Here's a demo of the an older version of the app. We hope to update this soon.
-					</div>
-				</div>
+			<div class="hidden-xs">
+			{% include bgvideointro.html %}
 			</div>
+
+			<div class="fb-like fb-like-pos" data-href="https://www.facebook.com/balanceguideapp" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
 
 		</div>
 	</div>
@@ -46,8 +36,10 @@ bodyclass: bg
 	</div>
 </div>
 
+<div class="hidden-sm hidden-md hidden-lg">
+{% include bgvideointro.html %}
+</div>
 
- 
  {::nomarkdown}
 ﻿<div class="container-table">
 	<div class="row">
@@ -76,32 +68,60 @@ bodyclass: bg
 
 <div class="container-table">
 	<div class="row">
-		<div class="col-sm-6 col-xs-12">
-			
-{% responsive_image path: static/bg/home/graphs.png title: "xxxxx" width: 300 %}
 
-		</div>
-		<div class="col-sm-6 col-xs-12">
+		<div class="col-sm-6 col-xs-12 visible-xs pb-20">
 			<h3>Cool pie charts</h3>
 
 Balance Guide makes it easy to see your financial position. With charts and pie charts to show your forecast, account transactions, income vs expenses and category analysis.
+
+				<div class="mt-20 hidden-xs">
+					{% include bgdownloadbtn.html %}
+				</div>
+
 		</div>
+
+
+		<div class="col-sm-6 col-xs-12">
+			<div class="center-block">
+				<div class="center-horiz">
+{% responsive_image path: static/bg/home/graphs.png title: "xxxxx" width: 300 %}
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-xs-12 hidden-xs pb-20">
+			<h3>Cool pie charts</h3>
+
+Balance Guide makes it easy to see your financial position. With charts and pie charts to show your forecast, account transactions, income vs expenses and category analysis.
+
+				<div class="mt-20">
+					{% include bgdownloadbtn.html %}
+				</div>
+
+		</div>
+
 	</div>
 </div>
 
 
 <div class="container-table">
 	<div class="row">
-		<div class="col-sm-6 col-xs-12">
+		<div class="col-sm-6 col-xs-12 pb-20">
 			<h3>Forecasting</h3>
 
 With Balance Guide you can see a forecast of your recurring bills and deposits. Plus with the next version a calendar view.
 
+				<div class="mt-20 hidden-xs">
+					{% include bgdownloadbtn.html %}
+				</div>
+
 		</div>
 		<div class="col-sm-6 col-xs-12">
-
+			<div class="center-block">
+				<div class="center-horiz">
 {% responsive_image path: static/bg/home/bills-forecast.png title: "xxxx" width: 300 %}
-
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

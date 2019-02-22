@@ -4,8 +4,11 @@ title: Speaking Times Tables
 bodyclass: stt
 ---
 
+
 {::nomarkdown}
 
+<div id="fb-root"></div>
+<script async defer src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2&appId=262704357963522&autoLogAppEvents=1"></script>
 
 <div class="row intro-panel">
 	<div class="col-sm-6 col-xs-12">
@@ -16,11 +19,15 @@ bodyclass: stt
 			<div class="intro-app-btn">
 				{% include sttdownloadbtn.html %}
 			</div>
+
 		</div>
 	</div>
 	<div class="col-sm-6 col-xs-12">
 		<div class="intro-device">
 			{% include sttdownloadbtn.html imagepath='static/stt/home/device_shot.png' width=300 %}
+
+			<div class="fb-like pt-20" data-href="https://www.facebook.com/speakingtimestablesapp" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+
 		</div>
 	</div>
 </div>

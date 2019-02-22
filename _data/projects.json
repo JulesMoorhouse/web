@@ -14,17 +14,18 @@
 		"tags": ["iOS"]
 	},
 	{
-		"name": "Cool project 3",
+		"name": "Happy + Sad Face Chart",
 		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "June 2014",
-		"tags": ["HTML","JQuery","PHP"]
+		"url": "../sadfacechart",
+		"date": "Jan 2011 to present",
+		"tags": ["iOS"]
 	},
 	{
-		"name": "Cool project 4",
+		"name": "Revenue Calc",
 		"image": "placeholder.jpg",
-		"date": "Oct 2016",
-		"tags": ["Android","nodejs"]
-	}
+		"url": "../revenuecalc",
+		"date": "Jan 2010 to present",
+		"tags": ["iOS"]
+	},
 
 ]

@@ -5,156 +5,179 @@
     <description>My Personal Blog</description>
     <link>http://localhost:4000/web/</link>
     <atom:link href="http://localhost:4000/web/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Feb 2019 20:00:14 +0000</pubDate>
-    <lastBuildDate>Tue, 19 Feb 2019 20:00:14 +0000</lastBuildDate>
+    <pubDate>Fri, 22 Feb 2019 08:22:39 +0000</pubDate>
+    <lastBuildDate>Fri, 22 Feb 2019 08:22:39 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Blog</title>
+        <description>&lt;p&gt;This is the first version of some instructions on how to create your own private Cocoapod and private specs repo using tfs / git.
+In the future I hope to add screenshots&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Private spec repo&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;From tfs create a repo / branch and a README.md
+And add some text.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# my-specs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;With terminal create a pod spec folder and setup git.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mkdir /Users/myuser/Code_ObjC/podspec
+git init
+git remote add origin https://myrepo.visualstudio.com/Pods/_git/my-specs
+git fetch
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;p&gt;You should have the README.md file from tfs locally.&lt;/p&gt;
+
+&lt;p&gt;Now run this command to add the your pod spec repo to your local cocoa pods setup.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pod repo add my-specs https://myrepo.visualstudio.com/Pods/_git/my-specs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can confirm this by …&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd ~/.cocoapods/repos/my-specs
+pod repo lint .
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now your pod spec repo is all setup to use in in any of your local projects by adding your specs repo to your pod file. This basically means you now have your own directory of pods.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Creating your own private development pod&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As before create a new repo / branch e.g. (Don’t add any files)&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://myrepo.visualstudio.com/Pods/_git/my-ui-code
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Create a local folder for your private pods, in the next step a sub folder for your private will be created for you.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/Users/myuser/Code_ObjC/podsprivate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now run the helper to create your development pod.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pod lib create my-ui-code
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Follow the prompts making sure you add a demo project.
+Notice that this process has also sets up local git for you.
+This will create and open up an Xcode project ready for you to add your new functionality.&lt;/p&gt;
+
+&lt;p&gt;Firstly look for the ReadMe.m or ReadMe.swift file and add your files and remove said file.&lt;/p&gt;
+
+&lt;p&gt;Now the next several steps can be done in a different order if desired.&lt;/p&gt;
+
+&lt;p&gt;Now add your podspec contents and remember to add your git repo urls.&lt;/p&gt;
+
+&lt;p&gt;Now go to the .podspec location in terminal and run… this will validate your podspec.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pod lib lint 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Next add your development pod to your repo&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add .
+git commit -m “Initial Commit”
+git remote add origin https://myrepo.visualstudio.com/Pods/_git/my-ui-code
+git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Next create a tag&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git tag 0.1.0
+git push origin 0.1.0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;So now you have your private pod all safely under version control&lt;/p&gt;
+
+&lt;p&gt;You can now push your pod to your private spec repo using the following command&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pod repo push my-specs my-ui-code.podspec
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you head over to your your my-specs repo you will see your repo has been pushed :)&lt;/p&gt;
 </description>
-        <pubDate>Sat, 04 Jun 2016 14:50:39 +0100</pubDate>
-        <link>http://localhost:4000/web/jekyll/2016/06/04/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/web/jekyll/2016/06/04/welcome-to-jekyll.html</guid>
+        <pubDate>Wed, 26 Dec 2018 10:50:39 +0000</pubDate>
+        <link>http://localhost:4000/web/2018/12/26/private-cocoapods-with-vsts-azuredevops.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web/2018/12/26/private-cocoapods-with-vsts-azuredevops.html</guid>
         
-        
-        <category>jekyll</category>
         
       </item>
     
       <item>
-        <title>Example content for posts</title>
-        <description>&lt;p&gt;&lt;small&gt;This demo page has been used from &lt;a href=&quot;http://jasonm23.github.io/markdown-css-themes/&quot; target=&quot;_blank&quot;&gt;http://jasonm23.github.io/markdown-css-themes/&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
+        <title>Blog</title>
+        <description>&lt;p&gt;Even if your’re releasing the most unsocialable app or a kids app (where you can’t have any links) always, always setup a Facebook and Twitter account.&lt;/p&gt;
 
-&lt;h1&gt;A First Level Header&lt;/h1&gt;
+&lt;p&gt;Always use a tracking service to tell you what’s worked and what hasn’t.&lt;/p&gt;
 
-&lt;h2&gt;A Second Level Header&lt;/h2&gt;
+&lt;p&gt;Always add mailchimp sign up forms where ever you can, adding a checkbox to your contact form is good too, yes you can do this with Wordpress.&lt;/p&gt;
 
-&lt;h3&gt;A Third Level Header&lt;/h3&gt;
-
-&lt;h4&gt;A Fourth Level Header&lt;/h4&gt;
-
-&lt;h5&gt;A Fifth Level Header&lt;/h5&gt;
-
-&lt;h6&gt;A Sixed Level Header&lt;/h6&gt;
-
-&lt;p&gt;Now is the time for all good men to come to
-the aid of their country. This is just a
-regular paragraph.&lt;/p&gt;
-
-&lt;p&gt;The quick brown fox jumped over the lazy
-dog&amp;rsquo;s back.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3&gt;Header 3&lt;/h3&gt;
-
-&lt;blockquote&gt;&lt;p&gt;This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;
-
-&lt;p&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
-
-&lt;h2&gt;This is an H2 in a blockquote&lt;/h2&gt;
-
-&lt;p&gt;This is the first level of quoting.&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;This is nested blockquote.&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;Back to the first level.&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;Some of these words &lt;em&gt;are emphasized&lt;/em&gt;.
-Some of these words &lt;em&gt;are emphasized also&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Use two asterisks for &lt;strong&gt;strong emphasis&lt;/strong&gt;.
-Or, if you prefer, &lt;strong&gt;use two underscores instead&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Candy.&lt;/li&gt;
-&lt;li&gt;Gum.&lt;/li&gt;
-&lt;li&gt;Booze.&lt;/li&gt;
-&lt;li&gt;Red&lt;/li&gt;
-&lt;li&gt;Green&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Blue&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;A list item.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;With multiple paragraphs.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Another item in the list.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;This is a list item with two paragraphs. Lorem ipsum dolor
-sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-mi posuere lectus.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-sit amet velit.*   Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;This is a list item with two paragraphs.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is the second paragraph in the list item. You&amp;rsquo;re
-only required to indent the first line. Lorem ipsum dolor
-sit amet, consectetuer adipiscing elit.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Another item in the same list.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;A list item with a bit of &lt;code&gt;code&lt;/code&gt; inline.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;A list item with a blockquote:&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;This is a blockquote
-inside a list item.&lt;/p&gt;&lt;/blockquote&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here is an example of a pre code block&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;tell application &quot;Foo&quot;
-    beep
-end tell
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This is an &lt;a href=&quot;#&quot;&gt;example link&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I start my morning with a cup of coffee and
-&lt;a href=&quot;http://www.nytimes.com/&quot;&gt;The New York Times&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;code-snippet&quot;&gt;Code snippet&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'__main__'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;threading&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;downloadWallpaper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;st&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\r&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Downloading Image'&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_alive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;st&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'.'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sleep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Image of the day downloaded.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;I realize this quite a short post, but I think it desverves it’s own post.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 04 Jun 2016 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/web/others/2016/06/04/example-content.html</link>
-        <guid isPermaLink="true">http://localhost:4000/web/others/2016/06/04/example-content.html</guid>
+        <pubDate>Thu, 12 Feb 2015 10:50:39 +0000</pubDate>
+        <link>http://localhost:4000/web/2015/02/12/ios-app-launch-essentials.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web/2015/02/12/ios-app-launch-essentials.html</guid>
         
         
-        <category>others</category>
+      </item>
+    
+      <item>
+        <title>Blog</title>
+        <description>&lt;p&gt;It’s been a few years since I released a new app, I only develop for iOS. My last couple of apps have both been paid (aka not free) and launch days hadn’t brought great results. Later I introduced a free version of of my apps, but again this didn’t yield great results.&lt;/p&gt;
+
+&lt;p&gt;This time round I released my first iPad app, I timed press releases to go out on launch day and I spent some time preparing my email for reviewers. Also I followed something I read, that make an app free at launch really helped.&lt;/p&gt;
+
+&lt;p&gt;When it came to launch day I thought I’d prepared really well, until I made a list of what I had to do that day.&lt;/p&gt;
+
+&lt;p&gt;My app is aimed at kids and in order to eligable to be classified as “made for kids” you have to jump through some extra hoops. You need to add a privacy policy to your website and have no links or anything in your app that will take a child out of your app aka link to your web site etc.&lt;/p&gt;
+
+&lt;p&gt;Recently I’ve started using mailchimp and sent a few newsletters to my small client base for existing apps.&lt;/p&gt;
+
+&lt;p&gt;So in my app, I couldn’t have links to a facebook page, twitter or newsletter sign up. At the time I thought ah well, I’ve never gained much from there, so no loss.&lt;/p&gt;
+
+&lt;p&gt;Getting back to my list of tasks on launch day, I realized that I had no way to keep hold of users. I couldn’t put anything in my next release as this would get me thrown out of the kids classification.&lt;/p&gt;
+
+&lt;p&gt;I realized that this was my biggest opportunity to gain users, after all they didn’t have to pay. Also that the main benefit of these users was “word of mouth”.&lt;/p&gt;
+
+&lt;p&gt;From previous experience I knew how hard it was to keep hold of users and to keep them on board, so if I didn’t have any provision to keep hold of them, it would be like sand trickling through my fingers.&lt;/p&gt;
+
+&lt;p&gt;Luckily I had a facebook page and twitter account from my first app, so I was able to give them a quick makeover and add links to them to my website and press release (it got rejected on release day, as my app store link hadn’t been live, so I was able to add my social links to it).&lt;/p&gt;
+
+&lt;p&gt;Also, I spent time figuring out how I could add a mailchimp checkbox to my contact form, I think this is a key way to get new subscriptions.&lt;/p&gt;
+
+&lt;p&gt;As I was still waiting for my app to appear in search, I figured I hadn’t wasted my time. So I was sent out some tweets with hash tags (previously I hadn’t had much success, but I hadn’t release a free app before, I’d only sent out promo codes). I used the tweet link from the app store, which was awesome as it added my app icon and a shortened url. Awesome, or so I thought!&lt;/p&gt;
+
+&lt;p&gt;On the second day I got an amazing amount of downloads from the US, I put this down to good hash tags. I proceeded with my approach of tweeting, however on the third day I didn’t receive this level of downloads. Also I wasn’t able to figure out where those amazing downloads had come from. I should have used tracking urls.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 Jan 2015 10:50:39 +0000</pubDate>
+        <link>http://localhost:4000/web/2015/01/21/ios-app-launch-what-i-learnt.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web/2015/01/21/ios-app-launch-what-i-learnt.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Blog</title>
+        <description>&lt;p&gt;Speaking Times Table for iPhone was my first iPhone app developed in 2010. Please don’t confuse this with Speaking Times Tables for iOS written in 2015.&lt;/p&gt;
+
+&lt;p&gt;Previously I had developed speaking times table software for PC CD-ROM which I sold on eBay. Back then the speech technology wasn’t that good.&lt;/p&gt;
+
+&lt;p&gt;But over the life of the software I sold 3000 copies. It proved very popular so it seemed a natural progression to move the idea to iPhone.&lt;/p&gt;
+
+&lt;p&gt;My wife and I recorded our voices for the sums. I chopped the numbers and symbols into sound files and played these in the app together.&lt;/p&gt;
+
+&lt;p&gt;At the time that was this was a much better solution and using the speech technology provided by iOS.&lt;/p&gt;
+
+&lt;p&gt;Design of the app was aimed at kids and I used you cute chimp images to make the app look fun.&lt;/p&gt;
+
+&lt;p&gt;I decided to move on to other projects, several years later I decided to update the app and make big improvements. I produce some good prototype videos and came to the conclusion that the app would need to completey rewriten. This idea developed into a brand-new app due to the effort involved. Speaking Times Tables for iOS was born in 2015.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 16 Aug 2014 11:50:39 +0100</pubDate>
+        <link>http://localhost:4000/web/2014/08/16/my-first-iphone-app.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web/2014/08/16/my-first-iphone-app.html</guid>
+        
         
       </item>
     

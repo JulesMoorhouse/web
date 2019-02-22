@@ -21,7 +21,7 @@ The program used windows speech technology and was a good alternative to learnin
 	</div>
 </div>
 
-The program had a lot of similarities to the iPad version today.
+The program had a lot of similarities to the universal version today.
 
 Primarily sold on ebay on CD, the program proved very popular. We often got feedback from happy parents whose children had done well at school in times tables tests.
 
@@ -31,7 +31,7 @@ In 2010 we then decided to bring the concept to iPhone, but with better speech. 
 
 We made voice recordings from members of our team for all the numbers required and played these sounds to form the sums in the app.
 
-Again, the app has a lot in common with the iPad version.
+Again, the app has a lot in common with the universal version.
 
 After listening to reviews and feedback we decided we could make a good iPad version. The iPad was the obvious next step / technological leap forward for kids’ educational software.
 

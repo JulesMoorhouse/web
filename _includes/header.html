@@ -7,7 +7,7 @@
             </div>
             <div class="row-details">
               <h4 class="list-group-item-heading">{{ site.author }}</h4>
-              <p class="list-group-item-text">{{ site.about }}</p>
+              <span class="list-group-item-text">{{ site.about }}</span>
               {% include social_links.html %}
             </div>
             <div class="navbar-header pull-right">
@@ -27,7 +27,7 @@
             </div>
             {% endif %}
             </div>
-            <p class="info">
+            <span class="info">
               {% if page.date %}
                 <span class="time">{{ page.date | date_to_string }}</span>
               {% endif %}
@@ -43,7 +43,7 @@
                   {% endfor %}
                 </span>
               {% endif %}
-            </p>
+            </span>
           </div>
         </div>
       </div>

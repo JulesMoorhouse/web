@@ -32,7 +32,10 @@ collections:
   stt_features:
     output: true
     permalink: /stt/features/:name
-  
+  bg_features:
+    output: true
+    permalink: /bg/features/:name
+
 enableTags: true
 tagarray: []
 

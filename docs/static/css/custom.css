@@ -159,15 +159,20 @@ body.stt .container-fluid .well-primary
 {
     font-weight: bold;
     font-size: 1.4em;
-    margin-bottom: 12px;
-    color:#ffef00;
+    margin: 11px 0px 5px 0px;
+    color: #dee8f5;
     text-align: center;
 }
 
-
+.bg .fb-like-pos
+{
+    display: inline-block;
+    width: 286px;
+    text-align: center;
+}
 
 /* Custom, iPhone Retina */
-@media only screen and (min-width : 320px)
+@media only screen and (max-width : 320px)
 {
     .bg .intro-left
     {
@@ -177,11 +182,37 @@ body.stt .container-fluid .well-primary
     .bg .center-row-vert
     {
         display: inline-block !important;
+    }
+
+    .bg .intro-device
+    {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        width: 200px;
+    }
+
+    .bg .intro-app-btn
+    {
+        float: none;
+        margin: 20px auto 0px;
+        display: block;
+        width: 200px;
+    }
+
+    .bg .video-note 
+    {
+        color: #000 !important;
+    }
+
+    .bg .fb-like-pos
+    {
+        padding-top: 20px;
     }
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px)
+@media only screen and (max-width : 480px)
 {
     .bg .intro-left
     {
@@ -191,11 +222,37 @@ body.stt .container-fluid .well-primary
     .bg .center-row-vert
     {
         display: inline-block !important;
+    }
+
+    .bg .intro-device
+    {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        width: 200px;
+    }
+
+    .bg .intro-app-btn
+    {
+        float: none;
+        margin: 20px auto 0px;
+        display: block;
+        width: 200px;
+    }
+
+    .bg .video-note 
+    {
+        color: #000 !important;
+    }
+
+    .bg .fb-like-pos
+    {
+        padding-top: 20px;
     }
 }
 
 /* iPhone 6,7,8 + X */
-@media only screen and (min-device-width : 375px) 
+@media only screen and (max-device-width : 375px) 
 {
     .bg .intro-left
     {
@@ -205,6 +262,32 @@ body.stt .container-fluid .well-primary
     .bg .center-row-vert
     {
         display: inline-block !important;
+    }
+
+    .bg .intro-device
+    {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        width: 200px;
+    }
+
+    .bg .intro-app-btn
+    {
+        float: none;
+        margin: 20px auto 0px;
+        display: block;
+        width: 200px;
+    }
+
+    .bg .video-note 
+    {
+        color: #000 !important;
+    }
+
+    .bg .fb-like-pos
+    {
+        padding-top: 20px;
     }
 }
 
@@ -295,6 +378,57 @@ body.bg .container-fluid .well-primary
 
 /* ----- main override ----- */
 
+p {
+    margin: 0 0 18px !important;
+    text-align: justify;
+}
+
+footer
+{
+    height: auto !important;
+    margin-bottom: auto !important;
+}
+
+.pt-20 
+{
+    padding-top: 20px;
+}
+
+.pt-10 
+{
+    padding-top: 10px;
+}
+
+.pb-20
+{
+    padding-bottom: 20px;
+}
+
+.pb-10
+{
+    padding-bottom: 10px;
+}
+
+.mb-20
+{
+    margin-bottom: 20px;
+}
+
+.mb-10 
+{
+    margin-bottom: 10px;
+}
+
+.mt-20 
+{
+    margin-top: 20px;
+}
+
+.mt-10 
+{
+    margin-top: 10px;
+}
+
 .center-block
 {
     display: table;
@@ -327,6 +461,7 @@ body.bg .container-fluid .well-primary
     display: flex;
     align-items: center;
 }
+
 
 .recent_post {
     vertical-align: top;
