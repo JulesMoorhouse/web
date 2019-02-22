@@ -5,8 +5,8 @@
     <description>My Personal Blog</description>
     <link>http://localhost:4000/web/</link>
     <atom:link href="http://localhost:4000/web/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Feb 2019 13:17:52 +0000</pubDate>
-    <lastBuildDate>Fri, 22 Feb 2019 13:17:52 +0000</lastBuildDate>
+    <pubDate>Fri, 22 Feb 2019 13:39:56 +0000</pubDate>
+    <lastBuildDate>Fri, 22 Feb 2019 13:39:56 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -98,18 +98,6 @@ git push origin 0.1.0
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;If you head over to your your my-specs repo you will see your repo has been pushed :)&lt;/p&gt;
-
-&lt;script src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
-
-&lt;div id=&quot;comments&quot;&gt;&lt;/div&gt;
-&lt;script&gt;
-gapi.comments.render('comments', {
-    href: window.location,
-    width: '624',
-    first_party_property: 'BLOGGER',
-    view_type: 'FILTERED_POSTMOD'
-});
-&lt;/script&gt;
 
 </description>
         <pubDate>Wed, 26 Dec 2018 10:50:39 +0000</pubDate>
