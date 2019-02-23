@@ -14,10 +14,6 @@ layout: default
     </article>
     <hr />
 
-
-{% include comments-new.html %}
-{% include comments.html %}
-
 {% assign hasSimilar = '' %}
 {% for post in site.posts  %}
     {% assign postHasSimilar = false %}
@@ -45,6 +41,11 @@ layout: default
     </ul>
     </div>
 {% endif %}
+
+{% include comments.html %}
+
+{% include comments-new.html %}
+<hr />
 
 <div class="container-table">
   <div class="row">

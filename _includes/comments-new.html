@@ -1,59 +1,69 @@
-<form id="comment-form" method="POST" action="https://dev.staticman.net/v3/entry/github/jules2010/web/master/comments">
+{% unless page.comments_locked == true %}
+  <!-- Start comment form -->
+  <div id="respond" class="comment__form">
+    <h2 class="title pb-20">Leave a comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | relative_url }}#respond" style="display:none;">Cancel reply</a></small></h2>
 
-	<input name="options[redirect]" type="hidden" value="https://jules2010.github.io/web/comment-thanks">
+	<form id="comment-form" class="js-form" method="POST" action="https://dev.staticman.net/v3/entry/github/jules2010/web/master/comments">
 
-	<input type="hidden" name="options[origin]" value="{{ page.url | relative_url }}">
-	<input type="hidden" name="options[parent]" value="{{ page.url | relative_url }}">
-	<input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
-	<input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
-	<input type="hidden" name="options[reCaptcha][secret]" value="{{ site.reCaptcha.secret }}">
+		<input name="options[redirect]" type="hidden" value="https://jules2010.github.io/web/comment-thanks">
 
+		<input type="hidden" name="options[origin]" value="{{ page.url | relative_url }}">
+		<input type="hidden" name="options[parent]" value="{{ page.url | relative_url }}">
+		<input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
+		<input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
+		<input type="hidden" name="options[reCaptcha][secret]" value="{{ site.reCaptcha.secret }}">
+
+		<fieldset class="row">
+			<div class="col-xs-12 col-sm-2">
+				<label>
+					Name
+				</label>
+			</div>
+			<div class="col-xs-12 col-sm-10">
+
+				<input type="text" id="comment-form-name" name="fields[name]" required spellcheck="false" placeholder="Your name" maxlength="50" size="30">
+			</div>
+		</fieldset>
+
+		<fieldset class="row pt-10">
+			<div class="col-xs-12 col-sm-2">
+				<label>
+					E-mail
+				</label>
+			</div>
+			<div class="col-xs-12 col-sm-10">
+				<input type="email" id="comment-form-email" name="fields[email]" required spellcheck="false" placeholder="email@domain.com" size="30">
+			</div>
+		</fieldset>
+
+		<fieldset class="row pt-10">
+			<div class="col-xs-12 col-sm-2">
+				<label>
+					Message
+				</label>
+			</div>
+			<div class="col-xs-12 col-sm-10">
+				<textarea type="text" rows="6" style="width: 100%" id="comment-form-message" name="fields[message]" required spellcheck="true" placeholder="Your message" maxlength="1000"></textarea>
+			</div>
+		</fieldset>
+
+		<fieldset style="height: 80px" class="pt-10">
+			<div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
+		</fieldset>
+
+		<fieldset class="pt-20">
+			<button type="submit">Go!</button>
+		</fieldset>
+
+	</form>
+</div>
    	<script async src="https://www.google.com/recaptcha/api.js"></script>
+  <!-- End comment form -->
 
-	<fieldset class="row">
-		<div class="col-xs-12 col-sm-2">
-			<label>
-				Name
-			</label>
-		</div>
-		<div class="col-xs-12 col-sm-10">
-
-			<input type="text" id="comment-form-name" name="fields[name]" required spellcheck="false" placeholder="Your name" maxlength="50" size="30">
-		</div>
-	</fieldset>
-
-	<fieldset class="row pt-10">
-		<div class="col-xs-12 col-sm-2">
-			<label>
-				E-mail
-			</label>
-		</div>
-		<div class="col-xs-12 col-sm-10">
-			<input type="email" id="comment-form-email" name="fields[email]" required spellcheck="false" placeholder="email@domain.com" size="30">
-		</div>
-	</fieldset>
-
-	<fieldset class="row pt-10">
-		<div class="col-xs-12 col-sm-2">
-			<label>
-				Message
-			</label>
-		</div>
-		<div class="col-xs-12 col-sm-10">
-			<textarea type="text" rows="6" style="width: 100%" id="comment-form-message" name="fields[message]" required spellcheck="true" placeholder="Your message" maxlength="1000"></textarea>
-		</div>
-	</fieldset>
-
-	<fieldset style="height: 80px" class="pt-10">
-		<div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
-	</fieldset>
-
-	<fieldset class="pt-20">
-		<button type="submit">Go!</button>
-	</fieldset>
-
-</form>
-
-
-
+{% else %}
+  <div class="notice">
+    <h4>Comments are closed</h4>
+    <p>If you have a question concerning the content of this page, please feel free to <a href="/contact/">contact me</a>.</p>
+  </div>
+{% endunless %}
 

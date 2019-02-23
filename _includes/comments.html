@@ -1,13 +1,19 @@
-{% if site.data.comments %}
-	{% assign comments = site.data.comments[page.slug] %}
+{% assign comments = site.data.comments[page.slug] %}
 
-	{% for comment in comments reversed %}
-	  {% assign avatar = comment[1].avatar %}
-	  {% assign email = comment[1].email %}
-	  {% assign name = comment[1].name %}
-	  {% assign url = comment[1].url %}
-	  {% assign date = comment[1].date %}
-	  {% assign message = comment[1].message %}
-	  {% include comment.html index=forloop.index avatar=avatar email=email name=name url=url date=date message=message %}
-	{% endfor %}
+<h2 class="title">
+{% if site.data.comments[page.slug].size <= 1 %}
+  {{ site.data.comments[page.slug] | size | append: ' comment' }}
+{% elsif site.data.comments[page.slug].size > 1 %}
+  {{ site.data.comments[page.slug] | size | append: ' comments' }}
 {% endif %}
+</h2>
+
+{% for comment in comments reversed %}
+  {% assign avatar = comment[1].avatar %}
+  {% assign email = comment[1].email %}
+  {% assign name = comment[1].name %}
+  {% assign url = comment[1].url %}
+  {% assign date = comment[1].date %}
+  {% assign message = comment[1].message %}
+  {% include comment.html index=forloop.index avatar=avatar email=email name=name url=url date=date message=message %}
+{% endfor %}
