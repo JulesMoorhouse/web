@@ -1,0 +1,33 @@
+<form method="POST" action="https://dev.staticman.net/v3/entry/github/jules2010/web/master">
+
+  <input name="options[redirect]" type="hidden" value="https://github.com/Jules2010/web/comment-thanks">
+  
+  <input type="hidden" name="options[origin]" value="{{ page.url | relative_url }}">
+  <input type="hidden" name="options[parent]" value="{{ page.url | relative_url }}">
+  <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
+  <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
+  <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
+  <input type="hidden" name="options[reCaptcha][secret]" value="{{ site.reCaptcha.secret }}">
+
+<script async src="https://www.google.com/recaptcha/api.js"></script>
+  <label>
+     <input type="text" id="comment-form-name" name="fields[name]" required spellcheck="false" placeholder="Your name">
+  	Name
+  </label>
+  
+  <label>
+  	<input type="email" id="comment-form-email" name="fields[email]" required spellcheck="false" placeholder="email@domain.com">
+  	E-mail
+  </label>
+  
+  <label>
+    <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" required spellcheck="true" placeholder="Your message"></textarea>
+  	Message
+  </label>
+
+  <button type="submit">Go!</button>
+</form>
+
+
+
+

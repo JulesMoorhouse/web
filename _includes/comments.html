@@ -1,10 +1,10 @@
-<script src="https://apis.google.com/js/plusone.js"></script>
-<div id="comments"></div>
-<script>
-gapi.comments.render('comments', {
-    href: window.location,
-    width: '624',
-    first_party_property: 'BLOGGER',
-    view_type: 'FILTERED_POSTMOD'
-});
-</script>
+{% assign comments = site.data.comments | sort %}
+
+{% for comment in comments reversed %}
+  {% assign commentData = comment[1] %}
+    <div>
+      {{ commentData.message }}</br>
+      From: {{ commentData.name }}</br>
+      {{ commentData.date | date_to_long_string }}
+    </div>
+{% endfor %}
