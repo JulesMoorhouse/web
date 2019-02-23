@@ -13,6 +13,11 @@ layout: default
         {% include share-page.html %}
     </article>
     <hr />
+
+
+{% include comments-new.html %}
+{% include comments.html %}
+
 {% assign hasSimilar = '' %}
 {% for post in site.posts  %}
     {% assign postHasSimilar = false %}
@@ -55,8 +60,5 @@ layout: default
       {% endif %}
     </div>
 </div>
-
-{% include comments-new.html %}
-{% include comments.html %}
 
 </div>

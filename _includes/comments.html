@@ -1,10 +1,13 @@
-{% assign comments = site.data.comments | sort %}
+{% if site.data.comments %}
+	{% assign comments = site.data.comments[page.slug] %}
 
-{% for comment in comments reversed %}
-  {% assign commentData = comment[1] %}
-    <div>
-      {{ commentData.message }}</br>
-      From: {{ commentData.name }}</br>
-      {{ commentData.date | date_to_long_string }}
-    </div>
-{% endfor %}
+	{% for comment in comments reversed %}
+	  {% assign avatar = comment[1].avatar %}
+	  {% assign email = comment[1].email %}
+	  {% assign name = comment[1].name %}
+	  {% assign url = comment[1].url %}
+	  {% assign date = comment[1].date %}
+	  {% assign message = comment[1].message %}
+	  {% include comment.html index=forloop.index avatar=avatar email=email name=name url=url date=date message=message %}
+	{% endfor %}
+{% endif %}
