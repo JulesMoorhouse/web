@@ -348,21 +348,25 @@ git push origin 0.1.0
 
 
 
+    <div id="comments" class="page__comments js-comments">
 
 <h2 class="title">
-
-  1 comment
-
+	
+	1 comment
+	
 </h2>
 
 
-  
-  
-  
-  
-  
-  
-  <article id="comment1" class="js-comment comment" itemprop="comment" itemscop itemtype="http://schema.org/Comment">
+
+	
+	
+	
+	
+	
+	
+	
+	
+	<article id="comment1" class="js-comment comment" itemprop="comment" itemscop itemtype="http://schema.org/Comment">
   <div class="comment__avatar-wrapper">
     
       <img class="comment__avatar" src="https://www.gravatar.com/avatar/b642b4217b34b1e8d3bd915fc65c4452?d=mm&s=50" srcset="https://www.gravatar.com/avatar/b642b4217b34b1e8d3bd915fc65c4452?d=mm&s=100 2x" alt="jules" height="50" width="50">
@@ -386,9 +390,10 @@ git push origin 0.1.0
   </div>
 </article>
 
+</div>
 
 
-
+    
   <!-- Start comment form -->
   <div id="respond" class="comment__form">
     <h2 class="title pb-20">Leave a comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="/web/2018/12/26/private-cocoapods-with-vsts-azuredevops.html#respond" style="display:none;">Cancel reply</a></small></h2>
@@ -399,6 +404,7 @@ git push origin 0.1.0
 
 		<input type="hidden" name="options[origin]" value="/web/2018/12/26/private-cocoapods-with-vsts-azuredevops.html">
 		<input type="hidden" name="options[parent]" value="/web/2018/12/26/private-cocoapods-with-vsts-azuredevops.html">
+      	<input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
 		<input type="hidden" id="comment-post-id" name="options[slug]" value="private-cocoapods-with-vsts-azuredevops">
 		<input type="hidden" name="options[reCaptcha][siteKey]" value="6Ldjd5MUAAAAACSpMOcyQCUug3RNRov2GFyHC8r5">
 		<input type="hidden" name="options[reCaptcha][secret]" value="6Ldjd5MUAAAAACoejsRzB0Sy7L6AmR3wbSSiizrY">
@@ -429,6 +435,17 @@ git push origin 0.1.0
 		<fieldset class="row pt-10">
 			<div class="col-xs-12 col-sm-2">
 				<label>
+					Website
+				</label>
+			</div>
+			<div class="col-xs-12 col-sm-10">
+				<input type="email" id="comment-form-url" name="fields[url]" required spellcheck="false" placeholder="http://www.google.com" size="30" maxlength="250">
+			</div>
+		</fieldset>
+
+		<fieldset class="row pt-10">
+			<div class="col-xs-12 col-sm-2">
+				<label>
 					Message
 				</label>
 			</div>
@@ -438,11 +455,17 @@ git push origin 0.1.0
 		</fieldset>
 
 		<fieldset style="height: 80px" class="pt-10">
+		      <!-- Start comment form alert messaging -->
+		      <div class="hidden js-notice notice">
+		        <p class="js-notice-text"></p>
+		      </div>
+		      <!-- End comment form alert messaging -->
+					
 			<div class="g-recaptcha" data-sitekey="6Ldjd5MUAAAAACSpMOcyQCUug3RNRov2GFyHC8r5"></div>
 		</fieldset>
 
 		<fieldset class="pt-20">
-			<button type="submit">Go!</button>
+			<button type="submit">Send Comment</button>
 		</fieldset>
 
 	</form>
@@ -453,7 +476,8 @@ git push origin 0.1.0
 
 
 
-<hr />
+    <hr />
+
 
 <div class="container-table">
   <div class="row">

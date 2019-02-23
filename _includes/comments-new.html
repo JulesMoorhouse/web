@@ -9,6 +9,7 @@
 
 		<input type="hidden" name="options[origin]" value="{{ page.url | relative_url }}">
 		<input type="hidden" name="options[parent]" value="{{ page.url | relative_url }}">
+      	<input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
 		<input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
 		<input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
 		<input type="hidden" name="options[reCaptcha][secret]" value="{{ site.reCaptcha.secret }}">
@@ -39,6 +40,17 @@
 		<fieldset class="row pt-10">
 			<div class="col-xs-12 col-sm-2">
 				<label>
+					Website
+				</label>
+			</div>
+			<div class="col-xs-12 col-sm-10">
+				<input type="email" id="comment-form-url" name="fields[url]" required spellcheck="false" placeholder="http://www.google.com" size="30" maxlength="250">
+			</div>
+		</fieldset>
+
+		<fieldset class="row pt-10">
+			<div class="col-xs-12 col-sm-2">
+				<label>
 					Message
 				</label>
 			</div>
@@ -48,11 +60,17 @@
 		</fieldset>
 
 		<fieldset style="height: 80px" class="pt-10">
+		      <!-- Start comment form alert messaging -->
+		      <div class="hidden js-notice notice">
+		        <p class="js-notice-text"></p>
+		      </div>
+		      <!-- End comment form alert messaging -->
+					
 			<div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
 		</fieldset>
 
 		<fieldset class="pt-20">
-			<button type="submit">Go!</button>
+			<button type="submit">Send Comment</button>
 		</fieldset>
 
 	</form>

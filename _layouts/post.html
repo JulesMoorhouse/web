@@ -42,10 +42,12 @@ layout: default
     </div>
 {% endif %}
 
-{% include comments.html %}
+{% unless page.comments_disabled == true %}
+    {% include comments.html %}
 
-{% include comments-new.html %}
-<hr />
+    {% include comments-new.html %}
+    <hr />
+{% endunless %}
 
 <div class="container-table">
   <div class="row">
