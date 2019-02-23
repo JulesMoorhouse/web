@@ -324,7 +324,7 @@
 				</label>
 			</div>
 			<div class="col-xs-12 col-sm-10">
-				<input type="url" id="comment-form-url" name="fields[url]" required spellcheck="false" placeholder="http://www.google.com" size="30" maxlength="250">
+				<input type="url" id="comment-form-url" name="fields[url]" spellcheck="false" placeholder="http://www.google.com" size="30" maxlength="250">
 			</div>
 		</fieldset>
 
@@ -339,7 +339,7 @@
 			</div>
 		</fieldset>
 
-		<fieldset style="height: 80px" class="pt-10">
+		<fieldset style="min-height: 80px" class="pt-10">
 		      <!-- Start comment form alert messaging -->
 		      <div class="hidden js-notice notice">
 		        <p class="js-notice-text"></p>
@@ -350,7 +350,7 @@
 		</fieldset>
 
 		<fieldset class="pt-20">
-			<button type="submit">Send Comment</button>
+      		<button type="submit" id="comment-form-submit">Send comment</button>
 		</fieldset>
 
 	</form>

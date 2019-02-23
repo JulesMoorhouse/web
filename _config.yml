@@ -126,14 +126,14 @@ reCaptcha:
 # v3  secret: "6LftdpMUAAAAAL_HkrXObdp2NGEAY0QATm8fCPvQ"
 
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
+  allowedFields          : ['name', 'email', 'url', 'message', 'replying_to']
   branch                 : "master"
   commitMessage          : "Add Staticman data comment"
   filename               : entry{@timestamp}
   format                 : "yml"
   moderation             : true
   path                   : "/_data/comments/{options.slug}" # (default)
-  requiredFields         : ['name', 'email', 'message']
+  requiredFields         : ['name', 'email', 'message', 'replying_to']
   transforms:
     email                : "md5"
   generatedFields:

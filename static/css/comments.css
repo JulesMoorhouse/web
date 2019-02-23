@@ -86,4 +86,40 @@
   text-decoration: none;
 }
 
+[type=reset],[type=submit],button,html [type=button]{
+    -webkit-appearance:button;
+    cursor:pointer
+}
+[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{
+    padding:0;
+    border-style:none
+}
+[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{
+    outline:1px dotted ButtonText
+}
 
+.btn,[type=submit]{
+    background-color:#111;
+    border-radius:4px;
+    border:0;
+    color:#fff;
+    cursor:pointer;
+    display:inline-block;
+    font-weight:700;
+    line-height:1.5;
+    padding:.5em 1em;
+    text-align:center;
+    text-decoration:none
+}
+.btn:hover,[type=submit]:hover{
+    background-color:#3382a1;
+    color:#fff;
+    text-decoration:none
+}
+.btn:visited,[type=submit]:visited{
+    color:#fff
+}
+.btn:active,[type=submit]:active{
+    -webkit-transform:scale(.95);
+    transform:scale(.95)
+}
