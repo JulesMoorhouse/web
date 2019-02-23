@@ -117,6 +117,11 @@ responsive_image:
   extra_images:
     - uploads/*/*/*/*.{jpeg,jpg}
 
+reCaptcha:
+  enabled: true
+  siteKey: "6LftdpMUAAAAAHgwXamlqJdFTyWoXxNA85-_ibH5"
+  secret: "6LftdpMUAAAAAL_HkrXObdp2NGEAY0QATm8fCPvQ"
+
   staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "master"

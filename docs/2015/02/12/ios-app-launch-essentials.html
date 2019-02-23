@@ -279,34 +279,46 @@
     </div>
 </div>
 
-<form method="POST" action="https://dev.staticman.net/v3/entry/github/jules2010/web/master/comments">
+<form id="comment-form" method="POST" action="https://dev.staticman.net/v3/entry/github/jules2010/web/master/comments">
 
-  <input name="options[redirect]" type="hidden" value="https://github.com/Jules2010/web/comment-thanks">
+  <input name="options[redirect]" type="hidden" value="https://jules2010.github.io/web/comment-thanks">
   
   <input type="hidden" name="options[origin]" value="/web/2015/02/12/ios-app-launch-essentials.html">
   <input type="hidden" name="options[parent]" value="/web/2015/02/12/ios-app-launch-essentials.html">
-  <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
   <input type="hidden" id="comment-post-id" name="options[slug]" value="ios-app-launch-essentials">
-  <input type="hidden" name="options[reCaptcha][siteKey]" value="">
-  <input type="hidden" name="options[reCaptcha][secret]" value="">
+  <input type="hidden" name="options[reCaptcha][siteKey]" value="6LftdpMUAAAAAHgwXamlqJdFTyWoXxNA85-_ibH5">
+  <input type="hidden" name="options[reCaptcha][secret]" value="6LftdpMUAAAAAL_HkrXObdp2NGEAY0QATm8fCPvQ">
 
-<script async src="https://www.google.com/recaptcha/api.js"></script>
+   <script async src="https://www.google.com/recaptcha/api.js"></script>
+   <fieldset>
   <label>
      <input type="text" id="comment-form-name" name="fields[name]" required spellcheck="false" placeholder="Your name">
   	Name
   </label>
-  
+  </fieldset>
+
+  <fieldset>
   <label>
   	<input type="email" id="comment-form-email" name="fields[email]" required spellcheck="false" placeholder="email@domain.com">
   	E-mail
   </label>
-  
+  </fieldset>
+
+  <fieldset>
   <label>
     <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" required spellcheck="true" placeholder="Your message"></textarea>
   	Message
   </label>
+  </fieldset>
 
+  <fieldset>
+	<div class="g-recaptcha" data-sitekey="6LftdpMUAAAAAHgwXamlqJdFTyWoXxNA85-_ibH5"></div>
+  </fieldset>
+
+  <fieldset>
   <button type="submit">Go!</button>
+</fieldset>
+
 </form>
 
 
