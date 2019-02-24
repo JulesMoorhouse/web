@@ -10,8 +10,9 @@
     var form = this;
 
     $(form).addClass("disabled");
+
     $("#comment-form-submit").html(
-      '<svg class="icon spin"><use xlink:href="/assets/icons/icons.svg#icon-loading"></use></svg> Loading...'
+      '<svg class="icon spin"><use xlink:href="/assets/icons.svg#icon-loading"></use></svg> Loading...'
     );
 
     $.ajax({
@@ -20,25 +21,32 @@
       data: $(this).serialize(),
       contentType: "application/x-www-form-urlencoded",
       success: function(data) {
+
         $("#comment-form-submit")
           .html("Submitted")
           .addClass("btn--disabled");
+
         $("#comment-form .js-notice")
           .removeClass("danger")
           .addClass("success");
+
         showAlert(
-          '<strong>Thanks for your comment!</strong> It is <a href="https://github.com/mmistakes/made-mistakes-jekyll/pulls">currently pending</a> and will show on the site once approved.'
+          '<strong>Thanks for your comment!</strong> It is currently pending and will show on the site once approved.'
         );
       },
       error: function(err) {
         console.log(err);
+
         $("#comment-form-submit").html("Submit Comment");
+
         $("#comment-form .js-notice")
           .removeClass("success")
           .addClass("danger");
+
         showAlert(
           "<strong>Sorry, there was an error with your submission.</strong> Please make sure all required fields have been completed and try again."
         );
+        
         $(form).removeClass("disabled");
       }
     });
