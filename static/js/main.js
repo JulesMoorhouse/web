@@ -12,7 +12,7 @@
     $(form).addClass("disabled");
 
     $("#comment-form-submit").html(
-      '<svg class="icon spin"><use xlink:href="/assets/icons.svg#icon-loading"></use></svg> Loading...'
+      '<svg class="icon spin"><use xlink:href="/assets/loading.svg"></use></svg> Loading...'
     );
 
     $.ajax({
@@ -46,7 +46,7 @@
         showAlert(
           "<strong>Sorry, there was an error with your submission.</strong> Please make sure all required fields have been completed and try again."
         );
-        
+
         $(form).removeClass("disabled");
       }
     });
