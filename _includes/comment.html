@@ -10,24 +10,25 @@
 
   </div>
   <div class="comment__content-wrapper">
-    <h3 class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <div class="comment__meta">
+      <strong class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person">
 
-      {% unless include.url == blank %}
-        <a rel="nofollow" href="{{ include.url }}"><span itemprop="name">{{ include.name | strip_html }}</span></a>
-      {% else %}
-        <span itemprop="name">{{ include.name | strip_html }}</span>
-      {% endunless %}
+        {% unless include.url == blank %}
+          <a rel="nofollow" href="{{ include.url }}"><span itemprop="name">{{ include.name | strip_html }}</span></a>
+        {% else %}
+          <span itemprop="name">{{ include.name | strip_html }}</span>
+        {% endunless %}
 
-    </h3>
-    
-    <div class="comment__date">
-      {% if include.date %}
-        {% if include.index %}<a href="#comment{{ include.index }}" itemprop="url">{% endif %}
-        <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y at %I:%M %p" }}</time>
-        {% if include.index %}</a>{% endif %}
-      {% endif %}
-    </div>
-
+      </strong>
+      on
+      <div class="comment__date">
+        {% if include.date %}
+          {% if include.index %}<a href="#comment{{ include.index }}" itemprop="url">{% endif %}
+          <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y at %I:%M %p" }}</time>
+          {% if include.index %}</a>{% endif %}
+        {% endif %}
+      </div>
+  </div>
     <div itemprop="text">{{ include.message | markdownify }}</div>
 
         {% unless include.replying_to != 0 or page.comments_locked == true %}
