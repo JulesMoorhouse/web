@@ -1,6 +1,6 @@
 <div id="comments" class="page__comments js-comments">
 
-{% if site.data.comments[page.slug].size >= 0 %}
+{% if site.data.comments[page.slug].size > 0 %}
 	<h2 class="title">
 		{% if site.data.comments[page.slug].size <= 1 %}
 		{{ site.data.comments[page.slug] | size | append: ' comment' }}
