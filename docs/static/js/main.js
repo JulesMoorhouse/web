@@ -111,7 +111,7 @@ var addComment = {
         return;
       }
 
-      t.I("comment-replying-to").value = null;
+      t.I("comment-replying-to").value = 0;
       temp.parentNode.insertBefore(respond, temp);
       temp.parentNode.removeChild(temp);
       this.style.display = "none";
