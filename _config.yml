@@ -128,7 +128,8 @@ reCaptcha:
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message', 'replying_to']
   branch                 : "master"
-  commitMessage          : "{fields.title}"
+  commitMessage          : "{fields.name}"
+  pullRequestBody        : "Here's a new comment for approval"
   filename               : entry{@timestamp}
   format                 : "yml"
   moderation             : true

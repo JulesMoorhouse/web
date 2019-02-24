@@ -16,7 +16,9 @@ comments:
   branch: "master"
 
   # Text to use as the commit message or pull request title. Accepts placeholders.
-  commitMessage: "{fields.title}"
+  commitMessage: "{fields.name}"
+
+  pullRequestBody        : "Here's a new comment for approval"
 
   # (*) REQUIRED
   #

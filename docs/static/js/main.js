@@ -38,9 +38,9 @@
       },
       error: function(err) {
         console.log(err);
-        if (err.responseText) {
-          console.log(err.responseText);
-        }
+        // if (err.responseText) {
+        //   console.log(err.responseText);
+        // }
         $("#comment-form-submit").html("Submit Comment");
 
         $("#comment-form .js-notice")
