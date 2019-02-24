@@ -134,7 +134,7 @@ staticman:
   format                 : "yml"
   moderation             : true
   path                   : "/_data/comments/{options.slug}" # (default)
-  requiredFields         : ['name', 'email', 'message', 'replying_to']
+  requiredFields         : ['name', 'email', 'message'] #replying_to can genuinely be blank
   transforms:
     email                : "md5"
   generatedFields:
