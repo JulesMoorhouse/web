@@ -128,7 +128,7 @@ reCaptcha:
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message', 'replying_to']
   branch                 : "master"
-  commitMessage          : "Add Staticman data comment"
+  commitMessage          : "{fields.title}"
   filename               : entry{@timestamp}
   format                 : "yml"
   moderation             : true

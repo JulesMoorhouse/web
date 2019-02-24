@@ -1,12 +1,14 @@
 <div id="comments" class="page__comments js-comments">
 
-<h2 class="title">
-	{% if site.data.comments[page.slug].size <= 1 %}
-	{{ site.data.comments[page.slug] | size | append: ' comment' }}
-	{% elsif site.data.comments[page.slug].size > 1 %}
-	{{ site.data.comments[page.slug] | size | append: ' comments' }}
-	{% endif %}
-</h2>
+{% if site.data.comments[page.slug].size >= 0 %}
+	<h2 class="title">
+		{% if site.data.comments[page.slug].size <= 1 %}
+		{{ site.data.comments[page.slug] | size | append: ' comment' }}
+		{% elsif site.data.comments[page.slug].size > 1 %}
+		{{ site.data.comments[page.slug] | size | append: ' comments' }}
+		{% endif %}
+	</h2>
+{% endif %}
 
 {% assign comments = site.data.comments[page.slug] | reversed, 'comment[1].replying_to == blank' %}
 {% for comment in comments %}
