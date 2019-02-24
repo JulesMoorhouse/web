@@ -4,6 +4,8 @@
 */
 
 (function () {
+    var baseurl = document.getElementById("baseurl").value;
+
     var isSearchOpen = false,
         searchEl = document.querySelector('#js-search'),
         searchInputEl = document.querySelector('#js-search__input'),

@@ -9,10 +9,12 @@
   $("#comment-form").submit(function() {
     var form = this;
 
+    var baseurl = document.getElementById("baseurl").value;
+
     $(form).addClass("disabled");
 
     $("#comment-form-submit").html(
-      '<svg class="icon spin"><use xlink:href="/assets/loading.svg"></use></svg> Loading...'
+      'Loading...'
     );
 
     $.ajax({
@@ -36,7 +38,9 @@
       },
       error: function(err) {
         console.log(err);
-
+        if (err.responseText) {
+          console.log(err.responseText);
+        }
         $("#comment-form-submit").html("Submit Comment");
 
         $("#comment-form .js-notice")
