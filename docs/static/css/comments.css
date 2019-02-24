@@ -3,15 +3,13 @@
    Comments
    ========================================================================== */
 
-.post__comments {
+.post__comments 
+{
   order: 3;
 }
 
-#disqus_thread iframe {
-  margin-top: 2em;
-}
-
-.post__comments-form {
+.post__comments-form 
+{
   padding: 1em;
   background: #efefef;
   border: 1px solid #000;
@@ -21,7 +19,8 @@
 .post__comments-form.disabled input, 
 .post__comments-form.disabled button, 
 .post__comments-form.disabled textarea, 
-.post__comments-form.disabled label {
+.post__comments-form.disabled label 
+{
   pointer-events: none;
   cursor: not-allowed;
   filter: alpha(opacity=65);
@@ -29,11 +28,14 @@
   opacity: 0.65;
 }
 
-.post__comments-form .js-notice {
+.post__comments-form 
+.js-notice 
+{
   font-size: 0.8rem;
 }
 
-.comment {
+.comment 
+{
   display: flex;
   margin: 1em 0;
   flex: 4;
@@ -41,77 +43,105 @@
   /* cleaner underlines */
 }
 
-.comment:not(:last-child) {
+.comment:not(:last-child) 
+{
 /*  border-bottom: 2px solid #e2e2e2;*/
 }
-.comment p > a {
+.comment p > a 
+{
   border-bottom: 1px solid #000;
 }
 
-.comment p > a:hover {
+.comment p > a:hover 
+{
   color: #000;
   border-bottom-color: #000;
 }
 
-.comment.child {
+.comment.child 
+{
     margin-left: 80px;
 }
 
-.comment__avatar-wrapper {
+.comment__avatar-wrapper 
+{
   margin-right: 1em;
   flex-shrink: 0;
 }
 
-.comment__avatar {
+.comment__avatar 
+{
   width: 50px;
   height: 50px;
   border-radius: 2px;
 }
 
-.comment__content-wrapper {
+.comment__content-wrapper 
+{
   float: right;
   width: calc(100% - 60px);
 }
 
-.comment__author {
+.comment__author 
+{
   margin: 0;
 }
 
-.comment__author a {
+.comment__author a 
+{
   text-decoration: none;
 }
 
-.comment__date {
+.comment__date 
+{
   margin: 0;
   font-size: 15px;
-  text-transform: uppercase;
   color: #ddd;
   display: inline-block;;
 }
 
-.comment__date a {
+.comment__date a 
+{
   text-decoration: none;
 }
 
-.comment__meta {
+.comment__meta 
+{
   border-bottom: 2px solid #aaa;
   padding: 10px 0px;
   margin-bottom: 10px;
 }
 
-[type=reset],[type=submit],button,html [type=button]{
+[type=reset],
+[type=submit],
+button,
+html [type=button]
+{
     -webkit-appearance:button;
     cursor:pointer
 }
-[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{
+
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner
+{
     padding:0;
     border-style:none
 }
-[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{
+
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring,
+button:-moz-focusring
+{
     outline:1px dotted ButtonText
 }
 
-.btn,[type=submit]{
+.btn,
+[type=reset],
+[type=submit]
+{
     background-color:#111;
     border-radius:4px;
     border:0;
@@ -124,15 +154,27 @@
     text-align:center;
     text-decoration:none
 }
-.btn:hover,[type=submit]:hover{
+
+.btn:hover,
+[type=reset]:hover,
+[type=submit]:hover
+{
     background-color:#3382a1;
     color:#fff;
     text-decoration:none
 }
-.btn:visited,[type=submit]:visited{
+
+.btn:visited,
+[type=reset]:visited,
+[type=submit]:visited
+{
     color:#fff
 }
-.btn:active,[type=submit]:active{
+
+.btn:active,
+[type=reset]:active,
+[type=submit]:active
+{
     -webkit-transform:scale(.95);
     transform:scale(.95)
 }

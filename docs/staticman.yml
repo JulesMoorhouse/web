@@ -18,7 +18,7 @@ comments:
   # Text to use as the commit message or pull request title. Accepts placeholders.
   commitMessage: "{fields.name}"
 
-  pullRequestBody        : "Here's a new comment for approval"
+  pullRequestBody        : "Here's a new comment waiting for approval. <br/><br/>"
 
   # (*) REQUIRED
   #

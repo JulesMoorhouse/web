@@ -129,7 +129,7 @@ staticman:
   allowedFields          : ['name', 'email', 'url', 'message', 'replying_to']
   branch                 : "master"
   commitMessage          : "{fields.name}"
-  pullRequestBody        : "Here's a new comment for approval"
+  pullRequestBody        : "Here's a new comment waiting for approval. <br/><br/>"
   filename               : entry{@timestamp}
   format                 : "yml"
   moderation             : true
