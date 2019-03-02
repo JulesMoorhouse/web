@@ -9,13 +9,13 @@ bodyclass: stt
 
 This is a privacy policy for Mindwarp Consultancy Ltd (the owner / developers of this site) and relates to this site and iOS Speaking Times Tables app. Our app website can be located at www.speakingtimestables.com. The full text for our privacy policy can be located at www.speakingtimestables.com/privacy-policy. Users may go there for information on how to opt-in or opt-out of their information.
 
-We invite you to contact us if you have questions about this policy. You may mail us at the following address:
+We invite you to contact me if you have questions about this policy. You may mail us at the following address:
 
 <div class="container-table">
 	<img src="{{ site.baseurl }}/static/img/mcl-info.png"/>
 </div>
 
-You may contact us by via our contact form www.speakingtimestables.com/contact. You may call us at +44(0)7939513013.
+You may contact me by via our contact form www.speakingtimestables.com/contact. You may call us at +44(0)7939513013.
 
 We take the privacy and safety of children and adults using are apps seriously and abide by the following:
 
@@ -35,7 +35,7 @@ Any personal information you provide to us including and similar to your name, a
 
 - Newsletters If you sign up for our newsletter, we store only your e-mail address (and name if you give it) for the purposes of e-mailing you with information about Mindwarp Consultancy Ltd products, competitions and news. We will NEVER pass your details on to any third parties.
 
-- Competitions If you or your child win any competitions or contact us with reviews or quotes for our site, we will ask your permission before publishing any details on our website, Twitter or Facebook pages. Even then, we would only ever include first names and ages.
+- Competitions If you or your child win any competitions or contact me with reviews or quotes for our site, we will ask your permission before publishing any details on our website, Twitter or Facebook pages. Even then, we would only ever include first names and ages.
 
 - Credit card details Mindwarp Consultancy ltd will never ask for Credit Card details and request that you do not enter it on any of the forms on Mindwarp Consultancy Ltd.
 

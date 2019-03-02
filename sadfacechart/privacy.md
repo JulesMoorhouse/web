@@ -8,7 +8,7 @@ Effective date: October 16, 2018
 
 Mindwarp Consultancy Ltd ("us", "we", or "our") operates the website and the Happy + Sad Face Chart mobile application (hereinafter referred to as the "Service").
 
-We invite you to contact us if you have questions about this policy. You may mail us at the following address:
+We invite you to contact me if you have questions about this policy. You may mail us at the following address:
 
 <div class="container-table">
 	<img src="{{ site.baseurl }}/static/img/mcl-info.png"/>
@@ -82,7 +82,7 @@ We will let you know via email and/or a prominent notice on our Service, prior t
 
 You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
 <h2>Contact Us</h2>
-If you have any questions about this Privacy Policy, please contact us:
+If you have any questions about this Privacy Policy, please contact me:
 <ul>
  	<li>By visiting this page on our website: https://www.mclapps.co.uk/</li>
 </ul>

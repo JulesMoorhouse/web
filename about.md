@@ -138,7 +138,7 @@ What as I working on now, well at long last my first swift app, using my new iCl
 </p>
 
 <p>
-Please feel free drop me a line on twitter <a href="https://twitter.com/MindwarpJules">@MindwapJules</a>, via the <a href="{{ site.baseurl }}/contactus">contact us</a> page or via the social links in the header.
+Please feel free drop me a line on twitter <a href="https://twitter.com/MindwarpJules">@MindwapJules</a>, via the <a href="{{ site.baseurl }}/contactme">contact me</a> page or via the social links in the header.
 </p>
 
 {:/}

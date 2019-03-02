@@ -11,7 +11,7 @@ bodyclass: bg
 <p>Effective date: December 30, 2018</p>
 <p>Mindwarp Consultancy Ltd (&#8220;us&#8221;, &#8220;we&#8221;, or &#8220;our&#8221;) operates the Balance Guide mobile application (the &#8220;Service&#8221;).</p>
 
-We invite you to contact us if you have questions about this policy. You may mail us at the following address:
+We invite you to contact me if you have questions about this policy. You may mail us at the following address:
 
 <div class="container-table">
 	<img src="{{ site.baseurl }}/static/img/mcl-info.png"/>
@@ -75,13 +75,13 @@ We invite you to contact us if you have questions about this policy. You may mai
 <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
 <h2>Children&#8217;s Privacy</h2>
 <p>Our Service does not address anyone under the age of 18 (&#8220;Children&#8221;).</p>
-<p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
+<p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact me. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
 <h2>Changes To This Privacy Policy</h2>
 <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
 <p>We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the &#8220;effective date&#8221; at the top of this Privacy Policy.</p>
 <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
 <h2>Contact Us</h2>
-<p>If you have any questions about this Privacy Policy, please contact us:</p>
+<p>If you have any questions about this Privacy Policy, please contact me:</p>
 <ul>
 <li>By visiting this page on our website: http://www.blanceguideapp.com</li>
 </ul>

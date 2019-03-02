@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact Us
-permalink: /contactus/
+permalink: /contactme/
 subtitle: Drop me a line
 ---
 
