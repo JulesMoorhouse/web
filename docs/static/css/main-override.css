@@ -1,0 +1,325 @@
+
+p {
+    margin: 0 0 18px !important;
+    text-align: justify;
+}
+
+footer
+{
+    height: auto !important;
+    margin-bottom: auto !important;
+}
+
+.pt-20 
+{
+    padding-top: 20px;
+}
+
+.pt-10 
+{
+    padding-top: 10px;
+}
+
+.pb-20
+{
+    padding-bottom: 20px;
+}
+
+.pb-10
+{
+    padding-bottom: 10px;
+}
+
+.mb-20
+{
+    margin-bottom: 20px;
+}
+
+.mb-10 
+{
+    margin-bottom: 10px;
+}
+
+.mt-20 
+{
+    margin-top: 20px;
+}
+
+.mt-10 
+{
+    margin-top: 10px;
+}
+
+.center-block
+{
+    display: table;
+}
+
+.container-table .row.table-row .full-height {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+}
+
+.container-table .row.table-row {
+    display: table-row;
+}
+
+.container-table 
+{
+    display: table !important;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.center-horiz
+{
+    text-align: center;;
+}
+
+.center-row-vert
+{
+    display: flex;
+    align-items: center;
+}
+
+
+.recent_post {
+    vertical-align: top;
+    display: inline-block;
+    background-color: #f9f9f9;
+    padding: 0 20px 25px 20px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.recent_post h4 {
+    padding-top: 15px;
+}
+
+.recent_post li {
+    line-height: 27px;
+        margin-top: 5px;
+
+}
+
+.intro-panel
+{
+    display: block;
+    padding-top: 15px;
+ /*   min-width: 916px;*/
+    margin-left: -19px;
+    margin-right: -19px;
+}
+
+.intro-left
+{
+    display: inline-block;
+/*    width: 57%;*/
+    vertical-align: top;
+    margin: 50px 14px 35px 50px;
+    color: #000;
+}
+
+.intro 
+{
+    font-size: 22px;
+/*    text-shadow: 1px 1px #aaa;
+*/    display: block;
+ /*   width: 80%;*/
+}
+
+.intro-app-btn
+{
+    margin-top: 32px;
+}
+
+.intro-device
+{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 40px 0px 20px 20px;
+    min-width: 300px;
+}
+
+.second-row
+{
+    display: table;
+}
+
+.youtube-panel 
+{
+    display: table-row;
+}
+
+.youtube-dekstop-panel 
+{
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+/*    background:green;*/
+}
+
+.youtube-panel li 
+{
+    padding-top: 10px;
+}
+
+/*.youtube-dekstop-panel .video 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+      vertical-align: middle;
+
+}*/
+
+.bullets-right
+{
+    display: table-cell;
+    float: none;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+{
+    .full 
+    {
+        padding: 0;
+    }
+
+    body, html 
+    {
+        overflow-x: hidden;
+    }
+    
+    .intro-device
+    {
+        width: auto;
+        min-width: auto;
+    }
+
+    .container-table .row.table-row .full-height 
+    {
+        float: left;
+    }
+
+    .mobile-pt
+    {
+        padding-top: 20px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+{
+    body, html 
+    {
+        overflow-x: hidden;
+    }
+    
+    .intro-device
+    {
+        width: auto;
+        min-width: auto;
+    }
+
+    .container-table .row.table-row .full-height 
+    {
+        float: left;
+    }
+
+    .mobile-pt
+    {
+        padding-top: 20px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}
+
+/* iPhone 6,7,8 + X */
+@media only screen and (min-device-width : 375px) 
+{
+    body, html 
+    {
+        overflow-x: hidden;
+    }
+    
+    .intro-device
+    {
+        width: auto;
+        min-width: auto;
+    }
+
+    .container-table .row.table-row .full-height 
+    {
+        float: left;
+    }
+
+    .mobile-pt
+    {
+        padding-top: 20px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+{
+    .container-table .row.table-row .full-height 
+    {
+        float: none;
+    }
+    .mobile-pt
+    {
+        padding-top: unset;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+{
+    .container-table .row.table-row .full-height 
+    {
+        float: none;
+    }  
+    .mobile-pt
+    {
+        padding-top: unset;
+    } 
+
+    .bg .project-inner 
+    {
+        min-height: 706px;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+    .container-table .row.table-row .full-height 
+    {
+        float: none;
+    }
+    .mobile-pt
+    {
+        padding-top: unset;
+    }
+
+    .bg .project-inner 
+    {
+        min-height: 706px;
+    }
+}
+ 

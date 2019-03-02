@@ -16,14 +16,14 @@ The program used windows speech technology and was a good alternative to learnin
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_features/ttt-logo.png" class="thickbox">
-			{% responsive_image path: static/stt_features/ttt-logo.png title: "Lorem ipsum..." width: 300 %}
+			{% responsive_image path: static/stt_features/ttt-logo.png title: "The old Speaking Times Tables logo" width: 300 %}
 		</a>
 	</div>
 </div>
 
 The program had a lot of similarities to the universal version today.
 
-Primarily sold on ebay on CD, the program proved very popular. We often got feedback from happy parents whose children had done well at school in times tables tests.
+Primarily sold on eBay on CD, the program proved very popular. We often got feedback from happy parents whose children had done well at school in times tables tests.
 
 At the time CD was the only real method to get educational software, broadband was only starting to become popular and dial up was the only alternative. Kids were able to use it at home to help with their times table.
 

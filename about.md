@@ -15,7 +15,7 @@ What is this site about? It's aimed to show off my projects, provide somewhere w
 
 
 <div style="float: right; width: 120px; padding-left: 20px;">
-{% responsive_image path: static/img/icon-sttv1.png title: "Lorem ipsum..." width: 100 %}
+{% responsive_image path: static/img/icon-sttv1.png title: "Speaking Times Tables version 1 logo" width: 100 %}
 </div>
 
 <p>
@@ -26,10 +26,10 @@ I developed my first iPhone app  which sadly is no longer in the app store, <a h
 At the time I spent a couple of years full time developing apps, which I was a stay hove dad, it was a wonderful time.
 </p>
 
-<div style="clear: left;" />
+<div style="clear: left;"></div>
 
 <div style="float: left; width: 120px;">
-{% responsive_image path: static/img/icon-balance-guide.png title: "Lorem ipsum..." width: 100 %}
+{% responsive_image path: static/img/icon-balance-guide.png title: "The logo for Balance Guide" width: 100 %}
 </div>
 
 <p>
@@ -40,7 +40,7 @@ Why did I develop it? Well I wanted some way to manage my finances on my iPhone 
 </p>
 
 
-<div style="clear: left;" />
+<div style="clear: left;"></div>
 
 <p>
 I was hooked. Since then, it's been my favourite app, I just can't drag myself away. I've been adding new features and updating it ever since, why ? because I use it myself. 
@@ -51,23 +51,23 @@ I have to say that I've had to hold myself back adding certain features and cons
 </p>
 
 
-<div style="clear: left;" />
+<div style="clear: left;"></div>
 
 <div style="float: right; width: 120px; padding-left: 20px;">
 
-{% responsive_image path: static/img/icon-revenue-calc.png title: "Lorem ipsum..." width: 100 %}
+{% responsive_image path: static/img/icon-revenue-calc.png title: "The icon for Revenue Calc" width: 100 %}
 </div>
 <p>
 I'm not going to say much about my third app <a href="{{ site.baseurl }}/revenuecalc">Revenue Calc</a> other than it initially took an afternoon to develop, when I wanted to do something new, after developing Balance Guide.
 </p>
 
 
-<div style="clear: left;" />
+<div style="clear: left;"></div>
 
 
 
 <div style="float: left; width: 120px;">
-{% responsive_image path: static/img/icon-sad-face-chart.png title: "Lorem ipsum..." width: 100 %}
+{% responsive_image path: static/img/icon-sad-face-chart.png title: "The logo for Happy / Sad Face Chart" width: 100 %}
 </div>
 
 
@@ -79,13 +79,13 @@ Although the icon was different to that shown here.
 </p>
 
 
-<div style="clear: left;" />
+<div style="clear: left;"></div>
 
 <div style="float: right; width: 220px; padding-left: 20px;">
 
-{% responsive_image path: static/img/logo-orchidsoft.png title: "Lorem ipsum..." width: 200 %}
+{% responsive_image path: static/img/logo-orchidsoft.png title: "Orchid Softwares Logo" width: 200 %}
 <br/>
-{% responsive_image path: static/img/logo-oak.png title: "Lorem ipsum..." width: 200 %}
+{% responsive_image path: static/img/logo-oak.png title: "The Oak Intranet Logo" width: 200 %}
 </div>
 
 
@@ -101,17 +101,17 @@ In the last two years I've been a full stack web developer on the <a href="https
 
 
 
-<div style="clear: left;" />
+<div style="clear: left;"></div>
 
 <p>
 Since then I've been working on my apps in every scrap or free time, unfortunately I haven't been able to release as many new apps as I would have like, but I have added some pretty neat functionality to my existing apps.
 </p>
 
-<div style="clear: left;" />
+<div style="clear: left;"></div>
 
 <div style="float: left; width: 120px;">
 
-{% responsive_image path: static/img/icon-speaking-times-tables.png title: "Lorem ipsum..." width: 100 %}
+{% responsive_image path: static/img/icon-speaking-times-tables.png title: "The logo for Speaking Times Tables" width: 100 %}
 </div>
 
 <p>	
@@ -123,7 +123,7 @@ My next app was <a href="{{ site.baseurl }}/stt">Speaking Times Tables</a> HD wr
 Initially I wrote the app for the original iPad, later I made the app universal and added iCloud support to enabled use in class rooms.
 </p>
 
-<div style="clear: left;" />
+<div style="clear: left;"></div>
 
 <p>
 Since adding iCloud sync, I've extracted the functionality into a framework and am in the process of incorporating into new apps. 

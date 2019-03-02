@@ -15,7 +15,7 @@ Please see the blog post about the first version of the app <a href="{{ site.bas
 		<div class="col-xs-12 col-sm-6 full-height" style="">
 	        <div class="center-block">
 	        	<a href="{{ site.baseurl }}/static/stt_features/speaking-times-tables-version-1.png" class="thickbox">
-					{% responsive_image path: static/stt_features/speaking-times-tables-version-1.png title: "Lorem ipsum..." width: 300 %}
+					{% responsive_image path: static/stt_features/speaking-times-tables-version-1.png title: "Speaking Times Tables - version 1" width: 300 %}
 				</a>
 				<div class="center-horiz">Version 1</div>
 			</div>
@@ -23,7 +23,7 @@ Please see the blog post about the first version of the app <a href="{{ site.bas
 		<div class="col-xs-12 col-sm-6 full-height mobile-pt" style="">
 			 <div class="center-block">
 	        	<a href="{{ site.baseurl }}/static/stt_features/speaking-times-tables-version-2.png" class="thickbox">
-					{% responsive_image path: static/stt_features/speaking-times-tables-version-2.png title: "Lorem ipsum..." width: 300 %}
+					{% responsive_image path: static/stt_features/speaking-times-tables-version-2.png title: "Speaking Times Tables - version 2" width: 300 %}
 				</a>
 				<div class="center-horiz">Version 2</div>
 			</div>
@@ -32,16 +32,16 @@ Please see the blog post about the first version of the app <a href="{{ site.bas
 </div>
 
 
-If you were to compare version 1 against version 2, you may notice that at first glance there isn’t a great deal which looks different.
+If you were to compare version 1 against version 2, you may notice that at first glance there isn't a great deal which looks different.
 
 A lot of the changes have been made for technical reasons and to increase performance.
 
-You may notice, that the monkey looks slightly different. Images do look different because they’ve been adjustedand converted into resizable drawings. These changes make is possible to provide sharp / quality drawings for different size devices.
+You may notice, that the monkey looks slightly different. Images do look different because they've been adjusted and converted into resizeable drawings. These changes make is possible to provide sharp / quality drawings for different size devices.
 
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_features/iPhoneX-results.png" class="thickbox">
-			{% responsive_image path: static/stt_features/iPhoneX-results.png title: "Lorem ipsum..." width: 300 %}
+			{% responsive_image path: static/stt_features/iPhoneX-results.png title: "Speaking Times Tables - Results" width: 300 %}
 		</a>
 	</div>
 </div>
@@ -51,7 +51,7 @@ The app is now available across all iPhones and iPads, including the new iPhone 
 
 {% assign historyurl = "" %}{% for t in site.stt_features %}{% if t.ident == 'thbta' %}{% assign historyurl = t.url %}{% endif %}{% endfor %}
 
-Our times tables apps have grown over <a href="{{ site.baseurl }}{{ historyurl }}">several years</a> with each new version we’ve listened to customer feedback from parents and schools.
+Our times tables apps have grown over <a href="{{ site.baseurl }}{{ historyurl }}">several years</a> with each new version we've listened to customer feedback from parents and schools.
 
 One of the key feature requests, was to allow multiple students / siblings to use the app and keep track of their progression through tables.
 

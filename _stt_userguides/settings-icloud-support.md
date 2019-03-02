@@ -18,7 +18,7 @@ Syncing data between devices also has the benefit of allowing a single student t
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_userguides/ipad-student-settings.png" class="thickbox">
-			{% responsive_image path: static/stt_userguides/ipad-student-settings.png title: "Lorem ipsum..." width: 300 %}
+			{% responsive_image path: static/stt_userguides/ipad-student-settings.png title: "Speaking Times Tables Student settings" width: 300 %}
 		</a>
 	</div>
 </div>
@@ -38,7 +38,7 @@ You can add more students or continue with a single student, use the students sc
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_userguides/ipad-student-list.png" class="thickbox">
-			{% responsive_image path: static/stt_userguides/ipad-student-list.png title: "Lorem ipsum..." width: 300 %}
+			{% responsive_image path: static/stt_userguides/ipad-student-list.png title: "Speaking Times Tables Students" width: 300 %}
 		</a>
 	</div>
 </div>

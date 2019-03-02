@@ -15,14 +15,14 @@ Care has been taken to ensure that the translations are of a high quality and th
 		<div class="col-xs-12 col-sm-6 full-height" style="">
 	        <div class="center-block">
 	        	<a href="{{ site.baseurl }}/static/stt_features/speaking-times-tables-russian.png" class="thickbox">
-					{% responsive_image path: static/stt_features/speaking-times-tables-russian.png title: "Lorem ipsum..." width: 300 %}
+					{% responsive_image path: static/stt_features/speaking-times-tables-russian.png title: "Speaking Times Tables in Russian" width: 300 %}
 				</a>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 full-height mobile-pt" style="">
 			 <div class="center-block">
 	        	<a href="{{ site.baseurl }}/static/stt_features/speaking-times-tables-chinese.png" class="thickbox">
-					{% responsive_image path: static/stt_features/speaking-times-tables-chinese.png title: "Lorem ipsum..." width: 300 %}
+					{% responsive_image path: static/stt_features/speaking-times-tables-chinese.png title: "Speaking Times Tables in Chinese" width: 300 %}
 				</a>
 			</div>
 		</div>

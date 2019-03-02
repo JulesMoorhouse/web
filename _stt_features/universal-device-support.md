@@ -11,19 +11,19 @@ The first version of the app was designed purely for iPad. However, all of the i
 <div class="row center-horiz">
 <div class="col-xs-4">
 	<a href="{{ site.baseurl }}/static/stt_features/iPadPro12.9-inch-main.png" class="thickbox">
-		{% responsive_image path: static/stt_features/iPadPro12.9-inch-main.png title: "Lorem ipsum..." width: 300 %}
+		{% responsive_image path: static/stt_features/iPadPro12.9-inch-main.png title: "Speaking Times Tables on iPad Pro 12.9 inch" width: 300 %}
 	</a>
 </div>
 <div class="col-xs-4">
   <div style="margin-top: 15%">
 	<a href="{{ site.baseurl }}/static/stt_features/iPhone5s-results.png" class="thickbox">
-		{% responsive_image path: static/stt_features/iPhone5s-results.png title: "Lorem ipsum..." width: 300 %}
+		{% responsive_image path: static/stt_features/iPhone5s-results.png title: "Speaking Times Tables on iPhone 5s" width: 300 %}
 	</a>
   </div>
 </div>
   <div class="col-xs-4">
 	<a href="{{ site.baseurl }}/static/stt_features/iPadAir2-learn.png" class="thickbox">
-		{% responsive_image path: static/stt_features/iPadAir2-learn.png title: "Lorem ipsum..." width: 300 %}
+		{% responsive_image path: static/stt_features/iPadAir2-learn.png title: "Speaking Times Tables on iPad Air 2" width: 300 %}
 	</a>
   </div>
 </div>
@@ -34,12 +34,12 @@ The first version of the app was designed purely for iPad. However, all of the i
 <div class="row center-horiz">
   <div class="col-xs-5 col-xs-offset-1">
 	<a href="{{ site.baseurl }}/static/stt_features/iPhone6Plus-test_table.png" class="thickbox">
-		{% responsive_image path: static/stt_features/iPhone6Plus-test_table.png title: "Lorem ipsum..." width: 300 %}
+		{% responsive_image path: static/stt_features/iPhone6Plus-test_table.png title: "Speaking Times Tables on iPhone 6/7/8 Plus" width: 300 %}
 	</a>
   </div>
   <div class="col-xs-5">
 	<a href="{{ site.baseurl }}/static/stt_features/iPhoneX-wrong_answer.png" class="thickbox">
-		{% responsive_image path: static/stt_features/iPhoneX-wrong_answer.png title: "Lorem ipsum..." width: 300 %}
+		{% responsive_image path: static/stt_features/iPhoneX-wrong_answer.png title: "Speaking Times Tables on iPhone X" width: 300 %}
 	</a>
   </div>
 </div>
@@ -55,7 +55,7 @@ In order to provide multiple student features, <a href="https://www.apple.com/ic
 
 {% assign sirivoicerecordings = "" %}{% for t in site.stt_features %}{% if t.ident == 'svr' %}{% assign sirivoicerecordings = t.url %}{% endif %}{% endfor %}
 
-Version 1 of the app had <a href="{{ site.baseurl }}{{ sirivoicerecordings }}">voice recordings</a>, however there was no choice to use siri. English students can now use siri or voice recordings. With improvements to Siri, other languages were possible and have been added to the app for use primarily by non English students.
+Version 1 of the app had <a href="{{ site.baseurl }}{{ sirivoicerecordings }}">voice recordings</a>, however there was no choice to use Siri. English students can now use Siri or voice recordings. With improvements to Siri, other languages were possible and have been added to the app for use primarily by non English students.
 
 <div class="container-table">
 	<div class="center-block">

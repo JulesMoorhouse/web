@@ -68,7 +68,7 @@ We invite you to contact us if you have questions about this policy. You may mai
 <h2>Security Of Data</h2>
 <p>The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
 <h2>Service Providers</h2>
-<p>We may employ third party companies and individuals to facilitate our Service (&#8220;Service Providers&#8221;), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.</p>
+<p>We may employ third party companies and individuals to facilitate our Service (&#8220;Service Providers&#8221;), to provide the Service on our behalf, to perform Service-related services or to assist us in analysing how our Service is used.</p>
 <p>These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
 <h2>Links To Other Sites</h2>
 <p>Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party&#8217;s site. We strongly advise you to review the Privacy Policy of every site you visit.</p>

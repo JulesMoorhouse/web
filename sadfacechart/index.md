@@ -19,7 +19,7 @@ title: Happy + Sad Face Chart
 		</div>
 
 		<div class="pb-20">
-			The idea behind a sad face chart is keep track of when your child is naughty. You add a sad face sticker to the chart, filling up the slots on the chart. The child then has to perform good tasks to get the sad faces removed. There's also the happy face chart or a combination of sad / happy smileys. Schools often have this type of chart in the classrooms.
+			The idea behind a sad face chart is keep track of when your child is naughty. You add a sad face sticker to the chart, filling up the slots on the chart. The child then has to perform good tasks to get the sad faces removed. There's also the happy face chart or a combination of sad / happy smilies. Schools often have this type of chart in the classrooms.
 		</div>
 
 		<div class="pb-20">

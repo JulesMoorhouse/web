@@ -16,9 +16,9 @@ In the US we would say ten times twelve equals one hundred twenty.
 
 Notice the ‘and’ in the UK, we took care to ensure that these subtle differences were included, which mean a lot to the specific culture.
 
-Obviously cultural knowledge isn’t easy to include for all languages. In version 2 we took the decision to provide the app in additional languages, but as we didn’t have the cultural knowledge, we provided these extra languages with Siri.
+Obviously cultural knowledge isn't easy to include for all languages. In version 2 we took the decision to provide the app in additional languages, but as we didn't have the cultural knowledge, we provided these extra languages with Siri.
 
-We felt it was better to provide the app in these extra languages even if we weren’t able to provide voice recordings, however in the future we hope to roll out voice recordings for other languages.
+We felt it was better to provide the app in these extra languages even if we weren't able to provide voice recordings, however in the future we hope to roll out voice recordings for other languages.
 
 <div class="container-table">
 	<div class="center-block">

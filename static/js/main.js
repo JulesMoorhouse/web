@@ -1,11 +1,184 @@
-(function($){
-	$(document).ready(function(){
-		//Empty space. Fill this with your site specific JS code
-	});
-})(jQuery);
-
 // Static comments
 (function($) {
+
+var getInTouch = "#get-in-touch";
+var support = "#support";
+var showSupport = "#show-support";
+var showGetInTounch = "#show-get-in-touch";
+
+var supportOptionsHeading = "#support-options-heading";
+var selectOne = "#select-one";
+
+var supportOptions = "#support-options";
+
+var bgSupport = "#bg-support";
+var sttSupport= "#stt-support";
+var sfcSupport = "#sfc-support";
+var rcSupport = "#rc-support";
+
+var bgOptions = "#bg-options";
+var sttOptions = "#stt-options";
+var sfcOptions = "#sfc-options";
+var rcOptions = "#rc-options";
+
+  $(document).ready(function(){
+
+    $(showGetInTounch).click(function(e)
+    {
+        $(support).toggle();
+        $("#contact-iframe").toggle();
+    });
+
+    $(".contentframe").click(function(e)
+    {
+      e.preventDefault();
+      e.stopPropagation();
+      $("#contact-iframe").toggle();
+    });
+
+    $(showSupport).click(function(e)
+    {
+      e.preventDefault();
+
+      $("#contact-iframe").hide();
+
+      if ($(supportOptions).is(":visible"))
+      {
+        $(supportOptions).hide();
+        $(getInTouch).show();
+
+        $(bgSupport).hide();
+        $(sttSupport).hide();
+        $(sfcSupport).hide();
+        $(rcSupport).hide();
+        $(bgOptions).hide();
+        $(sttOptions).hide();
+        $(sfcOptions).hide();
+        $(rcOptions).hide();
+        //$("#contact-iframe").attr("src", "");
+        $("#contact-iframe").hide();
+      }
+      else
+      {
+        $(supportOptions).show();
+        $(getInTouch).hide();
+        $(bgSupport).show();
+        $(sttSupport).show();
+        $(sfcSupport).show();
+        $(rcSupport).show();
+      }
+    })
+
+    $(bgSupport).click(function(e)
+    {
+      e.preventDefault();
+
+      if ($(bgOptions).is(":visible"))
+      {
+        $(supportOptionsHeading).show();
+        $(selectOne).show();
+
+        $(bgOptions).hide();
+        $("#contact-iframe").hide();
+        $(sttSupport).show();
+        $(sfcSupport).show();
+        $(rcSupport).show();
+      }
+      else
+      {
+        //$(supportOptionsHeading).hide();
+        $(selectOne).hide();
+
+        $(bgOptions).show();
+        $(sttSupport).hide();
+        $(sfcSupport).hide();
+        $(rcSupport).hide();
+      }
+    })
+
+    $(sttSupport).click(function(e)
+    {
+      e.preventDefault();
+
+      if ($(sttOptions).is(":visible"))
+      {
+        $(supportOptionsHeading).show();
+        $(selectOne).show();
+
+        $(sttOptions).hide();
+        $("#contact-iframe").hide();
+        $(bgSupport).show();
+        $(sfcSupport).show();
+        $(rcSupport).show();
+      }
+      else
+      {
+        //$(supportOptionsHeading).hide();
+        $(selectOne).hide();
+
+        $(sttOptions).show();
+        $(bgSupport).hide();
+        $(sfcSupport).hide();
+        $(rcSupport).hide();
+      }
+    })
+
+    $(sfcSupport).click(function(e)
+    {
+      e.preventDefault();
+
+      if ($(sfcOptions).is(":visible"))
+      {
+        $(supportOptionsHeading).show();
+        $(selectOne).show();
+
+        $(sfcOptions).hide();
+        $("#contact-iframe").hide();
+        $(bgSupport).show();
+        $(sttSupport).show();
+        $(rcSupport).show();
+      }
+      else
+      {
+        //$(supportOptionsHeading).hide();
+        $(selectOne).hide();
+
+        $(sfcOptions).show();
+        $(bgSupport).hide();
+        $(sttSupport).hide();
+        $(rcSupport).hide();
+      }
+    })
+
+
+    $(rcSupport).click(function(e)
+    {
+      e.preventDefault();
+
+      if ($(rcOptions).is(":visible"))
+      {
+        $(supportOptionsHeading).show();
+        $(selectOne).show();
+
+        $(rcOptions).hide();
+        $("#contact-iframe").hide();
+        $(bgSupport).show();
+        $(sttSupport).show();
+        $(sfcSupport).show();
+      }
+      else
+      {
+        //$(supportOptionsHeading).hide();
+        $(selectOne).hide();
+
+        $(rcOptions).show();
+        $(bgSupport).hide();
+        $(sttSupport).hide();
+        $(sfcSupport).hide();
+      }
+    })
+  });
+
   $("#comment-form").submit(function() {
     var form = this;
 
@@ -168,3 +341,4 @@ var addComment = {
     return document.getElementById(id);
   }
 };
+

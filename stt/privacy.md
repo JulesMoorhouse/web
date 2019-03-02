@@ -41,7 +41,7 @@ Any personal information you provide to us including and similar to your name, a
 
 - External Sites Mindwarp Consultancy Ltd is not responsible for the content of external internet sites. You are advised to read the privacy policy of external sites before disclosing any personal information.
 
-- Cookies A "cookie" is a small data text file that is placed in your browser and allows Mindwarp Consultancy Ltd to recognize you each time you visit this site (customisation etc). Cookies themselves do not contain any personal information, and Mindwarp Consultancy Ltd does not use cookies to collect personal information. Cookies may also be used by 3rd party content providers such as newsfeeds.
+- Cookies A "cookie" is a small data text file that is placed in your browser and allows Mindwarp Consultancy Ltd to recognize you each time you visit this site (customisation etc). Cookies themselves do not contain any personal information, and Mindwarp Consultancy Ltd does not use cookies to collect personal information. Cookies may also be used by 3rd party content providers such as news feeds.
 
 - Remember The Risks Whenever You Use The Internet While we do our best to protect your personal information, we cannot guarantee the security of any information that you transmit to Mindwarp Consultancy Ltd and you are solely responsible for maintaining the secrecy of any passwords or other account information. In addition other Internet sites or services that may be accessible through Mindwarp Consultancy Ltd have separate data and privacy practices independent of us, and therefore we disclaim any responsibility or liability for their policies or actions. Please contact those vendors and others directly if you have any questions about their privacy policies.
 

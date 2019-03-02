@@ -5,9 +5,23 @@
     <description>My Personal Blog</description>
     <link>http://localhost:4000/web/</link>
     <atom:link href="http://localhost:4000/web/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Feb 2019 16:16:01 +0000</pubDate>
-    <lastBuildDate>Sun, 24 Feb 2019 16:16:01 +0000</lastBuildDate>
+    <pubDate>Sat, 02 Mar 2019 11:06:36 +0000</pubDate>
+    <lastBuildDate>Sat, 02 Mar 2019 11:06:36 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Blog</title>
+        <description>&lt;p&gt;Here’s a a list of my favourite chrome extensions, I’ll probably add to this in the future.&lt;/p&gt;
+
+&lt;h3 id=&quot;user-javascript-and-css&quot;&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld&quot;&gt;User Javascript and CSS&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is a extension which allows you to add css and Javascript to any site. You can also save your changes within the extension. Granted this doesn’t support sass, but it’s pretty neat to make quick changes, perhaps just to play around until before committing the changes to an actual projects.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 02 Mar 2019 08:21:20 +0000</pubDate>
+        <link>http://localhost:4000/web/2019/03/02/good-chrome-extensions.html</link>
+        <guid isPermaLink="true">http://localhost:4000/web/2019/03/02/good-chrome-extensions.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Blog</title>
@@ -109,13 +123,13 @@ git push origin 0.1.0
     
       <item>
         <title>Blog</title>
-        <description>&lt;p&gt;Even if your’re releasing the most unsocialable app or a kids app (where you can’t have any links) always, always setup a Facebook and Twitter account.&lt;/p&gt;
+        <description>&lt;p&gt;Even if you’re releasing the most unsociable app or a kids app (where you can’t have any links) always, always setup a Facebook and Twitter account.&lt;/p&gt;
 
 &lt;p&gt;Always use a tracking service to tell you what’s worked and what hasn’t.&lt;/p&gt;
 
 &lt;p&gt;Always add mailchimp sign up forms where ever you can, adding a checkbox to your contact form is good too, yes you can do this with Wordpress.&lt;/p&gt;
 
-&lt;p&gt;I realize this quite a short post, but I think it desverves it’s own post.&lt;/p&gt;
+&lt;p&gt;I realize this quite a short post, but I think it deserves it’s own post.&lt;/p&gt;
 </description>
         <pubDate>Thu, 12 Feb 2015 10:50:39 +0000</pubDate>
         <link>http://localhost:4000/web/2015/02/12/ios-app-launch-essentials.html</link>
@@ -132,9 +146,9 @@ git push origin 0.1.0
 
 &lt;p&gt;When it came to launch day I thought I’d prepared really well, until I made a list of what I had to do that day.&lt;/p&gt;
 
-&lt;p&gt;My app is aimed at kids and in order to eligable to be classified as “made for kids” you have to jump through some extra hoops. You need to add a privacy policy to your website and have no links or anything in your app that will take a child out of your app aka link to your web site etc.&lt;/p&gt;
+&lt;p&gt;My app is aimed at kids and in order to eligible to be classified as “made for kids” you have to jump through some extra hoops. You need to add a privacy policy to your website and have no links or anything in your app that will take a child out of your app aka link to your web site etc.&lt;/p&gt;
 
-&lt;p&gt;Recently I’ve started using mailchimp and sent a few newsletters to my small client base for existing apps.&lt;/p&gt;
+&lt;p&gt;Recently I’ve started using Mailchimp and sent a few newsletters to my small client base for existing apps.&lt;/p&gt;
 
 &lt;p&gt;So in my app, I couldn’t have links to a facebook page, twitter or newsletter sign up. At the time I thought ah well, I’ve never gained much from there, so no loss.&lt;/p&gt;
 
@@ -173,7 +187,7 @@ git push origin 0.1.0
 
 &lt;p&gt;Design of the app was aimed at kids and I used you cute chimp images to make the app look fun.&lt;/p&gt;
 
-&lt;p&gt;I decided to move on to other projects, several years later I decided to update the app and make big improvements. I produce some good prototype videos and came to the conclusion that the app would need to completey rewriten. This idea developed into a brand-new app due to the effort involved. Speaking Times Tables for iOS was born in 2015.&lt;/p&gt;
+&lt;p&gt;I decided to move on to other projects, several years later I decided to update the app and make big improvements. I produce some good prototype videos and came to the conclusion that the app would need to completely rewritten. This idea developed into a brand-new app due to the effort involved. Speaking Times Tables for iOS was born in 2015.&lt;/p&gt;
 </description>
         <pubDate>Sat, 16 Aug 2014 11:50:39 +0100</pubDate>
         <link>http://localhost:4000/web/2014/08/16/my-first-iphone-app.html</link>

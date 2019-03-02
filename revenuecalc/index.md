@@ -7,7 +7,7 @@ title: Revenue Calc
 	<div class="col-xs-12 col-sm-7">
 
 		<div class="pb-20">
-			I made Revenue calc after I initally developed Balance Guide, I wanted to take a break and do something difference. 
+			I made Revenue calc after I initially developed Balance Guide, I wanted to take a break and do something difference. 
 		</div>
 
 		<div class="pb-20">

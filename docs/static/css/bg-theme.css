@@ -1,0 +1,83 @@
+
+body.bg 
+{
+    background-color: #ffffff !important;
+}
+
+.bg .header-panel.shadow-z-2
+{
+    background-color: #67a4ee !important;
+}
+
+.bg .container .jumbotron-primary, 
+body.bg .container .well-primary, 
+body.bg .container-fluid .jumbotron-primary, 
+body.bg .container-fluid .well-primary 
+{
+    background-color: #67a4ee !important; /* side panel */
+}
+
+.bg .home-subtitle
+{
+    color: black !important;
+}
+
+.bg a
+{
+    color: darkblue !important;
+}
+
+.bg .menu a:focus, 
+.bg .menu a:hover, 
+.bg .social-icons a:focus, 
+.bg .social-icons a:hover 
+{
+    background: #5a92d6 !important; /* social hover */
+}
+
+.bg .menu ul li a:hover, 
+.bg .menu ul li a:focus, 
+.bg li.current-menu-item > a 
+{
+    background: #5a92d6 !important;  /* side panel  hover */
+}
+
+.bg .row-details, 
+.bg h2.blog-title-pro, 
+.bg .searchcontrol input[type=text], 
+.bg .icon, 
+.bg input#js-search__input, 
+.bg input#js-search__input::placeholder
+{
+    color: #ffffff !important; /* header text colour */
+}
+
+.bg .menu ul li a
+{
+    color: #ffffff !important; /* side panel text color */
+}
+
+.bg h2.blog-title-pro:after 
+{
+    background: #ffffff !important; /* header page title underline */
+}
+
+.bg .form-control, 
+.bg .form-group .form-control 
+{
+    /* search input underline */
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#ffffff),to(#ffffff)),-webkit-gradient(linear,left top,left bottom,from(#ffffff),to(#ffffff)) !important;
+    background-image: -webkit-linear-gradient(#ffffff,#ffffff),-webkit-linear-gradient(#ffffff,#ffffff) !important;
+    background-image: -o-linear-gradient(#ffffff,#ffffff),-o-linear-gradient(#ffffff,#ffffff) !important;
+    background-image: linear-gradient(#ffffff,#ffffff),linear-gradient(#ffffff,#ffffff) !important;
+}
+
+.bg .intro {
+    color: white;
+    text-shadow: 1px 1px #555;
+}
+
+.bg .video-note {
+    color: #fff;
+    font-size: 16px;
+}

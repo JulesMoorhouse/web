@@ -84,7 +84,7 @@ Balance Guide makes it easy to see your financial position. With charts and pie 
 		<div class="col-sm-6 col-xs-12">
 			<div class="center-block">
 				<div class="center-horiz">
-{% responsive_image path: static/bg/home/graphs.png title: "xxxxx" width: 300 %}
+{% responsive_image path: static/bg/home/graphs.png title: "Cool graphs in Balance Guide" width: 300 %}
 				</div>
 			</div>
 		</div>
@@ -119,7 +119,7 @@ With Balance Guide you can see a forecast of your recurring bills and deposits. 
 		<div class="col-sm-6 col-xs-12">
 			<div class="center-block">
 				<div class="center-horiz">
-{% responsive_image path: static/bg/home/bills-forecast.png title: "xxxx" width: 300 %}
+{% responsive_image path: static/bg/home/bills-forecast.png title: "Bill Forecasting with Balance Guide" width: 300 %}
 				</div>
 			</div>
 		</div>

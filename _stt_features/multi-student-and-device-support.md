@@ -11,7 +11,7 @@ Several new features have been designed to achieve this goal.
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_userguides/ipad-student-settings.png" class="thickbox">
-			{% responsive_image path: static/stt_userguides/ipad-student-settings.png title: "Lorem ipsum..." width: 300 %}
+			{% responsive_image path: static/stt_userguides/ipad-student-settings.png title: "Student settings" width: 300 %}
 		</a>
 	</div>
 </div>
@@ -21,7 +21,7 @@ From the settings within the app, you can turn on multi student mode. Here you c
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_features/student-toggle.png" class="thickbox">
-			{% responsive_image path: static/stt_features/student-toggle.png title: "Lorem ipsum..." width: 300 %}
+			{% responsive_image path: static/stt_features/student-toggle.png title: "Student toggle" width: 300 %}
 		</a>
 	</div>
 </div>
@@ -31,7 +31,7 @@ Several children or even a whole class can use the app keep their progression th
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_userguides/ipad-table-select.png" class="thickbox">
-			{% responsive_image path: static/stt_userguides/ipad-table-select.png title: "Lorem ipsum..." width: 300 %}
+			{% responsive_image path: static/stt_userguides/ipad-table-select.png title: "Times tables selection." width: 300 %}
 		</a>
 	</div>
 </div>
@@ -42,7 +42,7 @@ Here you can see that a student has completed some tables but is locked out of o
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_userguides/ipad-student-list.png" class="thickbox">
-			{% responsive_image path: static/stt_userguides/ipad-student-list.png title: "Lorem ipsum..." width: 300 %}
+			{% responsive_image path: static/stt_userguides/ipad-student-list.png title: "List of students" width: 300 %}
 		</a>
 	</div>
 </div>

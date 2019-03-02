@@ -1,0 +1,74 @@
+
+body.stt
+{
+    background-color: #fff9ef !important;
+}
+
+.stt .header-panel.shadow-z-2
+{
+	background-color: #ffcc33 !important;
+}
+
+.stt .container .jumbotron-primary, 
+body.stt .container .well-primary, 
+body.stt .container-fluid .jumbotron-primary, 
+body.stt .container-fluid .well-primary 
+{
+	background-color: #ffcc33 !important; /* side panel */
+}
+
+.stt .home-subtitle
+{
+    color: black !important;
+}
+
+.stt a
+{
+    color: darkblue !important;
+}
+
+.stt .menu a:focus, 
+.stt .menu a:hover, 
+.stt .social-icons a:focus, 
+.stt .social-icons a:hover 
+{
+    background: #febe00 !important; /* social hover */
+}
+
+.stt .menu ul li a:hover, 
+.stt .menu ul li a:focus, 
+.stt li.current-menu-item > a 
+{
+    background: #febe00 !important;  /* side panel  hover */
+}
+
+.stt .row-details, 
+.stt h2.blog-title-pro, 
+.stt .searchcontrol input[type=text], 
+.stt .icon, 
+.stt input#js-search__input, 
+.stt input#js-search__input::placeholder, 
+.stt p.info
+{
+	color: black !important; /* header text colour */
+}
+
+.stt .menu ul li a
+{
+	color: black !important; /* side panel text color */
+}
+
+.stt h2.blog-title-pro:after
+{
+	background: black !important; /* header page title underline */
+}
+
+.stt .form-control, 
+.stt .form-group .form-control 
+{
+	/* search input underline */
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#000000),to(#000000)),-webkit-gradient(linear,left top,left bottom,from(#000000),to(#000000)) !important;
+    background-image: -webkit-linear-gradient(#000000,#000000),-webkit-linear-gradient(#000000,#000000) !important;
+    background-image: -o-linear-gradient(#000000,#000000),-o-linear-gradient(#000000,#000000) !important;
+    background-image: linear-gradient(#000000,#000000),linear-gradient(#000000,#000000) !important;
+}
