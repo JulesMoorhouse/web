@@ -19,7 +19,6 @@ subtitle: Drop me a line
 		</p>
 	</li>
 
-
 	<div id="support-options" style="display: none;">
 
 		<h3 id="support-options-heading">Support Options</h3>
@@ -29,9 +28,11 @@ subtitle: Drop me a line
 		<ul>
 			<li id="bg-support">
 				<p>
-					<a><h4>
-						Balance Guide - Support
-					</h4></a>
+					<a>
+						<h4>
+							Balance Guide
+						</h4>
+					</a>
 				</p>
 				<div id="bg-options" style="display: none;">
 					<p>
@@ -60,8 +61,7 @@ subtitle: Drop me a line
 					</li>
 					<li>
 						<p>
-						However if you have a general question please use my 
-						<a class="contentframe">contact form.</a>
+							However if you have a general question please use my <a class="contentframe">contact form.</a>
 						</p>
 					</li>
 					</ul>
@@ -69,8 +69,9 @@ subtitle: Drop me a line
 			</li>
 			<li id="stt-support">
 				<p>
-					<a><h4>
-						Speaking Times Tables - Support
+					<a>
+						<h4>
+							Speaking Times Tables
 					</h4></a>
 				</p>
 				<div id="stt-options" style="display: none;">
@@ -79,9 +80,11 @@ subtitle: Drop me a line
 			</li>
 			<li id="sfc-support">
 				<p>
-					<a><h4>
-						Happy / Sad Face Chart - Support
-					</h4></a>
+					<a>
+						<h4>
+							Happy / Sad Face Chart
+						</h4>
+					</a>
 				</p>
 				<div id="sfc-options" style="display: none;">
 					<a class="contentframe">Happy / Sad Face Chart</a>
@@ -89,9 +92,11 @@ subtitle: Drop me a line
 			</li>
 			<li id="rc-support">
 				<p>
-					<a><h4>
-						Revenue Calc - Support
-					</h4></a>
+					<a>
+						<h4>
+						Revenue Calc
+						</h4>
+					</a>
 				</p>
 				<div id="rc-options" style="display: none;">
 					<a class="contentframe">Revenue Calc</a>

@@ -17,8 +17,8 @@
   },
   {
     "text": "Contact me",
-    "url": "/contactme",
-    "icon": "fa-envelope",
+    "url": "/contactme/",
+    "icon": "fa-envelope"
   },
   {
     "text": "Github",
@@ -29,6 +29,6 @@
     "text": "XML Feed",
     "url": "/feed.xml",
     "icon": "fa-feed",
-    "target": _blank
+    "target": "_blank"
   }
 ]
