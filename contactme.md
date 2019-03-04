@@ -41,7 +41,7 @@ subtitle: Drop me a line
 					<ul>
 					<li>
 						<p>
-							If you have a very basic question have a look at the screenshots.
+							If you have a very basic question have a look at the <a class="link" href="{{ 'bg/screenshots' | relative_url }}">screenshots</a>.
 						</p>
 					</li>
 					<li>

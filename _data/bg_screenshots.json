@@ -2,42 +2,42 @@
 
 	{
 		"text": "<div><b>Calculate Balance</b></div>Showing a summary of your financial position.",
-		"image": "iPhone XR-0-calculate-balance.png",
+		"image": "iPhone-XR-0-calculate-balance.png"
 	},
 	{
 		"text": "<div><b>Correct Balance</b></div>Allows you to set the balance on a specific day from your statement.",
-		"image": "iPhone XR-1-correct-balance.png",
+		"image": "iPhone-XR-1-correct-balance.png"
 	},	
 	{
 		"text": "<div><b>Bills and Deposits</b></div>All your recurring and one off transactions.",
-		"image": "iPhone XR-2-bills-and-deposits.png",
+		"image": "iPhone-XR-2-bills-and-deposits.png"
 	},
 	{
 		"text": "<div><b>Transactions</b></div>Here you can add or edit transactions, the screen will be labelled Add or Edit.",		
-		"image": "iPhone XR-3-add-transaction.png",
+		"image": "iPhone-XR-3-add-transaction.png"
 	},
 	{
 		"text": "<div><b>Category</b></div>The screen where you can add one of multiple categories at once, edit existing items or select an item.",		
-		"image": "iPhone XR-4-categories.png",
+		"image": "iPhone-XR-4-categories.png"
 	},
 	{
 		"text": "<div><b>Graph Choice</b></div>A selection of graphs and pie charts.",		
-		"image": "iPhone XR-5-graph-choice.png",
+		"image": "iPhone-XR-5-graph-choice.png"
 	},
 	{
-		"text": "<div><b>Balance Forecast chart</b></div>One of the most useful parts of the app, allowing you to instantly see when and where you’ll be on a certain date.",		
-		"image": "iPhone XR-6-line-graph.png",
+		"text": "<div><b>Balance Forecast chart</b></div>One of the most useful parts of the app, allowing you to instantly see when and where you'll be on a certain date.",		
+		"image": "iPhone-XR-6-line-graph.png"
 	},
 	{
 		"text": "<div><b>Spending by Category Pie Chart</b></div>A useful pie chart showing the spending pattern by category.",		
-		"image": "iPhone XR-6-pie-chart.png",
+		"image": "iPhone-XR-6-pie-chart.png"
 	},
 	{
 		"text": "<div><b>Forecast</b></div>This is possibly the most useful screen, it will take your recurring transactions, your one off transaction and produce a forecast, grouping items by days. The filter also allows you to select a date range in the past.",		
-		"image": "iPhone XR-8-forecast.png",
+		"image": "iPhone-XR-8-forecast.png"
 	},
 	{
 		"text": "<div><b>Forecast Calendar</b></div>This screen shows a forecast by days of the calendar.",
-		"image": "iPhone XR-9-bills-calendar.png",
+		"image": "iPhone-XR-9-bills-calendar.png"
 	}
 ]		

@@ -4,7 +4,7 @@
 var getInTouch = "#get-in-touch";
 var support = "#support";
 var showSupport = "#show-support";
-var showGetInTounch = "#show-get-in-touch";
+var showGetInTouch = "#show-get-in-touch";
 
 var supportOptionsHeading = "#support-options-heading";
 var selectOne = "#select-one";
@@ -23,14 +23,16 @@ var rcOptions = "#rc-options";
 
   $(document).ready(function(){
 
-    $(showGetInTounch).click(function(e)
+    $(showGetInTouch).click(function(e)
     {
-        $(support).toggle();
-        $("#contact-iframe").toggle();
+      console.log("showGetInTouch - click");
+      $(support).toggle();
+      $("#contact-iframe").toggle();
     });
 
     $(".contentframe").click(function(e)
     {
+      console.log("contentframe - click");
       e.preventDefault();
       e.stopPropagation();
       $("#contact-iframe").toggle();
@@ -38,6 +40,8 @@ var rcOptions = "#rc-options";
 
     $(showSupport).click(function(e)
     {
+      console.log("showSupport - click");
+
       e.preventDefault();
 
       $("#contact-iframe").hide();
@@ -71,7 +75,9 @@ var rcOptions = "#rc-options";
 
     $(bgSupport).click(function(e)
     {
-      e.preventDefault();
+      console.log("bgSupport - click");
+
+      //e.preventDefault();
 
       if ($(bgOptions).is(":visible"))
       {
@@ -94,10 +100,14 @@ var rcOptions = "#rc-options";
         $(sfcSupport).hide();
         $(rcSupport).hide();
       }
-    })
+    //}).find(".link").click(function(e) {
+      //
+    });
 
     $(sttSupport).click(function(e)
     {
+      console.log("sttSupport - click");
+
       e.preventDefault();
 
       if ($(sttOptions).is(":visible"))
@@ -125,6 +135,8 @@ var rcOptions = "#rc-options";
 
     $(sfcSupport).click(function(e)
     {
+      console.log("sfcSupport - click");
+
       e.preventDefault();
 
       if ($(sfcOptions).is(":visible"))
@@ -150,9 +162,10 @@ var rcOptions = "#rc-options";
       }
     })
 
-
     $(rcSupport).click(function(e)
     {
+      console.log("rcSupport - click");
+
       e.preventDefault();
 
       if ($(rcOptions).is(":visible"))
@@ -179,14 +192,16 @@ var rcOptions = "#rc-options";
     })
   });
 
-  $("#comment-form").submit(function() {
+  $("#comment-form").submit(function() 
+  {
     var form = this;
 
     var baseurl = document.getElementById("baseurl").value;
 
     $(form).addClass("disabled");
 
-    $("#comment-form-submit").html(
+    $("#comment-form-submit").html
+    (
       'Loading...'
     );
 
@@ -195,8 +210,8 @@ var rcOptions = "#rc-options";
       url: $(this).attr("action"),
       data: $(this).serialize(),
       contentType: "application/x-www-form-urlencoded",
-      success: function(data) {
-
+      success: function(data) 
+      {
         $("#comment-form-submit")
           .html("Submitted")
           .addClass("btn--disabled");
@@ -209,7 +224,8 @@ var rcOptions = "#rc-options";
           '<strong>Thanks for your comment!</strong> It is currently pending and will show on the site once approved.'
         );
       },
-      error: function(err) {
+      error: function(err) 
+      {
         console.log(err);
         // if (err.responseText) {
         //   console.log(err.responseText);
@@ -231,7 +247,8 @@ var rcOptions = "#rc-options";
     return false;
   });
 
-  function showAlert(message) {
+  function showAlert(message) 
+  {
     $("#comment-form .js-notice").removeClass("hidden");
     $("#comment-form .js-notice-text").html(message);
   }
