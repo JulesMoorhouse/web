@@ -5,10 +5,7 @@ subtitle: Privacy
 bodyclass: bg
 ---
 
-<b>TODO: Update Links!!!</b>
-
-
-<p>Effective date: December 30, 2018</p>
+<p>Effective date: March 05, 2019</p>
 <p>Mindwarp Consultancy Ltd (&#8220;us&#8221;, &#8220;we&#8221;, or &#8220;our&#8221;) operates the Balance Guide mobile application (the &#8220;Service&#8221;).</p>
 
 We invite you to contact me if you have questions about this policy. You may mail us at the following address:
@@ -83,5 +80,5 @@ We invite you to contact me if you have questions about this policy. You may mai
 <h2>Contact Us</h2>
 <p>If you have any questions about this Privacy Policy, please contact me:</p>
 <ul>
-<li>By visiting this page on our website: http://www.blanceguideapp.com</li>
+<li>By visiting this page on our website: https://www.julesmoorhouse.com/bg/</li>
 </ul>

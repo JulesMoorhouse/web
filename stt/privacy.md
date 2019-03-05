@@ -5,8 +5,6 @@ subtitle: Privacy
 bodyclass: stt
 ---
 
-<b>TODO: Update Links!!!</b>
-
 This is a privacy policy for Mindwarp Consultancy Ltd (the owner / developers of this site) and relates to this site and iOS Speaking Times Tables app. Our app website can be located at www.speakingtimestables.com. The full text for our privacy policy can be located at www.speakingtimestables.com/privacy-policy. Users may go there for information on how to opt-in or opt-out of their information.
 
 We invite you to contact me if you have questions about this policy. You may mail us at the following address:
