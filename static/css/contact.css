@@ -1,6 +1,6 @@
 #support-options {
     background-image: linear-gradient(to bottom right, #f5f5f5 , #fff);
-    padding: 2px 20px 0 20px;
+    padding: 2px 20px 20px 20px;
 }
 
 #support-options li 
@@ -40,13 +40,13 @@ h3#support-options-heading
 	cursor: pointer;
 }
 
-#bg-options 
+.app-options 
 {
     background-color: #f9f9f9;
     padding: 15px 25px 15px 15px;
 }
 
-#bg-options li 
+.app-options li 
 {
 	list-style-type: square;
 	text-align: justify;

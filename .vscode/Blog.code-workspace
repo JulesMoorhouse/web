@@ -4,5 +4,7 @@
 			"path": "/Users/jm/Documents/blog-github-io"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"html.format.wrapLineLength": 0
+	}
 }

@@ -8,5 +8,6 @@
         ".vscode",
         "typings",
         "docs"
-    ]
+    ],
+    "html.format.wrapLineLength": 0
 }
