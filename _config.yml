@@ -11,7 +11,7 @@ logo: /static/img/me.png
 github: https://github.com/jules2010
 about: Software developer
 
-destination: docs/
+#destination: docs/
 
 #baseurl: "/web"
 #baseurl: ""
