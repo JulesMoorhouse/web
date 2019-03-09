@@ -3,10 +3,10 @@
   <channel>
     <title>Jules Moorhouse</title>
     <description>My Personal Blog</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 09 Mar 2019 19:49:02 +0000</pubDate>
-    <lastBuildDate>Sat, 09 Mar 2019 19:49:02 +0000</lastBuildDate>
+    <link>https://www.julesmoorhouse.com/</link>
+    <atom:link href="https://www.julesmoorhouse.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 09 Mar 2019 19:54:47 +0000</pubDate>
+    <lastBuildDate>Sat, 09 Mar 2019 19:54:47 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -17,8 +17,8 @@
 &lt;p&gt;This is a extension which allows you to add css and Javascript to any site. You can also save your changes within the extension. Granted this doesn’t support sass, but it’s pretty neat to make quick changes, perhaps just to play around until before committing the changes to an actual projects.&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Mar 2019 08:21:20 +0000</pubDate>
-        <link>http://localhost:4000/2019/03/02/good-chrome-extensions.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/03/02/good-chrome-extensions.html</guid>
+        <link>https://www.julesmoorhouse.com/2019/03/02/good-chrome-extensions.html</link>
+        <guid isPermaLink="true">https://www.julesmoorhouse.com/2019/03/02/good-chrome-extensions.html</guid>
         
         
       </item>
@@ -115,8 +115,8 @@ git push origin 0.1.0
 
 </description>
         <pubDate>Wed, 26 Dec 2018 10:50:39 +0000</pubDate>
-        <link>http://localhost:4000/2018/12/26/private-cocoapods-with-vsts-azuredevops.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/12/26/private-cocoapods-with-vsts-azuredevops.html</guid>
+        <link>https://www.julesmoorhouse.com/2018/12/26/private-cocoapods-with-vsts-azuredevops.html</link>
+        <guid isPermaLink="true">https://www.julesmoorhouse.com/2018/12/26/private-cocoapods-with-vsts-azuredevops.html</guid>
         
         
       </item>
@@ -132,8 +132,8 @@ git push origin 0.1.0
 &lt;p&gt;I realize this quite a short post, but I think it deserves it’s own post.&lt;/p&gt;
 </description>
         <pubDate>Thu, 12 Feb 2015 10:50:39 +0000</pubDate>
-        <link>http://localhost:4000/2015/02/12/ios-app-launch-essentials.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/02/12/ios-app-launch-essentials.html</guid>
+        <link>https://www.julesmoorhouse.com/2015/02/12/ios-app-launch-essentials.html</link>
+        <guid isPermaLink="true">https://www.julesmoorhouse.com/2015/02/12/ios-app-launch-essentials.html</guid>
         
         
       </item>
@@ -167,8 +167,8 @@ git push origin 0.1.0
 &lt;p&gt;On the second day I got an amazing amount of downloads from the US, I put this down to good hash tags. I proceeded with my approach of tweeting, however on the third day I didn’t receive this level of downloads. Also I wasn’t able to figure out where those amazing downloads had come from. I should have used tracking urls.&lt;/p&gt;
 </description>
         <pubDate>Wed, 21 Jan 2015 10:50:39 +0000</pubDate>
-        <link>http://localhost:4000/2015/01/21/ios-app-launch-what-i-learnt.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/01/21/ios-app-launch-what-i-learnt.html</guid>
+        <link>https://www.julesmoorhouse.com/2015/01/21/ios-app-launch-what-i-learnt.html</link>
+        <guid isPermaLink="true">https://www.julesmoorhouse.com/2015/01/21/ios-app-launch-what-i-learnt.html</guid>
         
         
       </item>
@@ -190,8 +190,8 @@ git push origin 0.1.0
 &lt;p&gt;I decided to move on to other projects, several years later I decided to update the app and make big improvements. I produce some good prototype videos and came to the conclusion that the app would need to completely rewritten. This idea developed into a brand-new app due to the effort involved. Speaking Times Tables for iOS was born in 2015.&lt;/p&gt;
 </description>
         <pubDate>Sat, 16 Aug 2014 11:50:39 +0100</pubDate>
-        <link>http://localhost:4000/2014/08/16/my-first-iphone-app.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2014/08/16/my-first-iphone-app.html</guid>
+        <link>https://www.julesmoorhouse.com/2014/08/16/my-first-iphone-app.html</link>
+        <guid isPermaLink="true">https://www.julesmoorhouse.com/2014/08/16/my-first-iphone-app.html</guid>
         
         
       </item>
