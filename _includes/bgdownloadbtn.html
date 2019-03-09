@@ -1,13 +1,3 @@
 <a target="_blank" href="http://itunes.apple.com/app/id427557586?mt=8">
-	{% if include.imagepath %}
-{% responsive_image_block %}
-  path: {{ include.imagepath }}
-  {% if include.width %}
-  width: {{ include.width }}
-  {% endif %}
-  title: 'Download Balance Guide for iPhone'
-{% endresponsive_image_block %}
-	{% else %}
-		{% responsive_image path: static/img/Download.png title: "Download Balance Guide for iPhone" width: 206 %}
-	{% endif %}
+  <img title="Download Balance Guide for iPhone" width="206" src="/static/img/Download.png">
 </a>

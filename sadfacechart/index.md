@@ -36,7 +36,9 @@ title: Happy + Sad Face Chart
 			<div class="center-horiz">
 				<div class="hidden-xs pb-20 pt-20">
 				</div>
-{% include bgdownloadbtn.html imagepath='static/sfc/home/iPhone-sad-face-chart-app.png' width=200 %}
+				<a target="_blank" href="http://itunes.apple.com/app/id463200897?mt=8">
+  					<img title="Download Happy / Sad Face Chart for iOS" width="200" src="/static/img-300/iPhone-sad-face-chart-app.png">
+				</a>
 			</div>
 		</div>
 	</div>

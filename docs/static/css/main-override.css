@@ -99,8 +99,8 @@ footer
 
 .recent_post li {
     line-height: 27px;
-        margin-top: 5px;
-
+    margin-top: 5px;
+    text-align: justify;
 }
 
 .intro-panel
@@ -164,6 +164,7 @@ footer
 .youtube-panel li 
 {
     padding-top: 10px;
+    text-align: justify;
 }
 
 /*.youtube-dekstop-panel .video 

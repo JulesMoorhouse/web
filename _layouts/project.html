@@ -17,12 +17,7 @@ layout: default
 							<a href="{{ site.baseurl }}/static/projects/{{ i.image }}" class="thickbox">
 								{%- comment -%} <div class="project-img bordered" 
 								style="background-image: url('{{ site.baseurl }}/static/projects/{{ i.image }}');"></div> {%- endcomment -%}
-
-{% responsive_image_block %}
-  path: 'static/projects/{{ i.image }}'
-  height: '200'
-{% endresponsive_image_block %}
-
+								<img height="200" src="/static/img-300/{{ i.image }}">
 							</a>
 							{% if i.url %} <a href="{{ i.url }}"> {% endif %}
 								<h3 class="project-headlines">{{ i.name }}</h3>

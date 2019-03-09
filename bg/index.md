@@ -32,8 +32,10 @@ bodyclass: bg
 	<div class="col-sm-4 col-xs-12">
 		<div class="intro-device">
 
-{% include bgdownloadbtn.html imagepath='static/bg/home/calc-balance.png' width=200 %}
-	
+			<a target="_blank" href="http://itunes.apple.com/app/id427557586?mt=8">
+  				<img title="Download Balance Guide for iPhone" width="200" src="/static/img-300/calc-balance.png">
+			</a>
+
 		</div>
 	</div>
 </div>
@@ -85,7 +87,7 @@ bodyclass: bg
 		<div class="col-sm-6 col-xs-12">
 			<div class="center-block">
 				<div class="center-horiz">
-{% responsive_image path: static/bg/home/graphs.png title: "Cool graphs in Balance Guide" width: 300 %}
+					<img title="Cool graphs in Balance Guide" width="300" src="/static/img-300/graphs.png">
 				</div>
 			</div>
 		</div>
@@ -117,7 +119,7 @@ bodyclass: bg
 		<div class="col-sm-6 col-xs-12">
 			<div class="center-block">
 				<div class="center-horiz">
-{% responsive_image path: static/bg/home/bills-forecast.png title: "Bill Forecasting with Balance Guide" width: 300 %}
+					<img title="Bill Forecasting with Balance Guide" width="300" src="/static/img-300/bills-forecast.png">
 				</div>
 			</div>
 		</div>

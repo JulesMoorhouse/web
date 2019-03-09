@@ -15,7 +15,7 @@ Please see the blog post about the first version of the app <a href="{{ site.bas
 		<div class="col-xs-12 col-sm-6 full-height" style="">
 	        <div class="center-block">
 	        	<a href="{{ site.baseurl }}/static/stt_features/speaking-times-tables-version-1.png" class="thickbox">
-					{% responsive_image path: static/stt_features/speaking-times-tables-version-1.png title: "Speaking Times Tables - version 1" width: 300 %}
+					<img title="Speaking Times Tables - version 1" width="300" src="/static/img-300/speaking-times-tables-version-1.png">
 				</a>
 				<div class="center-horiz">Version 1</div>
 			</div>
@@ -23,7 +23,7 @@ Please see the blog post about the first version of the app <a href="{{ site.bas
 		<div class="col-xs-12 col-sm-6 full-height mobile-pt" style="">
 			 <div class="center-block">
 	        	<a href="{{ site.baseurl }}/static/stt_features/speaking-times-tables-version-2.png" class="thickbox">
-					{% responsive_image path: static/stt_features/speaking-times-tables-version-2.png title: "Speaking Times Tables - version 2" width: 300 %}
+					<img title="Speaking Times Tables - version 2" width="300" src="/static/img-300/speaking-times-tables-version-2.png">
 				</a>
 				<div class="center-horiz">Version 2</div>
 			</div>
@@ -41,7 +41,7 @@ You may notice, that the monkey looks slightly different. Images do look differe
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_features/iPhoneX-results.png" class="thickbox">
-			{% responsive_image path: static/stt_features/iPhoneX-results.png title: "Speaking Times Tables - Results" width: 300 %}
+			<img title="Speaking Times Tables - Results" width="300" src="/static/img-300/iPhoneX-results.png">
 		</a>
 	</div>
 </div>

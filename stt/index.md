@@ -23,7 +23,9 @@ bodyclass: stt
 	</div>
 	<div class="col-sm-6 col-xs-12">
 		<div class="intro-device">
-			{% include sttdownloadbtn.html imagepath='static/stt/home/device_shot.png' width=300 %}
+			<a target="_blank" href="http://itunes.apple.com/app/id917585923?mt=8">
+				<img title="Download Speaking Times Tables for iOS" width="300" src="/static/img-300/device_shot.png">
+			</a>
 			<div class="fb-like pt-20" data-href="https://www.facebook.com/speakingtimestablesapp" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
 		</div>
 	</div>
@@ -32,16 +34,18 @@ bodyclass: stt
 <div class="col-sm-5 hidden-sm visible-xs">
 	<h3>Watch the app in action</h3>
 	<a href="https://www.youtube.com/watch?v=D6GpOqsAeZI"><br>
-		{% responsive_image path: static/stt/home/YouTube.png title: "Speaking Times tables video" width: 300 %}
-		<br></a>
+		<img title="Speaking Times tables video" width="300" src="/static/img-300/YouTube.png">
+		<br>
+	</a>
 </div>
 <div class="second-row">
 	<div class="youtube-panel row">
 		<div class="col-sm-5 hidden-xs youtube-dekstop-panel">
 				<div class="video">
 					<a href="https://www.youtube.com/watch?v=D6GpOqsAeZI"><br>
-						{% responsive_image path: static/stt/home/YouTube.png title: "Speaking Times tables video" width: 300 %}
-						<br></a>
+						<img title="Speaking Times tables video" width="300" src="/static/img-300/YouTube.png">
+						<br>
+					</a>
 				</div>
 		</div>
 		<div class="col-sm-7 col-xs-12 bullets-right">
