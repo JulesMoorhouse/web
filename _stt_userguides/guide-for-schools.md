@@ -20,7 +20,7 @@ bodyclass: stt
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_userguides/ipad-table-select.png" class="thickbox">
-			<img title="Speaking Times Tables table selection" width="300" src="/static/img-300/ipad-table-select.png">
+			<img title="Speaking Times Tables table selection" height="225" width="300" src="/static/img-300/ipad-table-select.png">
 		</a>
 	</div>
 </div>
@@ -33,7 +33,7 @@ bodyclass: stt
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_userguides/ipad-settings-itouchid-ifaceid.png" class="thickbox">
-			<img title="Speaking Times Tables with FaceID / TouchID"" width="300" src="/static/img-300/ipad-settings-itouchid-ifaceid.png">
+			<img title="Speaking Times Tables with FaceID / TouchID" height="133" width="300" src="/static/img-300/ipad-settings-itouchid-ifaceid.png">
 		</a>
 	</div>
 </div>
@@ -58,7 +58,7 @@ bodyclass: stt
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_userguides/ipad-student-settings.png" class="thickbox">
-			<img title="Speaking Times Tables Settings" width="300" src="/static/img-300/ipad-student-settings.png">
+			<img title="Speaking Times Tables Settings" height="233" width="300" src="/static/img-300/ipad-student-settings.png">
 		</a>
 	</div>
 </div>
@@ -71,7 +71,7 @@ bodyclass: stt
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_userguides/ipad-student-list.png" class="thickbox">
-			<img title="Speaking Times Tables Students" width="300" src="/static/img-300/ipad-student-list.png">
+			<img title="Speaking Times Tables Students" height="238" width="300" src="/static/img-300/ipad-student-list.png">
 		</a>
 	</div>
 </div>

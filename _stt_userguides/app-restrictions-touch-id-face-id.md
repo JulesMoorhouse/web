@@ -23,14 +23,14 @@ ident: artifi
 		<div class="col-xs-12 col-sm-6 full-height" style="">
 	        <div class="center-block">
 	        	<a href="{{ site.baseurl }}/static/stt_userguides/ipad-login.png" class="thickbox">
-					<img title="Speaking Times Tables Parent Gate / Login" width="300" src="/static/img-300/ipad-login.png">
+					<img title="Speaking Times Tables Parent Gate / Login" height="349" width="300" src="/static/img-300/ipad-login.png">
 				</a>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 full-height mobile-pt" style="">
 			 <div class="center-block">
 	        	<a href="{{ site.baseurl }}/static/stt_userguides/ipad-settings-pin.png" class="thickbox">
-				<img title="Speaking Times Tables Pin screen" width="300" src="/static/img-300/ipad-settings-pin.png">
+				<img title="Speaking Times Tables Pin screen" height="173" width="300" src="/static/img-300/ipad-settings-pin.png">
 				</a>
 			</div>
 		</div>

@@ -20,14 +20,14 @@ bodyclass: stt
 		<div class="col-xs-12 col-sm-6 full-height" style="">
 	        <div class="center-block">
 	        	<a href="{{ site.baseurl }}/static/stt_features/speaking-times-tables-russian.png" class="thickbox">
-					<img title="Speaking Times Tables in Russian"" width="300" src="/static/img-300/speaking-times-tables-russian.png">
+					<img title="Speaking Times Tables in Russian" height="211" width="300" src="/static/img-300/speaking-times-tables-russian.png">
 				</a>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 full-height mobile-pt" style="">
 			 <div class="center-block">
 	        	<a href="{{ site.baseurl }}/static/stt_features/speaking-times-tables-chinese.png" class="thickbox">
-					<img title="Speaking Times Tables in Chinese" width="300" src="/static/img-300/speaking-times-tables-chinese.png">
+					<img title="Speaking Times Tables in Chinese" height="211" width="300" src="/static/img-300/speaking-times-tables-chinese.png">
 				</a>
 			</div>
 		</div>

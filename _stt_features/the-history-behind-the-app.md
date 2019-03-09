@@ -19,7 +19,7 @@ type: design
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_features/ttt-logo.png" class="thickbox">
-			<img title="The old Speaking Times Tables logo" width="300" src="/static/img-300/ttt-logo.png">
+			<img title="The old Speaking Times Tables logo" height="70" width="300" src="/static/img-300/ttt-logo.png">
 		</a>
 	</div>
 </div>

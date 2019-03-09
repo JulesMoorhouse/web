@@ -14,7 +14,7 @@ subtitle: My iOS Development Journey
 {% assign myfirstapp_url = "" %}{% for t in site.posts %}{% if t.ident == 'myfapp' %}{% assign myfirstapp_url = t.url %}{% endif %}{% endfor %}
 
 <div style="float: right; width: 120px; padding-left: 20px;">
-    <img title="Speaking Times Tables version 1 logo" width="300" src="/static/img-300/icon-sttv1.png">
+    <img title="Speaking Times Tables version 1 logo" height="300" width="300" src="/static/img-300/icon-sttv1.png">
 </div>
 
 <p>
@@ -27,7 +27,7 @@ subtitle: My iOS Development Journey
 <div style="clear: left;"></div>
 
 <div style="float: left; width: 120px;">
-    <img title="The logo for Balance Guide" width="100" src="/static/img-300/icon-balance-guide.png">
+    <img title="The logo for Balance Guide" height="100" width="100" src="/static/img-300/icon-balance-guide.png">
 </div>
 
 <p>
@@ -47,7 +47,7 @@ subtitle: My iOS Development Journey
 <div style="clear: left;"></div>
 
 <div style="float: right; width: 120px; padding-left: 20px;">
-    <img title="The icon for Revenue Calc" width="100" src="/static/img-300/icon-revenue-calc.png">
+    <img title="The icon for Revenue Calc" height="100" width="100" src="/static/img-300/icon-revenue-calc.png">
 </div>
 <p>
     I'm not going to say much about my third app <a href="{{ site.baseurl }}/revenuecalc">Revenue Calc</a> other than it initially took an afternoon to develop, when I wanted to do something new, after developing Balance Guide.
@@ -55,7 +55,7 @@ subtitle: My iOS Development Journey
 <div style="clear: left;"></div>
 
 <div style="float: left; width: 120px;">
-    <img title="The logo for Happy / Sad Face Chart" width="100" src="/static/img-300/icon-sad-face-chart.png">
+    <img title="The logo for Happy / Sad Face Chart" height="100" width="100" src="/static/img-300/icon-sad-face-chart.png">
 </div>
 
 <p>			
@@ -69,9 +69,9 @@ subtitle: My iOS Development Journey
 <div style="clear: left;"></div>
 
 <div style="float: right; width: 220px; padding-left: 20px;">
-    <img title="Orchid Softwares Logo" width="200" src="/static/img-300/logo-orchidsoft.png">
+    <img title="Orchid Softwares Logo" height="31" width="200" src="/static/img-300/logo-orchidsoft.png">
 <br/>
-    <img title="The Oak Intranet Logo" width="200" src="/static/img-300/logo-oak.png">
+    <img title="The Oak Intranet Logo" height="123" width="200" src="/static/img-300/logo-oak.png">
 </div>
 <p>
     Later in 2011 a took up a web development position full time, after my son started at primary school. 
@@ -91,7 +91,7 @@ subtitle: My iOS Development Journey
 <div style="clear: left;"></div>
 
 <div style="float: left; width: 120px;">
-    <img title="The logo for Speaking Times Tables" width="100" src="/static/img-300/icon-speaking-times-tables.png">
+    <img title="The logo for Speaking Times Tables" height="100" width="100" src="/static/img-300/icon-speaking-times-tables.png">
 </div>
 
 <p>	

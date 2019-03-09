@@ -18,7 +18,7 @@ ident: msds
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_userguides/ipad-student-settings.png" class="thickbox">
-			<img title="Student settings" width="300" src="/static/img-300/ipad-student-settings.png">
+			<img title="Student settings" height="233" width="300" src="/static/img-300/ipad-student-settings.png">
 		</a>
 	</div>
 </div>
@@ -30,7 +30,7 @@ ident: msds
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_features/student-toggle.png" class="thickbox">
-			<img title="Student toggle" width="300" src="/static/img-300/student-toggle.png">
+			<img title="Student toggle" height="101" width="300" src="/static/img-300/student-toggle.png">
 		</a>
 	</div>
 </div>
@@ -42,7 +42,7 @@ ident: msds
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_userguides/ipad-table-select.png" class="thickbox">
-			<img title="Times tables selection" width="300" src="/static/img-300/ipad-table-select.png">
+			<img title="Times tables selection" height="225" width="300" src="/static/img-300/ipad-table-select.png">
 		</a>
 	</div>
 </div>
@@ -54,7 +54,7 @@ ident: msds
 <div class="container-table">
 	<div class="center-block">
 		<a href="{{ site.baseurl }}/static/stt_userguides/ipad-student-list.png" class="thickbox">
-			<img title="List of students" width="300" src="/static/img-300/ipad-student-list.png">
+			<img title="List of students" height="238" width="300" src="/static/img-300/ipad-student-list.png">
 		</a>
 	</div>
 </div>

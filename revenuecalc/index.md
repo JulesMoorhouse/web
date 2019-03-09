@@ -25,7 +25,7 @@ title: Revenue Calc
 				<div class="hidden-xs pb-20 pt-20">
 				</div>
 				<a target="_blank" href="http://itunes.apple.com/app/id430588083?mt=8">
-  					<img title="Download Revenue Calc for iPhone" width="200" src="/static/img-300/iphone-revenue-calc-app.jpg">
+  					<img title="Download Revenue Calc for iPhone" height="433" width="200" src="/static/img-300/iphone-revenue-calc-app.jpg">
 				</a>
 			</div>
 		</div>

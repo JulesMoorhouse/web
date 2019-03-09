@@ -24,7 +24,7 @@ bodyclass: stt
 	<div class="col-sm-6 col-xs-12">
 		<div class="intro-device">
 			<a target="_blank" href="http://itunes.apple.com/app/id917585923?mt=8">
-				<img title="Download Speaking Times Tables for iOS" width="300" src="/static/img-300/device_shot.png">
+				<img title="Download Speaking Times Tables for iOS" height="211" width="300" src="/static/img-300/device_shot.png">
 			</a>
 			<div class="fb-like pt-20" data-href="https://www.facebook.com/speakingtimestablesapp" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
 		</div>
@@ -34,7 +34,7 @@ bodyclass: stt
 <div class="col-sm-5 hidden-sm visible-xs">
 	<h3>Watch the app in action</h3>
 	<a href="https://www.youtube.com/watch?v=D6GpOqsAeZI"><br>
-		<img title="Speaking Times tables video" width="300" src="/static/img-300/YouTube.png">
+		<img title="Speaking Times tables video" height="169" width="300" src="/static/img-300/YouTube.png">
 		<br>
 	</a>
 </div>
@@ -43,7 +43,7 @@ bodyclass: stt
 		<div class="col-sm-5 hidden-xs youtube-dekstop-panel">
 				<div class="video">
 					<a href="https://www.youtube.com/watch?v=D6GpOqsAeZI"><br>
-						<img title="Speaking Times tables video" width="300" src="/static/img-300/YouTube.png">
+						<img title="Speaking Times tables video" height="169" width="300" src="/static/img-300/YouTube.png">
 						<br>
 					</a>
 				</div>

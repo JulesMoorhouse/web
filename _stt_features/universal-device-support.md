@@ -12,19 +12,19 @@ bodyclass: stt
 <div class="row center-horiz">
 <div class="col-xs-4">
 	<a href="{{ site.baseurl }}/static/stt_features/iPadPro12.9-inch-main.png" class="thickbox">
-		<img title="Speaking Times Tables on iPad Pro 12.9 inch" width="300" src="/static/img-300/iPadPro12.9-inch-main.png">
+		<img title="Speaking Times Tables on iPad Pro 12.9 inch" height="216" width="300" src="/static/img-300/iPadPro12.9-inch-main.png">
 	</a>
 </div>
 <div class="col-xs-4">
   <div style="margin-top: 15%">
 	<a href="{{ site.baseurl }}/static/stt_features/iPhone5s-results.png" class="thickbox">
-		<img title="Speaking Times Tables on iPhone 5s" width="300" src="/static/img-300/iPhone5s-results.png">
+		<img title="Speaking Times Tables on iPhone 5s" height="143" width="300" src="/static/img-300/iPhone5s-results.png">
 	</a>
   </div>
 </div>
   <div class="col-xs-4">
 	<a href="{{ site.baseurl }}/static/stt_features/iPadAir2-learn.png" class="thickbox">
-		<img title="Speaking Times Tables on iPad Air 2"" width="300" src="/static/img-300/iPadAir2-learn.png">
+		<img title="Speaking Times Tables on iPad Air 2" height="211" width="300" src="/static/img-300/iPadAir2-learn.png">
 	</a>
   </div>
 </div>
@@ -35,12 +35,12 @@ bodyclass: stt
 <div class="row center-horiz">
   <div class="col-xs-5 col-xs-offset-1">
 	<a href="{{ site.baseurl }}/static/stt_features/iPhone6Plus-test_table.png" class="thickbox">
-		<img title="Speaking Times Tables on iPhone 6/7/8 Plus" width="300" src="/static/img-300/iPhone6Plus-test_table.png">
+		<img title="Speaking Times Tables on iPhone 6/7/8 Plus" height="147" width="300" src="/static/img-300/iPhone6Plus-test_table.png">
 	</a>
   </div>
   <div class="col-xs-5">
 	<a href="{{ site.baseurl }}/static/stt_features/iPhoneX-wrong_answer.png" class="thickbox">
-		<img title="Speaking Times Tables on iPhone X" width="300" src="/static/img-300/iPhoneX-wrong_answer.png">
+		<img title="Speaking Times Tables on iPhone X" height="150" width="300" src="/static/img-300/iPhoneX-wrong_answer.png">
 	</a>
   </div>
 </div>
