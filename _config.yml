@@ -49,8 +49,8 @@ plugins:
 
 reCaptcha:
   enabled: true
-  siteKey: "6Ldjd5MUAAAAACSpMOcyQCUug3RNRov2GFyHC8r5"
-  secret: "6Ldjd5MUAAAAACoejsRzB0Sy7L6AmR3wbSSiizrY"
+  siteKey: "6LeLtpYUAAAAAFTK_McvfMDHuD20duUGnndxh69s"
+  secret: "zoeeo1/z2Q5set5lih535M99bwbeMVHqG6C+vHx1aCU4gPUNk/Sr5RLNZW6if1ugtEHSvnR1wZntgKspxlNV6sPZfCKgyWbVAmHb9/sKpgQppcTMhINj+N30CDJ8VI5wzKbd/cSDGsrOSW9FIvtsp2SLpJsVWYzHKtGIOyej/eE="
   
 # v3  siteKey: "6LftdpMUAAAAAHgwXamlqJdFTyWoXxNA85-_ibH5"
 # v3  secret: "6LftdpMUAAAAAL_HkrXObdp2NGEAY0QATm8fCPvQ"
