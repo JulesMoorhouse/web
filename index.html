@@ -21,6 +21,10 @@ Finally if you'd like to drop me a line or need support for one of my apps, plea
 My recent blog posts :-
 </p>
 
+#
+{{ paginator.posts | inspect }}
+#
+
 <div class="well">
     <div class="list-group">
       {% for post in paginator.posts %}
