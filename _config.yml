@@ -43,9 +43,12 @@ paginate: 20
 per_page: 20
 paginate_path: "/page:num/"
 markdown: kramdown
-plugins: 
-  - jekyll-paginate
-  - jekyll-gist
+
+plugins:
+ - jekyll-paginate
+ - jemoji
+ - jekyll-gist
+ - github-pages-health-check
 
 reCaptcha:
   enabled: true
