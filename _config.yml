@@ -55,24 +55,3 @@ reCaptcha:
   siteKey: "6LeLtpYUAAAAAFTK_McvfMDHuD20duUGnndxh69s"
   secret: "zoeeo1/z2Q5set5lih535M99bwbeMVHqG6C+vHx1aCU4gPUNk/Sr5RLNZW6if1ugtEHSvnR1wZntgKspxlNV6sPZfCKgyWbVAmHb9/sKpgQppcTMhINj+N30CDJ8VI5wzKbd/cSDGsrOSW9FIvtsp2SLpJsVWYzHKtGIOyej/eE="
   
-# v3  siteKey: "6LftdpMUAAAAAHgwXamlqJdFTyWoXxNA85-_ibH5"
-# v3  secret: "6LftdpMUAAAAAL_HkrXObdp2NGEAY0QATm8fCPvQ"
-
-# staticman:
-#   allowedFields          : ['name', 'email', 'url', 'message', 'replying_to']
-#   branch                 : "master"
-#   commitMessage          : "{fields.name}"
-#   pullRequestBody        : "Here's a new comment waiting for approval. <br/><br/>"
-#   filename               : entry{@timestamp}
-#   format                 : "yml"
-#   moderation             : true
-#   path                   : "/_data/comments/{options.slug}" # (default)
-#   requiredFields         : ['name', 'email', 'message'] #replying_to can genuinely be blank
-#   transforms:
-#     email                : "md5"
-#   generatedFields:
-#     date:
-#       type               : "date"
-#       options:
-#         format           : "iso8601" # (default) "timestamp-seconds", "timestamp-milliseconds"
-#   endpoint               : "https://dev.staticman.net/v3/entry/github/" # URL of your own deployment with trailing slash, will fallback to the public instance
