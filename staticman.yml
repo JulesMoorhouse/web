@@ -77,3 +77,5 @@ comments:
   # the name of the field and values are possible transformation types.
   transforms:
     email: md5
+
+  endpoint               : "https://dev.staticman.net/v3/entry/github/" # URL of your own deployment with trailing slash, will fallback to the public instance
