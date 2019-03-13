@@ -1,8 +1,18 @@
+body {
+    background-color: #eee0;
+}
 .main.outer{padding-top: 50px;}
 .header-panel.shadow-z-2 {
-    background-color: #009587;
+    background-color:#bdbdbd38;
     padding: 50px 0 15px 0;
     width: 100%;
+}
+.main.outer .nav.navbar-nav {
+    background-color:#bdbdbd38;
+
+}
+a {
+    color: darkblue !important;
 }
 .full{ font-size: 16px; }
 .logo-img {
@@ -55,7 +65,7 @@ p.info a {
     text-align: center;
     line-height: 20px;
     font-size: 20px;
-    color: #009688;
+    color: #bdbdbd38;
     padding: 5px;
     width: 30px;
     height: 30px;
@@ -63,7 +73,7 @@ p.info a {
 }
 .icon:hover {
     color: rgba(255, 255, 255, 0.63);
-    background: #009688;
+    background: #bdbdbd38;
 }
 .menu ul li {
     list-style: none;
@@ -71,7 +81,7 @@ p.info a {
 }
 
 .menu ul li a:hover, .menu ul li a:focus, li.current-menu-item > a{
-    background: #007D72;
+    background: #bdbdbd8f;
 }
 li.current-menu-item:before {
     content: "";
@@ -81,7 +91,7 @@ li.current-menu-item:before {
     position: absolute;
     left: 9px;
     vertical-align: middle;
-    background: #B8CA28;
+    /* background: #B8CA28; */
 }
 .menu ul li a {
     font-size: 15px;
@@ -96,7 +106,7 @@ li.current-menu-item:before {
     font-size: 26px;
     margin-bottom: 32px;
     margin-top: 5px;
-    color: #01c87b;
+    color: black !important;
     font-weight: 300;
 }
 h2.blog-title-pro{color: #fff;}
@@ -219,4 +229,45 @@ footer {
     color: #BBB;
     position: absolute;
     right: 12px;
+}
+
+
+.row-details, 
+h2.blog-title-pro, 
+.searchcontrol input[type=text], 
+.icon, 
+input#js-search__input, 
+input#js-search__input::placeholder, 
+p.info
+{
+	color: black !important; /* header text colour */
+}
+
+.menu ul li a
+{
+	color: black !important; /* side panel text color */
+}
+
+h2.blog-title-pro:after
+{
+	background: black !important; /* header page title underline */
+}
+
+.form-control, 
+.form-group .form-control 
+{
+	/* search input underline */
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#000000),to(#000000)),-webkit-gradient(linear,left top,left bottom,from(#000000),to(#000000)) !important;
+    background-image: -webkit-linear-gradient(#000000,#000000),-webkit-linear-gradient(#000000,#000000) !important;
+    background-image: -o-linear-gradient(#000000,#000000),-o-linear-gradient(#000000,#000000) !important;
+    background-image: linear-gradient(#000000,#000000),linear-gradient(#000000,#000000) !important;
+}
+
+.btn.btn-raised.btn-info {
+    background-color: #d9dbdc;
+    color: rgba(255,255,255,.84);
+}
+
+a.btn.btn-info.btn-raised.btn-sm.project-link {
+    color: #888383 !important;
 }

@@ -12,13 +12,13 @@ In the future I hope to add screenshots
 
 From tfs create a repo / branch and a README.md
 And add some text.
-```
+```linenos
 # my-specs
 ```
 
 With terminal create a pod spec folder and setup git.
 
-```
+```linenos
 mkdir /Users/myuser/Code_ObjC/podspec
 git init
 git remote add origin https://myrepo.visualstudio.com/Pods/_git/my-specs
@@ -29,13 +29,13 @@ You should have the README.md file from tfs locally.
 
 Now run this command to add the your pod spec repo to your local cocoa pods setup.
 
-```
+```linenos
 pod repo add my-specs https://myrepo.visualstudio.com/Pods/_git/my-specs
 ```
 
 You can confirm this by …
 
-```
+```linenos
 cd ~/.cocoapods/repos/my-specs
 pod repo lint .
 ```
@@ -46,19 +46,19 @@ Now your pod spec repo is all setup to use in in any of your local projects by a
 
 As before create a new repo / branch e.g. (Don't add any files)
 
-```
+```linenos
 https://myrepo.visualstudio.com/Pods/_git/my-ui-code
 ```
 
 Create a local folder for your private pods, in the next step a sub folder for your private will be created for you.
 
-```
+```linenos
 /Users/myuser/Code_ObjC/podsprivate
 ```
 
 Now run the helper to create your development pod.
 
-```
+```linenos
 pod lib create my-ui-code
 ```
 
@@ -74,13 +74,13 @@ Now add your podspec contents and remember to add your git repo urls.
 
 Now go to the .podspec location in terminal and run… this will validate your podspec.
 
-```
+```linenos
 pod lib lint 
 ```
 
 Next add your development pod to your repo
 
-```
+```linenos
 git add .
 git commit -m “Initial Commit”
 git remote add origin https://myrepo.visualstudio.com/Pods/_git/my-ui-code
@@ -89,7 +89,7 @@ git push -u origin master
 
 Next create a tag
 
-```
+```linenos
 git tag 0.1.0
 git push origin 0.1.0
 ```
@@ -98,7 +98,7 @@ So now you have your private pod all safely under version control
 
 You can now push your pod to your private spec repo using the following command
 
-```
+```linenos
 pod repo push my-specs my-ui-code.podspec
 ```
 

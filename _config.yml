@@ -43,6 +43,12 @@ paginate: 20
 per_page: 20
 # paginate_path: "/page:num/"
 markdown: kramdown
+kramdown:
+    highlighter: rouge
+    line_width: 30
+    syntax_highlighter_opts:
+        block:
+            line_numbers: true
 
 plugins:
  - jekyll-paginate
