@@ -37,6 +37,7 @@ Next, I cloned my main repo into that folder
 ```linenos
 cd documents
 mkdir subtrees
+cd subtrees
 git clone https://github.com/Jules2010/testing-subtrees-main-repo main
 ```
 
