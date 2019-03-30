@@ -59,15 +59,19 @@ Julians-MBP:subtrees jm$ ls -R
 main
 
 ./main:
-README.md	main.txt	sub
+README.md	
+main.txt	
+sub
 
 ./main/sub:
-README.md	sub.txt
+README.md	s
+ub.txt
 ```
 
 Let’s add a new file in the `sub` folder.
 
 ```linenos
+cd sub
 touch sub-updated-file.txt
 Git add .
 git commit -m "added a new file to sub repo"
