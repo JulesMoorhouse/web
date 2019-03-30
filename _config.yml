@@ -55,6 +55,7 @@ plugins:
  - jemoji
  - jekyll-gist
  - github-pages-health-check
+ - jekyll-sitemap
 
 reCaptcha:
   enabled: true

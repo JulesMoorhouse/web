@@ -271,3 +271,7 @@ h2.blog-title-pro:after
 a.btn.btn-info.btn-raised.btn-sm.project-link {
     color: #888383 !important;
 }
+
+.btn.btn-raised:not(.btn-link):hover.btn-info {
+    background-color: #b7bdbf;
+}
