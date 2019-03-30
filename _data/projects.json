@@ -2,28 +2,28 @@
 	{
 		"name": "Balance Guide",
 		"image": "../../static/img-300/icon-balance-guide.png",
-		"url": "bg",
+		"url": "/bg",
 		"date": "Jan 2010 to present",
 		"tags": ["iOS"]
 	},
 	{
 		"name": "Speaking Times Tables",
 		"image": "../../static/img-300/icon-speaking-times-tables.png",
-		"url": ".stt",
+		"url": "/stt",
 		"date": "Jan 2015 to present",
 		"tags": ["iOS"]
 	},
 	{
 		"name": "Happy + Sad Face Chart",
 		"image": "../../static/img-300/icon-sad-face-chart.png",
-		"url": "sadfacechart",
+		"url": "/sadfacechart",
 		"date": "Jan 2011 to present",
 		"tags": ["iOS"]
 	},
 	{
 		"name": "Revenue Calc",
 		"image": "../../static/img-300/icon-revenue-calc.png",
-		"url": "revenuecalc",
+		"url": "/revenuecalc",
 		"date": "Jan 2010 to present",
 		"tags": ["iOS"]
 	}
