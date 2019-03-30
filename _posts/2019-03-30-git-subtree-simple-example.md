@@ -19,7 +19,7 @@ I'm making this really simple so it's easy to understand and easy for me to refe
 OK, I setup two repos, main and sub. The sub repo will be nested locally into the main folder.
 
 Here's my repos...
-```
+```linenos
 https://github.com/Jules2010/testing-subtrees-main-repo
 https://github.com/Jules2010/testing-subtrees-sub-repo/tree/master
 ```
@@ -34,7 +34,7 @@ I then created a subtrees folder.
 
 Next, I cloned my main repo into that folder
 
-```
+```linenos
 cd documents
 mkdir subtrees
 git clone https://github.com/Jules2010/testing-subtrees-main-repo main
@@ -44,7 +44,7 @@ Ok, so notice the last parameter `main` this is the folder when I want the repo.
 
 Next, I cd'd into the `main` folder and added / nested the `sub` repo.
 
-```
+```linenos
 cd main
 subtree add --prefix=sub https://github.com/Jules2010/testing-subtrees-sub-repo.git master
 ```
@@ -53,7 +53,7 @@ Notice prefix here is the `sub` folder and the last parameter here is the branch
 
 Ok, so let’s have a look at our folders in `subtrees`.
 
-```
+```linenos
 Julians-MBP:subtrees jm$ ls -R
 main
 
@@ -66,7 +66,7 @@ README.md	sub.txt
 
 Let’s add a new file in the `sub` folder.
 
-```
+```linenos
 touch sub-updated-file.txt
 Git add .
 git commit -m "added a new file to sub repo"
@@ -82,7 +82,7 @@ I guess that's really the way you'd want this to work!
 
 So now let’s push this change to the `sub` repo.
 
-```
+```linenos
 git subtree push --prefix=sub https://github.com/Jules2010/testing-subtrees-sub-repo.git master
 ```
 
