@@ -4,6 +4,7 @@ layout: bg
 title: Balance Guide
 bodyclass: bg
 subtitle: Knowledge base
+permalink: /bg/knowledgebase
 ---
 
 <h3>Features / Design</h3>

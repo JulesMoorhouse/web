@@ -3,6 +3,7 @@ layout: bg
 title: Balance Guide
 subtitle: Privacy
 bodyclass: bg
+permalink: /bg/privacy
 ---
 
 <p>Effective date: March 05, 2019</p>
