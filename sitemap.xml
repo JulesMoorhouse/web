@@ -61,5 +61,13 @@ layout: null
         <pubDate>{{ user.date | date_to_rfc822 }}</pubDate>
       </item>
     {% endfor %}
+    {% for user in site.pages %}
+      <item>
+        <title>{{ user.title | xml_escape }}</title>
+        <description>{{ user.content | markdownify | strip_html | truncatewords: 40 | xml_escape }}</description>
+        <link>{{ user.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <pubDate>{{ user.date | date_to_rfc822 }}</pubDate>
+      </item>
+    {% endfor %}
   </channel>
 </rss>
