@@ -37,5 +37,29 @@ layout: null
         {% endfor %}
       </item>
     {% endfor %}
+    {% for user in site.stt_userguides %}
+      <item>
+        <title>{{ user.subtitle | xml_escape }}</title>
+        <description>{{ user.content | markdownify | strip_html | truncatewords: 40 | xml_escape }}</description>
+        <link>{{ user.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <pubDate>{{ user.date | date_to_rfc822 }}</pubDate>
+      </item>
+    {% endfor %}
+    {% for user in site.stt_features %}
+      <item>
+        <title>{{ user.subtitle | xml_escape }}</title>
+        <description>{{ user.content | markdownify | strip_html | truncatewords: 40 | xml_escape }}</description>
+        <link>{{ user.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <pubDate>{{ user.date | date_to_rfc822 }}</pubDate>
+      </item>
+    {% endfor %}
+    {% for user in site.bg_features %}
+      <item>
+        <title>{{ user.subtitle | xml_escape }}</title>
+        <description>{{ user.content | markdownify | strip_html | truncatewords: 40 | xml_escape }}</description>
+        <link>{{ user.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <pubDate>{{ user.date | date_to_rfc822 }}</pubDate>
+      </item>
+    {% endfor %}
   </channel>
 </rss>
