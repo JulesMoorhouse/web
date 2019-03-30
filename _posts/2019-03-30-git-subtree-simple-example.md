@@ -24,7 +24,7 @@ https://github.com/Jules2010/testing-subtrees-main-repo
 https://github.com/Jules2010/testing-subtrees-sub-repo/tree/master
 ```
 
-I put some obvious files each.
+I put some obvious files in each.
 
 I then opened terminal (or windows command line).
 
@@ -45,7 +45,7 @@ Ok, so notice the last parameter `main` this is the folder when I want the repo.
 Next, I cd'd into the `main` folder and added / nested the `sub` repo.
 
 ```linenos
-cd main
+cd ..
 subtree add --prefix=sub https://github.com/Jules2010/testing-subtrees-sub-repo.git master
 ```
 
