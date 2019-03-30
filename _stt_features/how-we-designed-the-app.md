@@ -5,6 +5,7 @@ subtitle: How we designed the app
 bodyclass: stt
 ident: hwdta
 type: design
+date: 2015-10-03 10:50:39
 ---
 First we drew out the old iPhone version of the app and with all the comments / feedback we redesigned the layout specifically for iPad. For example, with the extra space, we were able to add buttons for random answers on the test screen, this removed the need for the keypad. This made the app much simpler and more fun as we were able to randomly place the correct answer, multiple choice.
 

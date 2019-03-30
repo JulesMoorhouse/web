@@ -3,6 +3,7 @@ layout: stt
 title: Speaking Times Tables
 subtitle: Multiple languages
 bodyclass: stt
+date: 2018-10-03 10:50:39
 ---
 {::nomarkdown}
 <p>

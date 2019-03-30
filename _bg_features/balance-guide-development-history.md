@@ -5,6 +5,7 @@ subtitle: Development History
 bodyclass: bg
 ident: bgdh
 type: design
+date: 2019-02-27 10:50:39
 ---
 
 Balance Guide was my second iOS app, which I'm proud to say is still popular. Since 2011 I have added many new features.

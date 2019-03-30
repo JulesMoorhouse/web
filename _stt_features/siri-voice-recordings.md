@@ -4,6 +4,7 @@ title: Speaking Times Tables
 subtitle: Siri / Voice Recordings
 bodyclass: stt
 ident: svr
+date: 2018-10-06 10:50:39
 ---
 
 Siri has become an extremely popular feature in iOS and we have been able to incorporate it into the app. Siri is used in conjunction with recorded voices (provided in English) to cater for several new languages.

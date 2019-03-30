@@ -4,6 +4,7 @@ title: Speaking Times Tables
 subtitle: How we designed the app (v2)
 bodyclass: stt
 type: design
+date: 2015-09-29 10:50:39
 ---
 
 {% assign howwev1 = "" %}{% for t in site.stt_features %}{% if t.ident == 'hwdta' %}{% assign howwev1 = t.url %}{% endif %}{% endfor %}

@@ -4,6 +4,7 @@ title: Speaking Times Tables
 subtitle: Settings – iCloud Support
 bodyclass: stt
 ident: sis
+date: 2018-10-13 10:50:39
 ---
 {::nomarkdown}
 <p>

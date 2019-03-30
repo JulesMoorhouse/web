@@ -4,6 +4,7 @@ title: Speaking Times Tables
 subtitle: App Restrictions – Touch ID / Face ID
 bodyclass: stt
 ident: artifi
+date: 2018-10-17 10:50:39
 ---
 {::nomarkdown}
 <p>

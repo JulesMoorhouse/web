@@ -3,6 +3,7 @@ layout: stt
 title: Speaking Times Tables
 subtitle: Universal device support
 bodyclass: stt
+date: 2015-10-03 10:50:39
 ---
 {::nomarkdown}
 <p>
