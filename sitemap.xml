@@ -61,13 +61,11 @@ layout: null
         <pubDate>{{ user.date | date_to_rfc822 }}</pubDate>
       </item>
     {% endfor %}
-    {% for user in site.pages %}
-      <item>
-        <title>{{ user.title | xml_escape }}</title>
-        <description>{{ user.content | markdownify | strip_html | truncatewords: 40 | xml_escape }}</description>
-        <link>{{ user.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <pubDate>{{ user.date | date_to_rfc822 }}</pubDate>
-      </item>
-    {% endfor %}
+    <item>
+        <title>About</title>
+        <description>Welcome to my site, I'm called Jules to everyone who knows me, although my real name is Julian Moorhouse. What is this site about? It's aimed to show off my projects, provide somewhere where I can add blog posts about...</description>
+        <link>https://www.julesmoorhouse.com/about/</link>
+        <pubDate/>
+    </item>
   </channel>
 </rss>
