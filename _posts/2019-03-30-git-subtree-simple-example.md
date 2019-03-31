@@ -47,7 +47,7 @@ Next, I cd'd into the `main` folder and added / nested the `sub` repo.
 
 ```linenos
 cd main
-subtree add --prefix=sub https://github.com/Jules2010/testing-subtrees-sub-repo.git master
+git subtree add --prefix=sub https://github.com/Jules2010/testing-subtrees-sub-repo.git master
 ```
 
 Notice prefix here is the `sub` folder and the last parameter here is the branch `master`.
