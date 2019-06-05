@@ -20,8 +20,8 @@ OK, I setup two repos, main and sub. The sub repo will be nested locally into th
 
 Here's my repos...
 ```linenos
-https://github.com/Jules2010/testing-subtrees-main-repo
-https://github.com/Jules2010/testing-subtrees-sub-repo/tree/master
+https://github.com/JulesMoorhouse/testing-subtrees-main-repo
+https://github.com/JulesMoorhouse/testing-subtrees-sub-repo/tree/master
 ```
 
 I put some obvious files in each.
@@ -38,7 +38,7 @@ Next, I cloned my main repo into that folder
 cd documents
 mkdir subtrees
 cd subtrees
-git clone https://github.com/Jules2010/testing-subtrees-main-repo main
+git clone https://github.com/JulesMoorhouse/testing-subtrees-main-repo main
 ```
 
 Ok, so notice the last parameter `main` this is the folder when I want the repo.
@@ -47,7 +47,7 @@ Next, I cd'd into the `main` folder and added / nested the `sub` repo.
 
 ```linenos
 cd main
-git subtree add --prefix=sub https://github.com/Jules2010/testing-subtrees-sub-repo.git master
+git subtree add --prefix=sub https://github.com/JulesMoorhouse/testing-subtrees-sub-repo.git master
 ```
 
 Notice prefix here is the `sub` folder and the last parameter here is the branch `master`.
@@ -88,7 +88,7 @@ I guess that's really the way you'd want this to work!
 So now let’s push this change to the `sub` repo.
 
 ```linenos
-git subtree push --prefix=sub https://github.com/Jules2010/testing-subtrees-sub-repo.git master
+git subtree push --prefix=sub https://github.com/JulesMoorhouse/testing-subtrees-sub-repo.git master
 ```
 
 Not as difficult as you think, right?
