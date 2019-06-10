@@ -26,5 +26,12 @@
 		"url": "/revenuecalc",
 		"date": "Jan 2010 to present",
 		"tags": ["iOS"]
-	}
+	},
+	{
+		"name": "MMOS",
+		"image": "",
+		"url": "/https://github.com/JulesMoorhouse/MMOS",
+		"date": "2000 to 2003",
+		"tags": ["VB6"]
+	},
 ]
