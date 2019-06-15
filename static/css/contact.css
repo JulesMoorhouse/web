@@ -16,30 +16,6 @@ h3#support-options-heading
     padding-bottom: 7px;
 }
 
-#support-options h4 
-{
-    /* border: 1px solid red; */
-    padding: 11px;
-    background-image: linear-gradient(to bottom right, #dedede , #fff);
-    /* color: #000; */
-    /*border-top: 1px solid #999;*/
-    border-left: 1px solid #999;
-    border-right: 1px solid #dedede;
-    border-bottom: 1px solid #dedede;
-    border-radius: 5px;
-}
-
-#support-options h4 a 
-{
-	/*color: #eee;*/
-	/*text-shadow: -1px -1px #444;*/
-	/*font-weight: normal;*/
-	color: #333;
-	font-size: 20px;
-	text-decoration: none;
-	cursor: pointer;
-}
-
 .app-options 
 {
     background-color: #f9f9f9;

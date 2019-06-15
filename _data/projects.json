@@ -4,34 +4,55 @@
 		"image": "../../static/img-300/icon-balance-guide.png",
 		"url": "/bg",
 		"date": "Jan 2010 to present",
-		"tags": ["iOS"]
+		"tags": ["iOS App Store", "Objective C", "SQL"]
 	},
 	{
 		"name": "Speaking Times Tables",
 		"image": "../../static/img-300/icon-speaking-times-tables.png",
 		"url": "/stt",
 		"date": "Jan 2015 to present",
-		"tags": ["iOS"]
+		"tags": ["iOS App Store", "Objective C", "iCloudkit"]
 	},
 	{
 		"name": "Happy + Sad Face Chart",
 		"image": "../../static/img-300/icon-sad-face-chart.png",
 		"url": "/sadfacechart",
 		"date": "Jan 2011 to present",
-		"tags": ["iOS"]
+		"tags": ["iOS App Store", "Objective C"]
 	},
 	{
 		"name": "Revenue Calc",
 		"image": "../../static/img-300/icon-revenue-calc.png",
 		"url": "/revenuecalc",
 		"date": "Jan 2010 to present",
-		"tags": ["iOS"]
+		"tags": ["iOS App Store"]
+	},
+	{
+		"name": "Ideaspad",
+		"image": "../../static/img-300/ideaspad.png",
+		"url": "/ideaspad",
+		"date": "Jan 2003 to Dec 2008",
+		"tags": ["GitHub","VB.Net", "HTML", "SQL"]
+	},
+	{
+		"name": "Kids Mask Print",
+		"image": "../../static/img-300/kidsmaskprint.png",
+		"url": "/kidsmaskprint",
+		"date": "Jan 2004 to Dec 2006",
+		"tags": ["GitHub","VB.Net"]
+	},
+	{
+		"name": "MDBSecure",
+		"image": "../../static/img-300/mdbsecure.png",
+		"url": "/mdbsecure",
+		"date": "Jan 2003 to Dec 2005",
+		"tags": ["GitHub","VB.Net", "MS Access"]
 	},
 	{
 		"name": "MMOS",
-		"image": "",
-		"url": "/https://github.com/JulesMoorhouse/MMOS",
+		"image": "../../static/img-300/mmos.png",
+		"url": "/mmos",
 		"date": "Jan 2000 to Dec 2003",
-		"tags": ["VB6"]
-	},
+		"tags": ["GitHub","VB6", "MS Access", "SQL"]
+	}
 ]

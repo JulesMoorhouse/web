@@ -19,7 +19,7 @@ subtitle: Drop me a line
 		</p>
 	</li>
 
-	<div id="support-options" style="display: none;">
+	<div id="support-options" class="button-panel" style="display: none;">
 
 		<h3 id="support-options-heading">Support Options</h3>
 		<p id="select-one">
@@ -28,11 +28,9 @@ subtitle: Drop me a line
 		<ul>
 			<li id="bg-support">
 				<p>
-					<a>
-						<h4>
-							Balance Guide
-						</h4>
-					</a>
+					<h4>
+						Balance Guide
+					</h4>
 				</p>
 				<div id="bg-options" class="app-options" style="display: none;">
 					<p>
@@ -69,10 +67,9 @@ subtitle: Drop me a line
 			</li>
 			<li id="stt-support">
 				<p>
-					<a>
-						<h4>
-							Speaking Times Tables
-					</h4></a>
+					<h4>
+						Speaking Times Tables
+					</h4>
 				</p>
 				<div id="stt-options" class="app-options" style="display: none;">
 					<p>
@@ -99,11 +96,9 @@ subtitle: Drop me a line
 			</li>
 			<li id="sfc-support">
 				<p>
-					<a>
-						<h4>
-							Happy / Sad Face Chart
-						</h4>
-					</a>
+					<h4>
+						Happy / Sad Face Chart
+					</h4>
 				</p>
 				<div id="sfc-options" class="app-options" style="display: none;">
 					<ul>
@@ -117,11 +112,9 @@ subtitle: Drop me a line
 			</li>
 			<li id="rc-support">
 				<p>
-					<a>
-						<h4>
-						Revenue Calc
-						</h4>
-					</a>
+					<h4>
+					Revenue Calc
+					</h4>
 				</p>
 				<div id="rc-options" class="app-options" style="display: none;">
 					<ul>
