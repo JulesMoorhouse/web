@@ -1,80 +1,157 @@
 ---
 layout: page
-title: Blog
-subtitle: Welcome!
+title: Welcome
 ---
-<p>
-Please see my <a href="{{ site.baseul }}/projects/">Projects</a> page for my all my apps in the iOS app store. You can also read about my <a href="{{ site.baseul }}/about/">My iOS Development Journey</a>.
-</p>
-<p>
-From the projects page you can also get to my project mini-sites, providing more information about my apps.
-</p>
-<p>
-Also you can checkout my <a href="{{ site.github }}">Github</a> repositories and sample code, which I discuss here on my blog.
-</p>
-<p>
-Finally if you'd like to drop me a line or need support for one of my apps, please use the <a href="{{ site.baseul }}/contactme/">contact</a> page.
-</p>
 
-<p>
-My recent blog posts :-
-</p>
+<div class="col-xs-12 col-md-5">
+    <h3>Welcome</h3>
 
-<div class="well">
-    <div class="list-group">
-      {% for post in paginator.posts %}
-      <div class="list-group-item">
-        <div class="row-action-primary">
-          <i class="fa fa-sticky-note"></i>
-        </div>
-        <div class="row-content">
-          <div class="least-content">{{ post.date | date_to_string }}</div>
-          <h4 class="list-group-item-heading"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.subtitle }}</a></h4>
+    <p>
+        Welcome to my site, I'm called Jules to everyone who knows me, although my real name is Julian Moorhouse.
+    </p>
 
-          <p class="list-group-item-text">{{ post.content | strip_html | truncatewords: 20 }}</p>
-        </div>
-      </div>
-      <div class="list-group-separator"></div>
-      {% endfor %}
-    </div>
-   
+    <p>
+        What is this site about? It's aimed to show off my projects and provide somewhere where I can add blog posts about topics which interest me. Although my day job is a .Net full stack web developer, over the years I have had several personal projects. More recently I've opened sourced some of these projects. 
+    </p>
 
-    <!-- Pagination links -->
-    {% if paginator.total_pages > 1 %}
-    <ul class="pager">
-      {% if paginator.previous_page %}
-        <li class="previous">
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
-        </li>
-      {% else %}
-        <li class="previous disabled"><span aria-hidden="true">&laquo;</span></li>
-      {% endif %}
+    <p>
+        Please see my <a href="{{ site.baseul }}/projects/">Projects</a> page for my all my apps in the iOS app store and some older projects.
+    <p>
+        From the projects page you can also get to my project mini-sites.
+    </p>
 
-      <li><a href="/">First</a></li>
+    <p>
+        As mentioned, for my older projects, you can also checkout my <a href="{{ site.github }}">Github</a> repositories and sample code, which I discuss here on my blog.
+    </p>
 
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <li class="active">
-             <a>{{ page }}<span class="sr-only">(current)</span></a>
-          </li>
-        {% elsif page == 1 %}
-          <li><a href="/">{{ page }}</a></li>
-        {% else %}
-          <li>
-            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
-
-      <li><a href="/page{{ paginator.total_pages }}/">Last</a></li>
-
-      {% if paginator.next_page %}
-        <li class="next">
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
-        </li>
-      {% else %}
-        <li class="next disabled"><span>&raquo;</span></li>
-      {% endif %}
-    </ul>
-    {% endif %}
+    <p>
+        If you'd like to drop me a line or need support for one of my apps, please use the <a href="{{ site.baseul }}/contactme/">contact</a> page.
+    </p>
+    <hr size="1" />
 </div>
+<div class="col-xs-12 col-md-7">
+    <h3>My iOS projects</h3>
+
+    <h4>Speaking Times Tables - version 1</h4>
+
+    {% assign myfirstapp_url = "" %}{% for t in site.posts %}{% if t.ident == 'myfapp' %}{% assign myfirstapp_url = t.url %}{% endif %}{% endfor %}
+
+    <div style="float: right; width: 120px; padding-left: 20px;">
+        <img title="Speaking Times Tables version 1 logo" height="300" width="300" src="/static/img-300/icon-sttv1.png">
+    </div>
+
+    <p>
+        I developed my first iPhone app  which sadly is no longer in the app store, <a href="{{ site.baseurl }}/{{myfirstapp_url}}">Speaking Times Tables</a> (not to be confused with <a href="{{ site.baseurl }}/stt">Speaking Times Tables for iPad</a> written in 2015). 
+    </p>
+    <p>
+        At the time I spent a couple of years full time developing apps, which I was a stay hove dad, it was a wonderful time.
+    </p>
+
+    <div style="clear: left;"></div>
+
+    <h4>Balance Guide</h4>
+
+    <div style="float: left; width: 120px;">
+        <img title="The logo for Balance Guide" height="100" width="100" src="/static/img-300/icon-balance-guide.png">
+    </div>
+
+    <p>
+        I developed my second iPhone app <a href="{{ site.baseurl }}/bg">Balance Guide</a> also in 2010. 
+    </p>
+    <p>
+        Why did I develop it? Well I wanted some way to manage my finances on my iPhone and I thought it would be cool to write an app myself. 
+    </p>
+    <div style="clear: left;"></div>
+
+    <p>
+        I was hooked. Since then, it's been my favourite app, I just can't drag myself away. I've been adding new features and updating it ever since, why ? because I use it myself. 
+    </p>
+    <p>	
+        I have to say that I've had to hold myself back adding certain features and consider my user base, it's far to easy to add everything everyone requests and make a design mistake.
+    </p>
+    <div style="clear: left;"></div>
+
+</div>
+
+<div class="col-xs-12">
+
+    <h4>Revence Calc</h4>
+    <div style="float: right; width: 120px; padding-left: 20px;">
+        <img title="The icon for Revenue Calc" height="100" width="100" src="/static/img-300/icon-revenue-calc.png">
+    </div>
+    <p>
+        I'm not going to say much about my third app <a href="{{ site.baseurl }}/revenuecalc">Revenue Calc</a> other than it initially took an afternoon to develop, when I wanted to do something new, after developing Balance Guide.
+    </p>
+    <div style="clear: left;"></div>
+
+    <div style="float: left; width: 120px;">
+        <img title="The logo for Happy / Sad Face Chart" height="100" width="100" src="/static/img-300/icon-sad-face-chart.png">
+    </div>
+
+    <h4>Sad face Chart</h4>
+    <p>			
+        In 2011 I wrote <a href="{{ site.baseurl }}/sadfacechart">Sad Face Chart</a>, again this was an app primarily  written for personal use.
+    </p>
+    <p>			
+        Although the icon was different to that shown here.
+    </p>
+
+    <h4>Speaking Times Tables HD</h4>
+
+    <div style="clear: left;"></div>
+
+     <div style="float: right; width: 120px; padding-left: 20px;">
+        <img title="The logo for Speaking Times Tables" height="100" width="100" src="/static/img-300/icon-speaking-times-tables.png">
+    </div>
+
+    <p>	
+        My next app was <a href="{{ site.baseurl }}/stt">Speaking Times Tables</a> HD written in 2015, I've since dropped "HD", like Balance Guide this has become one of my main apps, which I've actively continued to develop and upgrade. 
+    </p>
+    <p>
+        Initially I wrote the app for the original iPad, later I made the app universal and added iCloud support to enabled use in class rooms.
+    </p>
+
+    <p>
+        Since adding iCloud sync, I've extracted the functionality into a framework and am in the process of incorporating into new apps. 
+    </p>
+
+    <p>
+        I then brought iCloud sync to Sad Face Chart, then I started work on refactoring this code into a framework, this version has yet to be released.
+    </p>
+
+    <p>
+        What am I working on now? well at long last my first swift app, using my new iCloud Sync framework, I hope this will be released later this year.
+    </p>
+
+    <hr size="1" />
+</div>
+
+<div style="clear: left;"></div>
+
+<div class="col-xs-12">
+    <h3>.Net full stack web developer</h3>
+    <div style="float: right; width: 220px; padding-left: 20px;">
+        <img title="Orchid Softwares Logo" height="31" width="200" src="/static/img-300/logo-orchidsoft.png">
+    <br/>
+        <img title="The Oak Intranet Logo" height="123" width="200" src="/static/img-300/logo-oak.png">
+    </div>
+    <p>
+        Later in 2011 a took up a web development position full time, after my son started at primary school. 
+    </p>
+    <p>
+        I've been an application / web developer at <a href="https://orchidsoft.com">Orchid Software Ltd</a> for over 7 years. I've worked on many interesting projects, on the companines intranet products. 
+    </p>
+    <p>
+        In the last three years I've been a full stack web developer on the <a href="https://www.oak.com">Oak intranet</a> platform.
+    </p>
+
+    <div style="clear: left;"></div>
+
+
+    <p>
+        Please feel free drop me a line on twitter <a href="https://twitter.com/MindwarpJules">@MindwapJules</a>, via the <a href="{{ site.baseurl }}/contactme">contact me</a> page or via the social links in the header.
+    </p>
+
+</div>
+
+<div style="clear: left;"></div>
