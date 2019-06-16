@@ -6,6 +6,8 @@ permalink: /skills/
 
 Here's a list of all of my skills, last updated 16th June 2019.
 
+<br/>
+
 ## Back End
 
 **C#** - 2015 to current, I develop with this every day in my current position.
@@ -50,7 +52,7 @@ Here's a list of all of my skills, last updated 16th June 2019.
 
 <br/>
 
-## Databases
+## Database
 
 **MS SQL** - 1997 to 2016, I developed with every day from 2011 to 2016.
 
