@@ -6,7 +6,7 @@ permalink: /skills/
 
 Here's a list of all of my skills, in alphabetical order, last updated 16th June 2019.
 
-# Current 
+## Current 
 
 **Angular.js** - 2018 to current, I developed several applications in my current position  and often maintain code.
 
@@ -50,7 +50,7 @@ Here's a list of all of my skills, in alphabetical order, last updated 16th June
 
 **XCode** - 2010 to current, I have developed several iOS apps and maintain code regularly.
 
-# Older skills
+## Older skills
 
 **Classic ASP** - 1999 to 2016, I developed with this every day from 2011 to 2016.
 
