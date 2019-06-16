@@ -16,6 +16,8 @@ Here's a list of all of my skills, last updated 16th June 2019.
 
 **MS Test** - 2016 to current, I have some good experience, but don't use this every day.
 
+<br/>
+
 ## Front End
 
 **Typescript** - 2015 to current, I write Typescript every day in my current position.
@@ -34,6 +36,8 @@ Here's a list of all of my skills, last updated 16th June 2019.
 
 **JavaScript** - 2009 to current, I use vanilla javascript which is essential for every day development.
 
+<br/>
+
 ## Mobile
 
 **iOS** - 2009 to current, I have a great deal of UX / UI experience both as a user and understanding the frameworks for development.
@@ -44,6 +48,8 @@ Here's a list of all of my skills, last updated 16th June 2019.
 
 **XCode** - 2010 to current, I have developed several iOS apps and maintain code regularly.
 
+<br/>
+
 ## Databases
 
 **MS SQL** - 1997 to 2016, I developed with every day from 2011 to 2016.
@@ -51,6 +57,8 @@ Here's a list of all of my skills, last updated 16th June 2019.
 **SQL** - 1994 to current, I wrote SQL every day from 2011 to 2016, also use currently for my iOS apps.
 
 **SQLite** - 2010 to current, I developed several iOS apps and maintain code regularly.
+
+<br/>
 
 ## Older skills
 
