@@ -30,7 +30,7 @@ Here's a list of all of my skills, last updated 16th June 2019.
 
 **Sass** - 2015 to current, I write Sass every day in my current position, more recently using the BEMIT syntax.
 
-**Bootstrap 3** - 2016 to current, I have a good boot strap / responsive experience.
+**Bootstrap 3** - 2016 to current, I have a good bootstrap / responsive experience.
 
 **CSS** - 2005 to current, I have lots of experience, I write css every day, more recently including flex.
 
