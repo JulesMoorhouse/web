@@ -7,7 +7,7 @@ ident: myfapp
 comments_disabled: true
 ---
 
-Speaking Times Table for iPhone was my first iPhone app developed in 2010. Please don't confuse this with Speaking Times Tables for iOS written in 2015.
+<a href="{{ site.baseurl }}/sttv1">Speaking Times Table for iPhone</a> was my first iPhone app developed in 2010, this is not on <a href="https://github.com/JulesMoorhouse/STTv1">Github</a>. Please don't confuse this with Speaking Times Tables for iOS written in 2015.
 
 Previously I had developed speaking times table software for PC CD-ROM which I sold on eBay. Back then the speech technology wasn't that good.
 
