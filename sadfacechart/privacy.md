@@ -84,5 +84,5 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 <h2>Contact Us</h2>
 If you have any questions about this Privacy Policy, please contact me:
 <ul>
- 	<li>By visiting this page on our website: https://www.mclapps.co.uk/</li>
+ 	<li>By visiting this page on our website: <a href="https://www.julesmoorhouse.com/contactme/" rel="external nofollow noopener" target="_blank">https://www.julesmoorhouse.com/contactme/</a>/</li>
 </ul>
