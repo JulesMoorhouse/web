@@ -8,7 +8,7 @@ title: Pain Meds Buddy
         <div class="pb-20">
             <div>
                 <p class="pb-20">
-                Pain Meds Buddy was written over a few months at the end of 2021. It's written using SwiftUI. I wrote the app towards the end of my recovery from a smashed ankle, to improve my skills. Obviously, the need arose for such and app.
+                Pain Meds Buddy was written over a few months at the end of 2021 / 2022. It's written using SwiftUI. I wrote the app towards the end of my recovery from a smashed ankle, to improve my skills. Obviously, the need arose for such and app.
                 </p>
                 <p class="pb-20">
                 I couldn't find an app which notified you when pain medications doses where elapsed. In fact I was using two apps to acheive the same goal.

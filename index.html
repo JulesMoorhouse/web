@@ -3,7 +3,7 @@ layout: page
 title: Welcome
 ---
 
-<div class="col-xs-12 col-sm-5">
+<div class="col-xs-12 col-sm-7">
     <h3>Welcome</h3>
 
     <p>
@@ -12,11 +12,11 @@ title: Welcome
 
     <p>
         What is this site about?
-        The aim of my site is allow me to show off some of my projects and allow me to add blog posts about development topics that interest me. Although my day job is a .Net full stack web developer, over the years I have developed several personal projects. More recently I've opened sourced some of these projects on <a href="https://github.com/JulesMoorhouse">GitHub</a>. 
+        The aim of my site is to allow me to show off some of my projects and allow me to add blog posts about development topics that interest me. Over the years I have developed several projects. More recently I've opened sourced some of these projects on <a href="https://github.com/JulesMoorhouse">GitHub</a>. 
     </p>
 
     <p>
-        Please see my <a href="{{ site.baseurl }}/projects/">Projects</a> page for my all my apps in the iOS app store and some older projects.
+        Please see my <a href="{{ site.baseurl }}/projects/">Projects</a> page for all apps in the iOS app store and some older projects.
     <p>
         From the projects page you will also see links to my project mini-sites.
     </p>
@@ -30,74 +30,52 @@ title: Welcome
     </p>
     <hr size="1" />
 </div>
-<div class="col-xs-12 col-sm-7">
+<div class="col-xs-12 col-sm-5">
     <h3>My iOS projects</h3>
 
-    <h4>Speaking Times Tables - version 1</h4>
-
-    {% assign myfirstapp_url = "" %}{% for t in site.posts %}{% if t.ident == 'myfapp' %}{% assign myfirstapp_url = t.url %}{% endif %}{% endfor %}
-
+    <h4>Pain Meds Buddy</h4>
+    <div style="clear: left;"></div>
     <div style="float: right; width: 120px; padding-left: 20px;">
-        <img title="Speaking Times Tables version 1 logo" height="300" width="300" src="/static/img-300/icon-sttv1.png">
+        <img title="The logo for Pain Meds Buddy" height="100" width="100" src="/static/img-300/icon-pain-meds-buddy.png">
     </div>
     <p>
-        I developed my first iPhone app  which sadly is no longer in the app store, <a href="{{ site.baseurl }}{{ myfirstapp_url }}">Speaking Times Tables</a> (not to be confused with <a href="{{ site.baseurl }}/stt">Speaking Times Tables HD for iPad</a> written in 2015). 
+        Recently (2022 / 2021), to drive home my SwiftUI development knowledge, I wrote a portfolio app, <a href="{{ site.baseurl }}/pmb">Pain Meds Buddy</a>. 
     </p>
     <p>
-        At the time I spent a couple of years full time developing apps, while I was a stay home dad, it was a wonderful time.
+        Admittedly, this was initially based on the Hacking with Swift Plus course, however it far outgrew the course syllabus. In fact I learn a great deal from my mistakes.
     </p>
 
     <div style="clear: left;"></div>
-
-    <h4>Balance Guide</h4>
-
+    <h4>100 of days of SwiftUI</h4>
     <div style="float: left; width: 120px;">
-        <img title="The logo for Balance Guide" height="100" width="100" src="/static/img-300/icon-balance-guide.png">
+        <a href="/static/img/100dayofswiftuicertificate.jpeg">
+            <img title="" height="100" width="100" src="/static/img/100dayofswiftuicertificate.jpeg">
+        </a>
     </div>
 
     <p>
-        I developed my second iPhone app <a href="{{ site.baseurl }}/bg">Balance Guide</a> also in 2010. 
+        From the end of 2020 til May 2021, I studied the <a href="https://github.com/JulesMoorhouse/100DaysOfSwiftUI">100 of days of SwiftUI</a> course. Having done the first course, I was keen to start. I was also able to work on the course during personal development day each week in my last role.
     </p>
-    <p>
-        Why did I develop it? Well I wanted some way to manage my finances on my iPhone and I thought it would be cool to write an app myself. 
-    </p>
-    <div style="clear: left;"></div>
-
-    <p>
-        I was hooked. Since then, it's been my favourite app, I just can't drag myself away. I've been adding new features and updating it ever since, why ? because I use it myself. 
-    </p>
-    <p>	
-        I have to say that I've had to hold myself back from adding certain features and consider my user base, it's far too easy to add everything everyone requests and make design mistakes.
-    </p>
-    <div style="clear: left;"></div>
-
 </div>
-
 <div class="col-xs-12">
+    <div style="clear: left;"></div>
+    <h4>100 of days of Swift</h4>
 
-    <h4>Revenue Calc</h4>
-    <div style="float: right; width: 120px; padding-left: 20px;">
-        <img title="The icon for Revenue Calc" height="100" width="100" src="/static/img-300/icon-revenue-calc.png">
+     <div style="float: right; width: 120px; padding-left: 20px;">
+        <a href="/static/img/100dayofswiftcertificate.jpeg">
+            <img title="" height="100" width="100" src="/static/img/100dayofswiftcertificate.jpeg">
+        </a>
     </div>
     <p>
-        I'm not going to say much about my third app <a href="{{ site.baseurl }}/revenuecalc">Revenue Calc</a> other than it initially took a short time to develop, it's quite a simple app, I wanted to complete something quickly, after developing Balance Guide.
+        In the summer of 2019 I completed the <a href="https://github.com/JulesMoorhouse/100DaysOfSwift">100 of days of Swift</a> training sessions. I really enjoyed the course, especially building SpriteKit games. This is a tweet that I tweeted at the time, although it's quite large, it's quite fun.
     </p>
-    <div style="clear: left;"></div>
-
-    <div style="float: left; width: 120px;">
-        <img title="The logo for Happy / Sad Face Chart" height="100" width="100" src="/static/img-300/icon-sad-face-chart.png">
-    </div>
-
-    <h4>Sad Face Chart</h4>
-    <p>			
-        In 2011 I wrote <a href="{{ site.baseurl }}/sadfacechart">Sad Face Chart</a>, again this was an app primarily written for personal use.
-    </p>
-    <p>			
-        Although the icon was different to that shown here back then.
+</div>
+<div class="col-xs-12">
+    <p>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Finally completed days 94 / 95 and 96 of <a href="https://twitter.com/hashtag/100DaysOfSwift?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfSwift</a> started this last week. The challenge took a lot longer than I thought. The wind and rain were quite tricky. <a href="https://t.co/Ne2G9Y3KtL">pic.twitter.com/Ne2G9Y3KtL</a></p>&mdash; Julian Moorhouse  (@MindwarpJules) <a href="https://twitter.com/MindwarpJules/status/1170450935711174656?ref_src=twsrc%5Etfw">September 7, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </p>
 
-    <h4>Speaking Times Tables HD</h4>
-
+    <h4>Speaking Times Tables</h4>
     <div style="clear: left;"></div>
 
      <div style="float: right; width: 120px; padding-left: 20px;">
@@ -105,40 +83,85 @@ title: Welcome
     </div>
 
     <p>	
-        My next app was <a href="{{ site.baseurl }}/stt">Speaking Times Tables</a> HD written in 2015, I've since dropped "HD", like Balance Guide this has become one of my main apps, which I've actively continued to develop and upgrade. 
+        With <a href="{{ site.baseurl }}/stt">Speaking Times Tables</a> which I wrote in 2015, it has become one of my main apps, which I've actively continued to develop and upgrade. 
     </p>
     <p>
-        Initially I wrote the app for the original iPad, later I made the app universal and added iCloud support to enabled use in class rooms. You can read more about the design process <a href="stt/features/how-we-designed-the-app">here</a>.
+        Initially I wrote the app for the original iPad, later I made the app universal and added iCloud support to enable use in classrooms. You can read more about the design process <a href="stt/features/how-we-designed-the-app">here</a>.
     </p>
+    <p>
+        In fact this was version two of the app, version one I developed, which was my first iPhone app  which sadly is no longer in the app store, <a href="{{ site.baseurl }}{{ myfirstapp_url }}">here the product page</a>
+    </p>
+    <p>
+        At the time I spent a couple of years full time developing apps, while I was a stay home dad, it was a wonderful time.
+    </p>
+        <p>
+        Since adding iCloud sync to, I've extracted the functionality into a framework and started incorporating into new apps. 
+    </p>
+    <p>
+        I then brought iCloud sync to Sad Face Chart (see below) and I started work on refactoring this code into a framework, which was released in 2019.
+    </p>
+
+    <div style="clear: left;"></div>
+    <h4>Balance Guide</h4>
+
+    <div style="float: left; width: 120px;">
+        <img title="The logo for Balance Guide" height="100" width="100" src="/static/img-300/icon-balance-guide.png">
+    </div>
 
     <p>
-        Since adding iCloud sync, I've extracted the functionality into a framework and am in the process of incorporating into new apps. 
+        I developed my second iPhone app <a href="{{ site.baseurl }}/bg">Balance Guide</a> in 2010. 
     </p>
-
     <p>
-        I then brought iCloud sync to Sad Face Chart and I started work on refactoring this code into a framework, which was released in 2019.
+        Why did I develop it? Well I wanted some way to manage my finances on my iPhone and I thought it would be cool to write an app myself. 
     </p>
-
     <p>
-        In the summer of 2019 I completed the <a href="https://github.com/JulesMoorhouse/100DaysOfSwift">100 of days of Swift</a> training sessions. I really enjoyed the course espeically building SpriteKit games.
-
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Finally completed days 94 / 95 and 96 of <a href="https://twitter.com/hashtag/100DaysOfSwift?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfSwift</a> started this last week. The challenge took a lot longer than I thought. The wind and rain were quite tricky. <a href="https://t.co/Ne2G9Y3KtL">pic.twitter.com/Ne2G9Y3KtL</a></p>&mdash; Julian Moorhouse  (@MindwarpJules) <a href="https://twitter.com/MindwarpJules/status/1170450935711174656?ref_src=twsrc%5Etfw">September 7, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        I was hooked. Since then, it's been my favourite app, I just can't drag myself away. I've been adding new features and updating it ever since, why ? Because I use it myself. 
     </p>
-
+    <p>	
+        I have to say that I've had to hold myself back from adding certain features and consider my user base, it's far too easy to add everything everyone requests and make design mistakes.
+    </p>
     <p>
         Since then and into 2020 I've had to go back to update my apps for iOS13 and dark mode.
     </p>
 
-    <p>
-        This year I plan to create a new app using <a href="https://dotnet.microsoft.com/apps/xamarin/xamarin-forms">Xamarin forms</a> and Swift for iCloud and Core Data.
+    <div style="clear: left;"></div>
+    <h4>Sad Face Chart</h4>
+    <div style="float: right; width: 120px; padding-left: 20px;">
+        <img title="The logo for Happy / Sad Face Chart" height="100" width="100" src="/static/img-300/icon-sad-face-chart.png">
+    </div>
+    <p>			
+        In 2011 I wrote <a href="{{ site.baseurl }}/sadfacechart">Sad Face Chart</a>, again this was an app primarily written for personal use.
+    </p>
+    <p>			
+        Although the icon was different to that shown here back then.
     </p>
 
-    <hr size="1" />
+    <h4>Revenue Calc</h4>
+    <div style="float: left; width: 120px;">
+        <img title="The icon for Revenue Calc" height="100" width="100" src="/static/img-300/icon-revenue-calc.png">
+    </div>
+    <p>
+        I'm not going to say much about  <a href="{{ site.baseurl }}/revenuecalc">Revenue Calc</a> other than it initially took a short time to develop, it's quite a simple app, I wanted to complete something quickly, after developing Balance Guide.
+    </p>
 </div>
+
 
 <div style="clear: left;"></div>
 
 <div class="col-xs-12">
+    <hr size="1" />
+    <h3>Mobile developer</h3>
+
+
+    <div style="float: left; width: 120px;">
+        <img title="The Trip IQ Logo" height="99" width="98" src="/static/img-300/logo-tripiq.jpeg">
+    </div>
+    <p>
+        In 2020 I began a mobile development role, initially I trained in Xamarin Forms, Android and SwiftUI (#100DaysOfSwiftUI). 
+    </p>
+    <p>
+        For several months we undertook a rebranding project based on previous iOS UI experience, which involved both Android and iOS platform code. Extending MVVM functionality and developed a new UI Testing project.
+    </p>
     <h3>.Net full stack web developer</h3>
     <div style="float: right; width: 220px; padding-left: 20px;">
         <img title="Orchid Softwares Logo" height="31" width="200" src="/static/img-300/logo-orchidsoft.png">
@@ -146,8 +169,7 @@ title: Welcome
         <img title="The Oak Intranet Logo" height="123" width="200" src="/static/img-300/logo-oak.png">
     </div>
     <p>
-        Although this site is dedicated to my personal projects, I'd like to mention my day job.
-        Later in 2011 a took up a web development position full time, after my son started at primary school. 
+        In 2011 I took up a web development position full time, after my son started at primary school. 
     </p>
     <p>
         I was an application / web developer at <a href="https://orchidsoft.com">Orchid Software Ltd</a> for over 7 years. I worked on many interesting projects and intranet products. 
@@ -161,17 +183,16 @@ title: Welcome
     <div style="float: left; width: 120px;">
         <img title="The WorkCast Logo" height="99" width="98" src="/static/img-300/logo-workcast.png">
     </div>
-        
     <p>
-        In the summer of 2019 I was made redunant and took a new role with WorkCast again as a full stack .Net web developer.
+        In the summer of 2019 I was made redundant and took a new role with WorkCast again as a full stack .Net web developer.
     </p>
 
     <p>
         At <a href="https://info.workcast.com">WorkCast</a> I work on some interesting projects, including the Twilio voice api. Also I've refreshed my MS SQL Server skills.
     </p>
 
+    <hr size="1" />
     <div style="clear: left;"></div>
-
     <p>
         Please feel free drop me a line on twitter <a href="https://twitter.com/MindwarpJules">@MindwapJules</a>, via the <a href="{{ site.baseurl }}/contactme">contact me</a> page or via the social links in the header.
     </p>
