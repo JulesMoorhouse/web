@@ -27,7 +27,7 @@ subtitle: Drop me a line
 			<li id="pmb-support">
 				<p>
 					<h4>
-						Pain Medd Buddy
+						Pain Meds Buddy
 					</h4>
 				</p>
 				<div id="pmb-options" class="app-options" style="display: none;">
