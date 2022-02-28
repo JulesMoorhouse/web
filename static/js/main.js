@@ -11,11 +11,13 @@ var selectOne = "#select-one";
 
 var supportOptions = "#support-options";
 
+var pmbSupport = "#pmb-support";
 var bgSupport = "#bg-support";
 var sttSupport= "#stt-support";
 var sfcSupport = "#sfc-support";
 var rcSupport = "#rc-support";
 
+var pmbOptions = "#pmb-options";
 var bgOptions = "#bg-options";
 var sttOptions = "#stt-options";
 var sfcOptions = "#sfc-options";
@@ -51,10 +53,12 @@ var rcOptions = "#rc-options";
         $(supportOptions).hide();
         $(getInTouch).show();
 
+        $(pmbSupport).hide();
         $(bgSupport).hide();
         $(sttSupport).hide();
         $(sfcSupport).hide();
         $(rcSupport).hide();
+        $(pmbOptions).hide();
         $(bgOptions).hide();
         $(sttOptions).hide();
         $(sfcOptions).hide();
@@ -66,10 +70,42 @@ var rcOptions = "#rc-options";
       {
         $(supportOptions).show();
         $(getInTouch).hide();
+        $(pmbSupport).show();
         $(bgSupport).show();
         $(sttSupport).show();
         $(sfcSupport).show();
         $(rcSupport).show();
+      }
+    })
+
+    $(pmbSupport).click(function(e)
+    {
+      console.log("pmbSupport - click");
+
+      e.preventDefault();
+
+      if ($(pmbOptions).is(":visible"))
+      {
+        $(supportOptionsHeading).show();
+        $(selectOne).show();
+
+        $(pmbOptions).hide();
+        $("#contact-iframe").hide();
+        $(bgSupport).show();
+        $(sttSupport).show();
+        $(sfcSupport).show();
+        $(rcSupport).show();
+      }
+      else
+      {
+        //$(supportOptionsHeading).hide();
+        $(selectOne).hide();
+
+        $(pmbOptions).show();
+        $(bgSupport).hide();
+        $(sttSupport).hide();
+        $(sfcSupport).hide();
+        $(rcSupport).hide();
       }
     })
 
@@ -84,6 +120,7 @@ var rcOptions = "#rc-options";
         $(supportOptionsHeading).show();
         $(selectOne).show();
 
+        $(pmbSupport).show();
         $(bgOptions).hide();
         $("#contact-iframe").hide();
         $(sttSupport).show();
@@ -95,6 +132,7 @@ var rcOptions = "#rc-options";
         //$(supportOptionsHeading).hide();
         $(selectOne).hide();
 
+        $(pmbSupport).hide();
         $(bgOptions).show();
         $(sttSupport).hide();
         $(sfcSupport).hide();
@@ -117,6 +155,7 @@ var rcOptions = "#rc-options";
 
         $(sttOptions).hide();
         $("#contact-iframe").hide();
+        $(pmbSupport).show();
         $(bgSupport).show();
         $(sfcSupport).show();
         $(rcSupport).show();
@@ -127,6 +166,7 @@ var rcOptions = "#rc-options";
         $(selectOne).hide();
 
         $(sttOptions).show();
+        $(pmbSupport).hide();
         $(bgSupport).hide();
         $(sfcSupport).hide();
         $(rcSupport).hide();
@@ -146,6 +186,7 @@ var rcOptions = "#rc-options";
 
         $(sfcOptions).hide();
         $("#contact-iframe").hide();
+        $(pmbSupport).show();
         $(bgSupport).show();
         $(sttSupport).show();
         $(rcSupport).show();
@@ -156,6 +197,7 @@ var rcOptions = "#rc-options";
         $(selectOne).hide();
 
         $(sfcOptions).show();
+        $(pmbSupport).hide();
         $(bgSupport).hide();
         $(sttSupport).hide();
         $(rcSupport).hide();
@@ -175,6 +217,7 @@ var rcOptions = "#rc-options";
 
         $(rcOptions).hide();
         $("#contact-iframe").hide();
+        $(pmbSupport).show();
         $(bgSupport).show();
         $(sttSupport).show();
         $(sfcSupport).show();
@@ -185,6 +228,7 @@ var rcOptions = "#rc-options";
         $(selectOne).hide();
 
         $(rcOptions).show();
+        $(pmbSupport).hide();
         $(bgSupport).hide();
         $(sttSupport).hide();
         $(sfcSupport).hide();

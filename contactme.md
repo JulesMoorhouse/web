@@ -18,14 +18,28 @@ subtitle: Drop me a line
 			See my <a href="#" id="show-support">support options</a> for help with an app.
 		</p>
 	</li>
-
 	<div id="support-options" class="button-panel" style="display: none;">
-
 		<h3 id="support-options-heading">Support Options</h3>
 		<p id="select-one">
 			Select one of the following :-
 		</p>
 		<ul>
+			<li id="pmb-support">
+				<p>
+					<h4>
+						Pain Medd Buddy
+					</h4>
+				</p>
+				<div id="pmb-options" class="app-options" style="display: none;">
+					<ul>
+						<li>
+						<p>
+							If you have a general question please use my <a class="contentframe">contact form.</a>
+						</p>
+					</li>
+					</ul>
+				</div>
+			</li>
 			<li id="bg-support">
 				<p>
 					<h4>
