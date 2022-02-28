@@ -3,3 +3,4 @@ _site/
 category/
 *~
 _drafts
+.jekyll-cache

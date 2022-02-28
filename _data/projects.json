@@ -1,5 +1,12 @@
 [
 	{
+		"name": "Pain Meds Buddy",
+		"image": "../../static/img-300/icon-pain-meds-buddy.png",
+		"url": "/pmb",
+		"date": "Feb 2022 to present",
+		"tags": ["iOS App Store", "SwiftUI", "Swift"]
+	},
+	{
 		"name": "Balance Guide",
 		"image": "../../static/img-300/icon-balance-guide.png",
 		"url": "/bg",
@@ -28,7 +35,7 @@
 		"tags": ["iOS App Store"]
 	},
 	{
-		"name": "Speakin' Times Tables v1",
+		"name": "Speaking Times Tables v1",
 		"image": "../../static/img-300/icon-sttv1.png",
 		"url": "/sttv1",
 		"date": "Jan 2010 to 2018",

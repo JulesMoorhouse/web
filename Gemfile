@@ -12,3 +12,5 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'github-pages-health-check'
 end
+
+gem "webrick", "~> 1.7"
