@@ -3,6 +3,8 @@
 $heading_size: 20px;
 $text_size: 13px;
 
+@use 'sass:math';
+
 @mixin curhand {
   cursor: pointer;
 }
@@ -52,7 +54,7 @@ $text_size: 13px;
 
         @include borderbtm( #888 );
         @include margins(0 5px);
-        font-size: ($heading_size / 2);
+        font-size: math.div($heading_size, 2);
 
         &:first-child, &:last-child { margin-left: 0; }
     }
