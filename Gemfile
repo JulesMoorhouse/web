@@ -11,7 +11,6 @@ group :jekyll_plugins do
   gem 'jekyll-srcset'
   gem 'jemoji'
   gem 'github-pages-health-check'
-  gem 'faraday-retry'
 end
 
 gem "webrick", "~> 1.7"
