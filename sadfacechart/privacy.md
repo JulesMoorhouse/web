@@ -4,6 +4,7 @@ title: Happy + Sad Face Chart
 subtitle: Privacy
 ---
 
+<div class="well">
 Effective date: October 16, 2018
 
 Mindwarp Consultancy Ltd ("us", "we", or "our") operates the website and the Happy + Sad Face Chart mobile application (hereinafter referred to as the "Service").
@@ -86,3 +87,5 @@ If you have any questions about this Privacy Policy, please contact me:
 <ul>
  	<li>By visiting this page on our website: <a href="https://www.julesmoorhouse.com/contactme/" rel="external nofollow noopener" target="_blank">https://www.julesmoorhouse.com/contactme/</a>/</li>
 </ul>
+
+</div>

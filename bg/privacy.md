@@ -6,6 +6,7 @@ bodyclass: bg
 permalink: /bg/privacy
 ---
 
+<div class="well">
 <p>Effective date: March 05, 2019</p>
 <p>Mindwarp Consultancy Ltd (&#8220;us&#8221;, &#8220;we&#8221;, or &#8220;our&#8221;) operates the Balance Guide mobile application (the &#8220;Service&#8221;).</p>
 
@@ -83,3 +84,5 @@ We invite you to contact me if you have questions about this policy. You may mai
 <ul>
 <li>By visiting this page on our website: https://www.julesmoorhouse.com/bg/</li>
 </ul>
+
+</div>

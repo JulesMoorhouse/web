@@ -4,6 +4,7 @@ title: Pains Meds Buddy
 subtitle: Privacy
 ---
 
+<div class="well">
 <h4>Privacy</h4>
 
 <p>Last updated: January 07, 2022</p>
@@ -143,3 +144,5 @@ subtitle: Privacy
 <p>By visiting this page on our website: <a href="https://www.julesmoorhouse.com/contactme/" rel="external nofollow noopener" target="_blank">https://www.julesmoorhouse.com/contactme/</a></p>
 </li>
 </ul>
+
+</div>

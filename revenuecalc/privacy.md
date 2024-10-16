@@ -4,6 +4,8 @@ title: Revenue Calc
 subtitle: Privacy
 ---
 
+<div class="well">
+
 Effective date: December 30, 2018
 
 Mindwarp Consultancy Ltd ("us", "we", or "our") operates the Revenue Calc mobile application (the "Service").
@@ -94,3 +96,5 @@ If you have any questions about this Privacy Policy, please contact me:
 <ul>
  	<li>By visiting this page on our website: <a href="https://www.julesmoorhouse.com/contactme/" rel="external nofollow noopener" target="_blank">https://www.julesmoorhouse.com/contactme/</a></li>
 </ul>
+
+</div>
