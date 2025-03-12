@@ -2,6 +2,7 @@
 layout: default
 title: Pains Meds Buddy
 subtitle: Privacy
+permalink: /pmb/privacy/
 ---
 
 <div class="well">

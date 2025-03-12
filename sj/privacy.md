@@ -2,6 +2,7 @@
 layout: default
 title: Speedy Journal
 subtitle: Privacy
+permalink: /sj/privacy/
 ---
 
 <div class="well">

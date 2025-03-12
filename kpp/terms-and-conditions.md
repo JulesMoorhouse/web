@@ -2,6 +2,7 @@
 layout: default
 title: Kids Party Planner
 subtitle: Terms & Conditions
+permalink: /kpp/terms-and-conditions/
 ---
 <div class="well">
 <h4>Terms &amp; Conditions</h4>

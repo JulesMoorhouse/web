@@ -2,6 +2,7 @@
 layout: default
 title: Slick Budget
 subtitle: Privacy
+permalink: /sb/privacy/
 ---
 
 <div class="well">

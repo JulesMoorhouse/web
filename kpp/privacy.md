@@ -2,6 +2,7 @@
 layout: default
 title: Kids Party Planner
 subtitle: Privacy
+permalink: /kpp/privacy/
 ---
 
 <div class="well">

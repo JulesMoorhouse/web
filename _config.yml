@@ -64,3 +64,12 @@ reCaptcha:
   siteKey: "6LeLtpYUAAAAAFTK_McvfMDHuD20duUGnndxh69s"
   secret: "zoeeo1/z2Q5set5lih535M99bwbeMVHqG6C+vHx1aCU4gPUNk/Sr5RLNZW6if1ugtEHSvnR1wZntgKspxlNV6sPZfCKgyWbVAmHb9/sKpgQppcTMhINj+N30CDJ8VI5wzKbd/cSDGsrOSW9FIvtsp2SLpJsVWYzHKtGIOyej/eE="
   
+include:
+  - pmb/privacy.md
+  - pmb/terms-and-conditions
+  - sj/privacy.md
+  - sb/privacy.md
+  - hp/privacy.md
+  - hp/terms-and-conditions
+  - kpp/privacy.md
+  - kpp/terms-and-conditions

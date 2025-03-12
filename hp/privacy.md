@@ -2,6 +2,7 @@
 layout: default
 title: Hike Planner
 subtitle: Privacy
+permalink: /hp/privacy/
 ---
 
 <div class="well">

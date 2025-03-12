@@ -2,6 +2,7 @@
 layout: default
 title: Hike Planner
 subtitle: Terms & Conditions
+permalink: /hp/terms-and-conditions/
 ---
 <div class="well">
 <h4>Terms &amp; Conditions</h4>
