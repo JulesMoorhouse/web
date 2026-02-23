@@ -6,11 +6,6 @@
     "layout": "post"
   },
   {
-    "text": "Blog",
-    "url": "/blog/",
-    "icon": "fa-comments"
-  },
-  {
     "text": "Projects",
     "url": "/projects",
     "icon": "fa-desktop"
