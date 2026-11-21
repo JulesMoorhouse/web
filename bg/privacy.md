@@ -1,88 +1,182 @@
 ---
-layout: bg
+layout: default
 title: Balance Guide
 subtitle: Privacy
-bodyclass: bg
-permalink: /bg/privacy
+permalink: /bg/privacy/
 ---
 
 <div class="well">
-<p>Effective date: March 05, 2019</p>
-<p>Mindwarp Consultancy Ltd (&#8220;us&#8221;, &#8220;we&#8221;, or &#8220;our&#8221;) operates the Balance Guide mobile application (the &#8220;Service&#8221;).</p>
+<h4>Privacy</h4>
 
-We invite you to contact me if you have questions about this policy. You may mail us at the following address:
+<p>Last updated: November 21, 2026</p>
+<p>
+Mindwarp Consultancy Ltd. built the Balance Guide app as
+a Commercial app. This SERVICE is provided by
+Mindwarp Consultancy Ltd.  and is intended for
+use as is.
+</p>
 
+<p>
+This page is used to inform visitors regarding
+our policies with the collection, use, and
+disclosure of Personal Information if anyone decided to use
+our Service.
+</p>
+
+<p>
+If you choose to use our Service, then you agree
+to the collection and use of information in relation to this
+policy. The Personal Information that we collect is
+used for providing and improving the Service.
+We will not use or share your
+information with anyone except as described in this Privacy
+Policy.
+</p>
+
+<p>
+The terms used in this Privacy Policy have the same meanings
+as in our Terms and Conditions, which is accessible at
+Balance Guide unless otherwise defined in this Privacy
+Policy.
+</p> 
+
+<p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to :-
 <div class="container-table">
 	<img src="{{ site.baseurl }}/static/img/mcl-info.png"/>
 </div>
 
-<p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.</p>
-<p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.</p>
-<h2>Information Collection And Use</h2>
-<p>We collect several different types of information for various purposes to provide and improve our Service to you.</p>
-<h3>Types of Data Collected</h3>
-<h4>Personal Data</h4>
-<p>While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you (&#8220;Personal Data&#8221;). Personally identifiable information may include, but is not limited to:</p>
-<ul>
-<li>Cookies and Usage Data</li>
-</ul>
-<h4>Usage Data</h4>
-<p>When you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data (&#8220;Usage Data&#8221;).</p>
-<h4>Tracking &amp; Cookies Data</h4>
-<p>We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.</p>
-<p>Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.</p>
-<p>You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.</p>
-<p>Examples of Cookies we use:</p>
-<ul>
-<li><strong>Session Cookies.</strong> We use Session Cookies to operate our Service.</li>
-<li><strong>Preference Cookies.</strong> We use Preference Cookies to remember your preferences and various settings.</li>
-<li><strong>Security Cookies.</strong> We use Security Cookies for security purposes.</li>
-</ul>
-<h2>Use of Data</h2>
-<p>Mindwarp Consultancy Ltd uses the collected data for various purposes:</p>
-<ul>
-<li>To provide and maintain the Service</li>
-<li>To notify you about changes to our Service</li>
-<li>To allow you to participate in interactive features of our Service when you choose to do so</li>
-<li>To provide customer care and support</li>
-<li>To provide analysis or valuable information so that we can improve the Service</li>
-<li>To monitor the usage of the Service</li>
-<li>To detect, prevent and address technical issues</li>
-</ul>
-<h2>Transfer Of Data</h2>
-<p>Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.</p>
-<p>If you are located outside United Kingdom and choose to provide information to us, please note that we transfer the data, including Personal Data, to United Kingdom and process it there.</p>
-<p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
-<p>Mindwarp Consultancy Ltd will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
-<h2>Disclosure Of Data</h2>
-<h3>Legal Requirements</h3>
-<p>Mindwarp Consultancy Ltd may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
-<ul>
-<li>To comply with a legal obligation</li>
-<li>To protect and defend the rights or property of Mindwarp Consultancy Ltd</li>
-<li>To prevent or investigate possible wrongdoing in connection with the Service</li>
-<li>To protect the personal safety of users of the Service or the public</li>
-<li>To protect against legal liability</li>
-</ul>
-<h2>Security Of Data</h2>
-<p>The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
-<h2>Service Providers</h2>
-<p>We may employ third party companies and individuals to facilitate our Service (&#8220;Service Providers&#8221;), to provide the Service on our behalf, to perform Service-related services or to assist us in analysing how our Service is used.</p>
-<p>These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
-<h2>Links To Other Sites</h2>
-<p>Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party&#8217;s site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
-<p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
-<h2>Children&#8217;s Privacy</h2>
-<p>Our Service does not address anyone under the age of 18 (&#8220;Children&#8221;).</p>
-<p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact me. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
-<h2>Changes To This Privacy Policy</h2>
-<p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
-<p>We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the &#8220;effective date&#8221; at the top of this Privacy Policy.</p>
-<p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
-<h2>Contact Us</h2>
-<p>If you have any questions about this Privacy Policy, please contact me:</p>
-<ul>
-<li>By visiting this page on our website: https://www.julesmoorhouse.com/bg/</li>
-</ul>
+</p>
 
+<p><strong>Information Collection and Use</strong></p> 
+
+<p>
+For a better experience, while using our Service,
+we may require you to provide us with certain
+personally identifiable information. The
+information that we request will be
+retained by us and used as described in this privacy policy.
+</p>
+
+<p>
+The app does use third party services that may collect
+information used to identify you.
+</p> 
+
+<div>
+<p>
+  Link to privacy policy of third party service providers
+  used by the app
+</p> <ul><!----><li><a href="https://www.revenuecat.com" target="_blank">Revenuecat</a></li><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></ul>
+</div>
+
+<p><strong>Log Data</strong></p>
+
+<p>
+We want to inform you that whenever
+you use our Service, in a case of an error in the
+app we collect data and information (through third
+party products) on your phone called Log Data. This Log Data
+may include information such as your device Internet
+Protocol (“IP”) address, device name, operating system
+version, the configuration of the app when utilizing
+our Service, the time and date of your use of the
+Service, and other statistics.
+</p> 
+
+<p><strong>Cookies</strong></p>
+
+<p>
+Cookies are files with a small amount of data that are
+commonly used as anonymous unique identifiers. These are
+sent to your browser from the websites that you visit and
+are stored on your device's internal memory.
+</p>
+
+<p>
+This Service does not use these “cookies” explicitly.
+However, the app may use third party code and libraries that
+use “cookies” to collect information and improve their
+services. You have the option to either accept or refuse
+these cookies and know when a cookie is being sent to your
+device. If you choose to refuse our cookies, you may not be
+able to use some portions of this Service.
+</p> 
+
+<p><strong>Service Providers</strong></p> 
+
+<p>
+We may employ third-party companies
+and individuals due to the following reasons:
+</p>
+
+ <ul><li>To facilitate our Service;</li> 
+ 
+ <li>To provide the Service on our behalf;</li> 
+ 
+ <li>To perform Service-related services; or</li> 
+ 
+ <li>To assist us in analyzing how our Service is used.</li></ul> 
+ 
+ <p>
+We want to inform users of this
+Service that these third parties have access to your
+Personal Information. The reason is to perform the tasks
+assigned to them on our behalf. However, they are obligated
+not to disclose or use the information for any other
+purpose.
+</p> 
+
+<p><strong>Security</strong></p> 
+
+<p>
+We value your trust in providing us
+your Personal Information, thus we are striving to use
+commercially acceptable means of protecting it. But remember
+that no method of transmission over the internet, or method
+of electronic storage is 100% secure and reliable, and
+we cannot guarantee its absolute security.
+</p> 
+
+<p><strong>Links to Other Sites</strong></p> 
+
+<p>
+This Service may contain links to other sites. If you click
+on a third-party link, you will be directed to that site.
+Note that these external sites are not operated by
+us. Therefore, we strongly advise you to
+review the Privacy Policy of these websites.
+We have no control over and assume no
+responsibility for the content, privacy policies, or
+practices of any third-party sites or services.
+</p> 
+
+<p><strong>Children’s Privacy</strong></p>
+
+<p>
+These Services do not address anyone under the age of 13.
+We do not knowingly collect personally
+identifiable information from children under 13. In the case
+we discover that a child under 13 has provided
+us with personal information,
+we immediately delete this from our servers. If you
+are a parent or guardian and you are aware that your child
+has provided us with personal information, please contact
+us so that we will be able to do
+necessary actions.
+</p> 
+
+<p><strong>Changes to This Privacy Policy</strong></p> 
+
+<p>
+We may update our Privacy Policy from
+time to time. Thus, you are advised to review this page
+periodically for any changes. We will
+notify you of any changes by posting the new Privacy Policy
+on this page. These changes are effective immediately after
+they are posted on this page.
+</p> 
+
+<p><strong>Contact Us</strong></p> 
+
+<p>By visiting this page on our website: <a href="https://www.julesmoorhouse.com/contactme/" rel="external nofollow noopener" target="_blank">https://www.julesmoorhouse.com/contactme/</a></p>
 </div>
